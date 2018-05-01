@@ -1,0 +1,98 @@
+body{
+	padding-top:70px;
+	font-family: 'PT Sans', sans-serif !important;
+}
+p{
+	font-size:20px;
+}
+.custom{
+	box-shadow: 0px 10px 5px grey;
+	}
+
+.main-pic {position:relative;}
+
+.caption {
+	padding:24px;
+	margin:0 auto;
+	top:30%;
+	position: absolute;
+	background:rgba(255,255,255,0.6);
+	color:#fff;
+}
+
+.card{text-align:center;border:0px;}
+
+.slogan{
+	color: #fff;
+    font-weight: bold;
+	text-transform: uppercase;
+	padding-top:5px;
+}
+
+.carousel-inner{
+  max-height: 550px !important;
+}
+.carousel
+{
+	width:100%;
+}
+
+.circle-text {
+display: table-cell;
+height: 100px; /*change this and the width
+for the size of your initial circle*/
+width: 100px;
+text-align: center;
+vertical-align: middle;
+border-radius: 50%;
+/*make it pretty*/
+background: #911A48;
+color: #fff;
+font: 18px "josefin sans", arial; /*change this
+for font-size and font-family*/
+box-shadow: 0px 10px 5px grey;
+}
+		
+.main-pic{height:85vh;}
+.main-pic img{height:100%;width:100%;}
+
+
+.wht-bg{
+	border-color:#fff;
+}
+
+@media screen and (max-width: 450px) {
+	iframe{width:100%; height:100%;}
+	
+	.main-pic{height:60vh;}
+	
+	.caption {width:100%;}
+	
+	p{
+	font-size:12px;}
+	}
+
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: transparent;
+  color: white;
+}
+
+.fa-instagram {
+  background: transparent;
+  color: white;
+}
+
