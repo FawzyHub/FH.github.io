@@ -15,8 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Fawzy Hotel
 email:
-description: > # this means to ignore newlines until "baseurl:"
-    A single thought can breach the gap between worlds
+description: The hospitality industry welcomes a new classy hotel that strives to provide you with an awesome and refreshing experience. We have very clean and spacious rooms coupled with excellent services, courteous staffs and a cosy ambience. Fawzy is located on Ring Road, the most popular high street and commercial nerve centre of Ibadan. It is only 300 metres from the main road and strategically tucked in a safe and serene environment.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://fawzyhotels.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
