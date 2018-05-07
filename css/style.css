@@ -8,17 +8,6 @@ p{
 p.lg-text{
 	font-size:1.5em;
 }
-hr { 
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-	border-color:#000;
-	width:500px;
-} 
 
 p.mx-text{
 	font-size:2.5em;
