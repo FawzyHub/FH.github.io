@@ -4,21 +4,14 @@ description:
 title: ABOUT US
 ---
 
-<div class="main-pic">
-<img class="" src="/images/stairwell_1.jpg" alt="...">
-		<div class="caption">
-		
-			<a href='http://www.booking.com/Share-8m6KYK' target='_blank'>
-			
-			<button type="button" class="btn btn-danger">
-			BOOK NOW
-			</button>
-			</a>
+	<div class="banner parent">
+		<div class="overlay">
 		</div>
-</div>
+	</div>
 
 <br>
-<div class="card about-us container">
+<div class="about-us container">
+		<h3>FAWZY HOTEL </h3>
 		<P>
 		The hospitality industry welcomes a new classy hotel that strives to provide you with an awesome and refreshing experience. We have very clean and spacious rooms coupled with excellent services, courteous staffs and a cosy ambience. Fawzy is located on Ring Road, the most popular high street and commercial nerve centre of Ibadan. It is only 300 metres from the main road and strategically tucked in a safe and serene environment.</p>
 			
@@ -41,15 +34,25 @@ title: ABOUT US
 <script>
 
 function myMap() {
+
+var myLatLng = {lat: 7.369637, lng: 3.854311};
+
 var mapOptions = {
     center: new google.maps.LatLng(7.369637, 3.854311),
     zoom: 16,
     mapTypeId: 'roadmap'
 }
 var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'FAWZY HOTEL'
+  });
+  
+  // To add the marker to the map, call setMap();
+marker.setMap(map);
 }
 </script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGuYjRrXuED-IVNLXVTGc4NkURoORPcIQ&callback=myMap"></script>
-	
-{% include foot.html %}
