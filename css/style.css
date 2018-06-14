@@ -3,8 +3,41 @@ body{
 	padding-top:68px;
 }
 
-.big-txt{font-size:3em;}
+.banner{
+	height:55vh;
+	color:#fff;
+	text-align:center;
+	background-image:url("/images/hotel.jpg");
+	background-size:cover;
+	font-weight:bold;
+	background-attachment: fixed;
+    background-position: 0px -200px;
+    background-repeat: no-repeat;
+}
 
+.overlay{
+	/* background: linear-gradient(to bottom, #f953c6 0%, #b91d73 100%); */
+	/* background: rgba(185,29,115,0.6); */
+	background: rgba(0,0,0,0.4);
+	height:100%;
+	width:100%;
+ }
+ 
+ .parent {
+  position: relative;
+}
+.child {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -30%);
+  }
+
+  hr{border-color:#fff;}
+.big-txt{font-size:3em;}
+ .caption-banner{
+	padding:20px;}
+	
 .caption{border:solid 3px #fff; text-align:center; padding:7%; color:#fff; width:70%;}
 
 .home-txt{width:100%;}
@@ -29,23 +62,6 @@ body{
 		width:50%;
 	}
 	
-.parent {
-  position: relative;
-}
-.child {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  }
- 
- .overlay{
-	/* background: linear-gradient(to bottom, #f953c6 0%, #b91d73 100%); */
-	/* background: rgba(185,29,115,0.6); */
-	background: rgba(0,0,0,0.4);
-	height:100%;
-	width:100%;
- }
 
  .service{
 /* 	 background: rgba(185,29,115,0.6);
@@ -59,18 +75,6 @@ body{
 	margin-bottom: 15px;
 }
  
-.banner{
-	height:75vh;
-	color:#fff;
-	text-align:center;
-	background-image:url("/images/hotel.jpg");
-	background-size:cover;
-	font-weight:bold;
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 
 .food{
 	/*background-image:url("/images/thumbnail (1).jpg");*/
