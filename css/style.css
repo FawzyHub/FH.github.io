@@ -27,11 +27,17 @@ body{
   position: relative;
 }
 .child {
-  position: absolute;
-  top: 50%;
-  left: 30%;
-  transform: translate(-50%, -30%);
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  background-color: rgba(0,0,0,0.4);
+	  border-radius: 0px 40px 0px 40px;
   }
+
+ .child p{
+ 	font-size: 20px;
+ }
 
   hr{border-color:#fff;}
 .big-txt{font-size:3em;}
@@ -111,7 +117,17 @@ iframe{
 
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
+
+	.banner{
+	height:70vh;
+    background-position:center;
+	}
+	.child{width: 80%;}
+
+	.child p{
+		font-size: 16px;
+	}
 
 	.big-txt{font-size:2em;}
 	
