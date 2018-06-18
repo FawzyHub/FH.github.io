@@ -1,6 +1,6 @@
 body{
 	font-family: 'Open Sans', sans-serif;
-	padding-top:68px;
+	padding-top:60px;
 }
 
 .banner{
@@ -43,14 +43,12 @@ body{
   hr{border-color:#fff;}
 .big-txt{font-size:3em;}
 
- .caption-banner{padding:80px 20px 80px 20px;}
+ .caption-banner{padding:40px 20px 40px 20px;}
  .child-banner {
 	  position: absolute;
 	  top: 50%;
 	  left: 10%;
 	  transform: translate(-10%, -50%);
-	  background-color: rgba(0,0,0,0.4);
-	  border-radius: 0px 40px 0px 40px;
   }
 	
 .caption{border:solid 3px #fff; text-align:center; padding:7%; color:#fff; width:70%;}
@@ -117,6 +115,7 @@ iframe{
 	-webkit-box-shadow: 0px 9px 26px 1px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 9px 26px 1px rgba(0,0,0,0.75);
 	box-shadow: 0px 9px 26px 1px rgba(0,0,0,0.75);
+	border-radius:25px;
 }
 
 
@@ -141,15 +140,13 @@ iframe{
 
 	.big-txt{font-size:2em;}
 	
-	iframe{width:100%; height:200px;}
+	iframe{width:100%; height:400px;}
 	
 	p{font-size:16px;}
 	
 	p.mx-text{font-size:1.5em;}
 	
 	.ser-icon img {height:30px; width:30px;}
-	
-	 .caption-banner{padding:40px 10px 40px 10px;}
 
 	}
 
@@ -159,9 +156,10 @@ iframe{
     transition: font-size 0.5s;
 	}
 .navbar a:hover{
-	font-size:24px;
 }
 
 .mid-cnt{
 	text-align:center;
 }
+
+.divider{background-color:#fff; color:#911A48; padding:20px; margin-bottom:10px; border-radius: 0px 40px 0px 40px;}
