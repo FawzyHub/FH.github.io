@@ -4,21 +4,22 @@ body{
 }
 
 .banner{
-	height:55vh;
+	height:85vh;
 	color:#fff;
 	text-align:center;
 	background-image:url("/images/hotel.jpg");
 	background-size:cover;
 	font-weight:bold;
 	background-attachment: fixed;
-    background-position: 0px -200px;
+    /* background-position: 0px -200px;     */
+	background-position:center;
     background-repeat: no-repeat;
 }
 
 .overlay{
 	/* background: linear-gradient(to bottom, #f953c6 0%, #b91d73 100%); */
 	/* background: rgba(185,29,115,0.6); */
-	background: rgba(0,0,0,0.4);
+	background: rgba(0,0,0,0.1);
 	height:100%;
 	width:100%;
  }
@@ -41,8 +42,16 @@ body{
 
   hr{border-color:#fff;}
 .big-txt{font-size:3em;}
- .caption-banner{
-	padding:20px;}
+
+ .caption-banner{padding:80px 20px 80px 20px;}
+ .child-banner {
+	  position: absolute;
+	  top: 50%;
+	  left: 10%;
+	  transform: translate(-10%, -50%);
+	  background-color: rgba(0,0,0,0.4);
+	  border-radius: 0px 40px 0px 40px;
+  }
 	
 .caption{border:solid 3px #fff; text-align:center; padding:7%; color:#fff; width:70%;}
 
@@ -53,11 +62,6 @@ body{
 	-moz-box-shadow: 0px 9px 26px 1px rgba(0,0,0,0.75);
 	box-shadow: 0px 9px 26px 1px rgba(0,0,0,0.75);
 }
-.footer{
-	padding:10px;
-	font-size:18px !important;
-	text-align:center;
-	}
 
 /* .custom{
 	box-shadow: 0px 10px 5px grey;
@@ -117,13 +121,19 @@ iframe{
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
 
 	.banner{
-	height:70vh;
+	height:80vh;
     background-position:center;
 	}
-	.child{width: 80%;}
+	.child-banner{
+		width: 60%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		}
 
 	.child p{
 		font-size: 16px;
@@ -138,6 +148,8 @@ iframe{
 	p.mx-text{font-size:1.5em;}
 	
 	.ser-icon img {height:30px; width:30px;}
+	
+	 .caption-banner{padding:40px 10px 40px 10px;}
 
 	}
 
