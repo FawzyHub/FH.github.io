@@ -10,25 +10,56 @@ image: /images/logo2.png
 
 .btn{background-color:#911A48;}
 .card-services{
-	border:0px; width:100%;margin-bottom: 30px; border-radius: 25px;
-	-webkit-box-shadow: 0px 9px 26px 1px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 9px 26px 1px rgba(0,0,0,0.75);
-	box-shadow: 0px 9px 26px 1px rgba(0,0,0,0.75);
+  width: 100%;
+  float: left;
+  position: relative;
+  background: #fff;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.11);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.11);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  top: 2px;
 }
-.card-img{height:280px;}
-.card-img-overlay{border: 0px;background-color: rgba(0,0,0,0.5); border-radius: 25px;}
-.card-addon{
-	width:100%;
-	-webkit-box-shadow: 0px 9px 26px 1px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 9px 26px 1px rgba(0,0,0,0.75);
-	box-shadow: 0px 9px 26px 1px rgba(0,0,0,0.75);
+.card-services:hover {
+	text-decoration: none;
+  -webkit-box-shadow: 0px 14px 25px -2px rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: 0px 14px 25px -2px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 14px 25px -2px rgba(0, 0, 0, 0.14);
+  top: -2px;
 }
 
-.addon {
-	padding: 15px;
+  .card .image{
+  height: 400px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  background-size: cover;
+  background-position: center center;
   }
-  .mv-right{
-  }
+
+  .v-align {
+  padding: 30px;
+}
+.v-align h3 {
+  font-weight: 700;
+  font-size: 20px;
+  color:#911A48;
+}
+.v-align h5 {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.v-align p {
+  color: gray;
+}
+
+#service{
+}
+.animate-box {
+  opacity: 0;
+}
 </style>
 	<div class="banner parent">
 			<div class="child-banner caption-banner">
@@ -87,114 +118,69 @@ image: /images/logo2.png
 		</div>
 </div> 
 
-<div class="container services">
+<div id="service">
+<div class="container">
 <div class="row">
-	<div class="col-md-6">
-		<div class="card-services card text-center">
-		  <div class="card-header">
-		    ROOMS
-		  </div>
-		  <div class="card-body">
-		  <p class="card-text">Our rooms are luxurious and spacious, with enough amenities to make you feel like you never left home.</p>
-		    <!--<h5 class="card-title">Special title treatment</h5>-->
-		    <img class="card-img" src="/images/room_1.jpg" alt="Spacious Rooms">
-		    <br>
-		  </div>
+	<div class="col-md-6 col-sm-6" .animate-box > 
+		<div class="card-services card">
+		<div class="image" style="background-image: url(/images/room_1.jpg)"></div>
+		<div class="v-align">
+			<div class="v-align-middle">
+				 <h3 class="Title"> ROOMS </h3>
+				 <hr></hr>
+		  		<p class="card-text">Our rooms are luxurious and spacious, with enough amenities to make you feel like you never left home.</p>
+		    	<!--<img class="card-img" src="/images/room_1.jpg" alt="Spacious Rooms">-->
+			</div>
+		</div>
 		</div>
 	</div>
 
-	<div class="col-md-6">
-		<div class="card-services card text-center">
-		  <div class="card-header">
-		    RESTAURANT
-		  </div>
-		  <div class="card-body">
-		   <p class="card-text">Fawzy hotel offers a mouth-watering menu with an exquisite selection of Nigerian & international dishes.</p>
-		    <!--<h5 class="card-title">Special title treatment</h5>-->
-		    <img class="card-img" src="/images/thumbnail (1).jpg" alt="Restaurant">
-		    <br>
-		  </div>
+		<div class="col-md-6 col-sm-6" .animate-box > 
+		<div class="card-services card">
+		<div class="image" style="background-image: url(/images/thumbnail_res.jpg)"></div>
+		<div class="v-align">
+			<div class="v-align-middle">
+				 <h3 class="Title"> RESTAURANT </h3>
+				 <hr></hr>
+		  		<p class="card-text">Fawzy hotel offers a mouth-watering menu with an exquisite selection of Nigerian & international dishes.</p>
+		    	<!--<img class="card-img" src="/images/room_1.jpg" alt="Spacious Rooms">-->
+			</div>
+		</div>
+		</div>
+	</div>
+
+		<div class="col-md-6 col-sm-6" .animate-box > 
+		<div class="card-services card">
+		<div class="image" style="background-image: url(/images/event_1.jpg)"></div>
+		<div class="v-align">
+			<div class="v-align-middle">
+				 <h3 class="Title"> HALL HIRE </h3>
+				 <hr></hr>
+		  		<p class="card-text">Perfect for conference meetings, seminars and small social events, our fully air-conditioned hall is available for hire with our kitchen also available for catering services.</p>
+		    	<!--<img class="card-img" src="/images/room_1.jpg" alt="Spacious Rooms">-->
+			</div>
+		</div>
 		</div>
 	</div>
 
 
-	<div class="col-md-6">
-		<div class="card-services card text-center">
-		  <div class="card-header">
-		    HALL HIRE
-		  </div>
-		  <div class="card-body">
-		   <p class="card-text">Perfect for conference meetings, seminars and small social events, our fully air-conditioned hall is available for hire with our kitchen also available for catering services.</p>
-		    <!--<h5 class="card-title">Special title treatment</h5>-->
-		    <img class="card-img" src="/images/thumbnail (1).jpg" alt="Event Hall">
-		    <br>
-		  </div>
+
+		<div class="col-md-6 col-sm-6" .animate-box > 
+		<div class="card-services card">
+		<div class="image" style="background-image: url(/images/shopping.jpg)"></div>
+		<div class="v-align">
+			<div class="v-align-middle">
+				 <h3 class="Title"> SHOPPING </h3>
+				 <hr></hr>
+		  		<p class="card-text">We offer a selection of high-end costume jewelery & souvenirs for the people who stand out. We believe in catering to the needs of everybody so we carry a wide range of products that are affordable and long-lasting.</p>
+		    	<!--<img class="card-img" src="/images/room_1.jpg" alt="Spacious Rooms">-->
+			</div>
+		</div>
 		</div>
 	</div>
-
-
-	<div class="col-md-6">
-		<div class="card-services card text-center">
-		  <div class="card-header">
-		    SHOPPING
-		  </div>
-		  <div class="card-body">
-		   <p class="card-text">We offer a selection of high-end costume jewelery & souvenirs for the people who stand out. We believe in catering to the needs of everybody so we carry a wide range of products that are affordable and long-lasting. </p>
-		    <!--<h5 class="card-title">Special title treatment</h5>-->
-		    <img class="card-img" src="/images/shopping.jpg" alt="Mini Store">
-		    <br>
-		  </div>
-		</div>
-	</div>
-
 </div>
 </div>
-<!--
-<div class="container services">
-	<div class="row">
-		<div class="col-md-6">
-			<div class="card-services card bg-dark text-white">
-			  <img class="card-img" src="/images/Room_Pic_1.jpg" alt="Spacious Rooms">
-			  <div class="card-img-overlay">
-			    <h3 class="card-title">SPACIOUS ROOMS</h3>
-			    <p class="card-text">Our rooms are luxurious and spacious, with enough amenities to make you feel like you never left home.</p>
-			  </div>
-			</div>
-		</div>
-
-				<div class="col-md-6">
-			<div class="card-services card bg-dark text-white">
-			  <img class="card-img" src="/images/thumbnail (1).jpg" alt="Restaurant">
-			  <div class="card-img-overlay">
-			    <h3 class="card-title">RESTAURANT</h3>
-			    <p class="card-text">Fawzy hotel offers a mouth-watering menu with an exquisite selection of Nigerian & international dishes.</p>
-			  </div>
-			</div>
-		</div>
-
-		<div class="col-md-6">
-			<div class="card-services card bg-dark text-white">
-			  <img class="card-img" src="/images/event_1.jpg" alt="Spacious Rooms">
-			  <div class="card-img-overlay">
-			    <h3 class="card-title">HALL HIRE</h3>
-			    <p class="card-text">Perfect for conference meetings, seminars and small social events, our fully air-conditioned hall is available for hire with our kitchen also available for catering services.</p>
-			  </div>
-			</div>
-		</div>
-
-				<div class="col-md-6">
-			<div class="card-services card bg-dark text-white">
-			  <img class="card-img" src="/images/shopping.jpg" alt="Restaurant">
-			  <div class="card-img-overlay">
-			    <h3 class="card-title">SHOPPING</h3>
-			    <p class="card-text">We offer a selection of high-end costume jewelery & souvenirs for the people who stand out. We believe in catering to the needs of everybody so we carry a wide range of products that are affordable and long-lasting. </p>
-			  </div>
-			</div>
-		</div>
-
-	</div>
 </div>
--->
 
 <div class="container mid-cnt">
 
@@ -241,7 +227,7 @@ image: /images/logo2.png
 			<br>
 	<p> and much more.... </p>
 	</div>
-	<div class="container .mid-cnt">
+	<div class="container .mid-cnt social">
 		<div class="row">
 			<div class ="col-sm-6">
 				<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/BcUg73Enakz/?utm_source=ig_embed" data-instgrm-version="9" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:49.907407407407405% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BcUg73Enakz/?utm_source=ig_embed" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Always open 🏨 • • • • • #hotelsinibadan #ibadanhotels #hotelsng #jumiatravel #Staywithfawzy</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/fawzyhotels/?utm_source=ig_embed" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> Fawzy Hotels</a> (@fawzyhotels) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-12-05T12:27:53+00:00">Dec 5, 2017 at 4:27am PST</time></p></div></blockquote> <script async defer src="//www.instagram.com/embed.js"></script>
