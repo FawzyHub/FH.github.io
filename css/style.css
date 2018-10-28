@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5, h6 {
  text-transform: uppercase;
 }
 
+.btn{background-color:#fff; color:#000; border-color: transparent; font-size: 20px;}
 
 .banner{
 	height:70vh;
