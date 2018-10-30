@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 .overlay{
 	/* background: linear-gradient(to bottom, #f953c6 0%, #b91d73 100%); */
 	/* background: rgba(185,29,115,0.6); */
-	background: rgba(0,0,0,0.8);
+	background: rgba(0,0,0,0.4);
 	height:100%;
 	width:100%;
  }
