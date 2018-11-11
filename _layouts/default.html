@@ -1,26 +1,36 @@
 <!doctype html>
 <html lang="en">
   <head>
-  	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123717705-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-123717705-1');
-</script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123717705-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-123717705-1');
+	</script>
+
 	{% include bootstrap.html %}
-	</head>
-	<body>
-	 
+</head>
 <body>
+	 
 <style>
+.nav-item a{
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.nav-item a:hover{
+	font-size: 25px !important;
+	background-color: #d22668;
+	color: #fff !important; 
+}
 </style>
 
 <nav class="custom navbar navbar-expand-lg navbar-light fixed-top" style="background-color:rgba(255,255,255,1)";>
 	<div class="container">
-	  <a class="navbar-brand" href="/">	<img class="rounded" src="/images/logo2.png" height="30px;" width="60px;"> </a>
+	  <a class="navbar-brand" href="/">	<img class="rounded" src="/images/logo2.png" height="40px;" width="80px;"> </a>
 	  
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
