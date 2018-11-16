@@ -17,12 +17,15 @@ h1, h2, h3, h4, h5, h6 {
  color: #000;
 }
 
+p .small{
+	font-size: 12px;
+}
 .btn{background-color:#fff; color:#000; border-color: transparent; font-size: 20px;}
 
 .btn-custom{
 	background-color: #911A48;
 	color: #fff;
-	border-radius: 15%;
+	border-radius: 25px;
 	-webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     margin-top:20px;
@@ -36,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .banner{
-	height:70vh;
+	height:100vh;
 	color:#fff;
 	text-align:center;
 	background-image:url("/images/hotel.jpg");
@@ -75,8 +78,8 @@ h1, h2, h3, h4, h5, h6 {
 .child {
 	  position: absolute;
 	  top: 50%;
-	  left: 0%;
-	  transform: translate(0%, -50%);
+	  left: 50%;
+	  transform: translate(-50%, -50%);
 	  text-align: center;
   }
 
@@ -84,8 +87,10 @@ h1, h2, h3, h4, h5, h6 {
  .child-banner {
 	  position: absolute;
 	  top: 50%;
-	  left: 0%;
-	  transform: translate(0%, -50%);
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  width: 100%;
+	  padding: 50px;
   }
 	
 
@@ -119,6 +124,9 @@ iframe{
 	padding-top:20px !important;
 }
 
+.rooms{
+	margin-bottom: 30px;
+}
 @media screen and (max-width: 800px){
 		.overlay{
 		/* background: linear-gradient(to bottom, #f953c6 0%, #b91d73 100%); */
@@ -143,7 +151,7 @@ iframe{
 
 	.about-us{text-align: justify;}
 
-	.banner{height:60vh; background-position:center;}
+	.banner{background-position:center;}
 	
 	.child-banner{
 		width: 80%;
