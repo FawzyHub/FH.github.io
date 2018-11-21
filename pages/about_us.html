@@ -6,17 +6,18 @@ image: /images/logo2.png
 ---
 
 <style>
-	.banner-about{
+p {
+	font-size: 16px;
+}
+.banner-about{
 	height:50vh;
 	color:#fff;
 	text-align:center;
-	background-image:url("/images/hotel.jpg");
-	background-size:cover;
-	font-weight:bold;
-	background-attachment: fixed;
-    /* background-position: 0px -200px;     */
-	background-position:center;
-    background-repeat: no-repeat;
+	background:url("/images/hotel.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 }
 
 @media screen and (max-width: 800px){
@@ -28,24 +29,26 @@ image: /images/logo2.png
 	<br><br>
 	
 <div class="about-us container">
-		<h3>FAWZY HOTEL </h3>
-		<P>
-		The hospitality industry welcomes a new classy hotel that strives to provide you with an awesome and refreshing experience. We have very clean and spacious rooms coupled with excellent services, courteous staffs and a cosy ambience. Fawzy is located on Ring Road, the most popular high street and commercial nerve centre of Ibadan. It is only 300 metres from the main road and strategically tucked in a safe and serene environment.</p>
-			
-		<br>
-		<h3>LOCATE US</h3>
-		<p>FAWZY HOTELS LTD. Block VII, plots 1,2,3. Adewumi layout, off akinyemi way (almost opposite Becan Breast Cancer Center) Ring Road Ibadan.</p>
-		<div id="map" style="width:100%;height:400px;background:yellow"></div>
-		<br>
-		
-		<p>We are a unique new entrant in the hospitality business with a vision to occupy a pride of place and be a force to reckon with in the industry within the shortest period of time.
-		We have personnel whose experience in the hospitality business, spans more than a decade. It is our ultimate aim to offer exclusive services to you, so that your stay will be comfortable beyond your imaginations.
+	<div class="row">
+		<div class="col-md-6">
+			<h3>FAWZY HOTEL </h3>
+			<P>
+			The hospitality industry welcomes a new classy hotel that strives to provide you with an awesome and refreshing experience. We have very clean and spacious rooms coupled with excellent services, courteous staffs and a cosy ambience. Fawzy is located on Ring Road, the most popular high street and commercial nerve centre of Ibadan. It is only 300 metres from the main road and strategically tucked in a safe and serene environment.</p>
 
-		Welcome to Fawzy Hotel!
-		</p>
+			<p>We are a unique new entrant in the hospitality business with a vision to occupy a pride of place and be a force to reckon with in the industry within the shortest period of time.
+			We have personnel whose experience in the hospitality business, spans more than a decade. It is our ultimate aim to offer exclusive services to you, so that your stay will be comfortable beyond your imaginations.
 
+			Welcome to Fawzy Hotel!
+			</p>
+		</div>
 
-		</P>
+		<div class="col-md-6">
+			<h3>LOCATE US</h3>
+			<p>FAWZY HOTELS LTD. Block VII, plots 1,2,3. Adewumi layout, off akinyemi way (almost opposite Becan Breast Cancer Center) Ring Road Ibadan.</p>
+			<div id="map" style="width:100%;height:400px;background:yellow"></div>
+			<br><br>
+		</div>
+	</div>
 </div>
 
 <script>

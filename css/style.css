@@ -1,5 +1,5 @@
 body{
-	padding-top:70px;
+	padding-top:6vh;
 	font-family: 'Work Sans', sans-serif;
 	font-size: 20px;
   	font-weight: 400;
@@ -10,17 +10,16 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6 {
- /*font-family: 'Crimson Text', serif;*/
- font-family: 'Work Sans', sans-serif;
- font-weight:bold;
- text-transform: uppercase;
+ /*font-family: 'Crimson Text', serif;
+ font-family: 'Work Sans', sans-serif;*/
+ font-family: 'Montserrat', sans-serif;
  color: #000;
 }
 
 p .small{
 	font-size: 12px;
 }
-.btn{background-color:#fff; color:#000; border-color: transparent; font-size: 20px;}
+.btn{}
 
 .btn-custom{
 	background-color: #911A48;
@@ -29,6 +28,7 @@ p .small{
 	-webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     margin-top:20px;
+    text-align: center;
 }
 .btn-custom a{
 	color: #fff;
@@ -39,24 +39,32 @@ p .small{
 }
 
 .banner{
-	height:100vh;
+	height:94vh;
 	color:#fff;
 	text-align:center;
-	background-image:url("/images/hotel.jpg");
-	background-size:cover;
-	font-weight:bold;
-	background-attachment: fixed;
+	background:url("/images/hotel.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+	/*font-weight:bold;
+	background-attachment: fixed;*/
     /* background-position: 0px -200px;     */
-	background-position:center;
+	/*background-position:center;*/
     background-repeat: no-repeat;
 }
 
 .overlay{
 	/* background: linear-gradient(to bottom, #f953c6 0%, #b91d73 100%); */
 	/* background: rgba(185,29,115,0.6); */
-	background: rgba(255,255,255,0.85);
-	height:100%;
+	background: rgba(255,255,255,0.85);	
+	height:47vh;
 	width:30%;
+
+	animation: 1s ease-out 0s 1 slideInFromLeft;
+	top:47vh;
+	padding: 10px;
  }
 
  @keyframes slideInFromLeft {
@@ -68,9 +76,6 @@ p .small{
     }
 }
 
-.overlay{
-	animation: 1s ease-out 0s 1 slideInFromLeft;
-}
  
  .parent {
   position: relative;
@@ -127,16 +132,16 @@ iframe{
 .rooms{
 	margin-bottom: 30px;
 }
-@media screen and (max-width: 800px){
-		.overlay{
-		/* background: linear-gradient(to bottom, #f953c6 0%, #b91d73 100%); */
-		/* background: rgba(185,29,115,0.6); */
-		background: rgba(255,255,255,0.5);
-		height:100%;
-		width:100%;
-	 }
 
-	.divider .sub-heading{display:none;}
+
+@media screen and (max-width: 800px){
+
+			
+	.overlay{
+		top:50%;
+		width: 100%;
+	}
+
 	.child-banner .btn{
 		font-size: 12px;
 	}
@@ -180,6 +185,10 @@ iframe{
 		.about-us{
 			padding: 0 2% 0 2%;
 			text-align: justify;
+		}
+
+		.overlay{
+			width: 25%;
 		}
 	}
 
