@@ -46,12 +46,27 @@
 	background-color: #d22668;
 	color: #fff !important; 
 }
+
+li.nav-item{
+	text-align: center;
+}
+
+.navbar-toggler{
+    background-color: #fff;
+    border:none;
+}
+.navbar-toggler-icon{
+	background-color:transparent;
+}
+.custom{
+	-webkit-box-shadow: 0px 7px 27px 2px #d22668; 
+	box-shadow: 0px 7px 27px 2px #d22668;
+}
 </style>
 <body>
 
 <nav class="custom navbar navbar-expand-lg navbar-light fixed-top" style="background-color:rgba(255,255,255,1)";>
-	<div class="container-fluid">
-	  <a class="navbar-brand" href="/"><img class="rounded" src="/images/logo2.png" height="15px" width="30px"> </a>
+	  <a class="navbar-brand" href="/"><img class="rounded" src="/images/logo2.png" height="30px" width="60px"> </a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	  </button>
@@ -61,17 +76,16 @@
 			<li class="nav-item active">
 			  <a class="nav-link" href="/">HOME <span class="sr-only">(current)</span></a>
 			</li>
-			
 			<li class="nav-item active">
 			  <a class="nav-link" href="/pages/about_us.html">ABOUT US<span class="sr-only">(current)</span></a>
-			</li>							
-			
+			</li>
+
+			<div class="dropdown-divider"></div>
 			<li class="nav-item active">
 			  <a class="nav-link" href='http://www.booking.com/Share-8m6KYK' target='_blank'><span><strong>BOOK A ROOM
 			  </strong></span><span class="sr-only">(current)</span></a>
 			</li>	
 		  </ul>
-	  </div>
 	  </div>
 </nav>
 
