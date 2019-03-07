@@ -46,7 +46,7 @@ p .small{
 }
 
 .banner{
-	height:34vh;
+	height:50vh;
 	color:#fff;
 	text-align:center;
 	background:url("/images/hotel.jpg");
@@ -150,7 +150,6 @@ p .small{
 	  transform: translate(-50%, -50%);
   }
 
- /*.caption-banner{padding:40px 20px 40px 20px;}*/
  .child-banner {
 	  position: absolute;
 	  top: 50%;
@@ -209,7 +208,7 @@ iframe{
 
 @media screen and (max-width: 800px){
 
-	.break h3{
+	h3{
 		font-size: 24px;
 		color: #000;
 	}
