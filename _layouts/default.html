@@ -37,20 +37,6 @@
 <body>
 	 
 <style>
-.nav-item a{
-	-webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    font-size: 16px !important;
-}
-.nav-item a:hover{
-	background-color: #d22668;
-	color: #fff !important; 
-}
-
-li.nav-item{
-	text-align: center;
-}
-
 .navbar-toggler{
     background-color: transparent;
     border:none;
@@ -58,15 +44,28 @@ li.nav-item{
 .navbar-toggler-icon{
 	background-color:transparent;
 }
+
+.nav-item a{
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    font-size: 14px;
+}
+.nav-item a:hover{
+	font-size: 16px; 
+}
+/*
+
 .custom{
 	-webkit-box-shadow: 0px 7px 27px 2px #d22668; 
 	box-shadow: 0px 7px 27px 2px #d22668;
-}
+}*/
 </style>
 <body>
 
-<nav class="custom navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:#d22668";>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgba(210,38,104,1);">
+	<div class="container">
 	  <a class="navbar-brand" href="/">FAWZY</a>
+
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	  </button>
@@ -87,6 +86,7 @@ li.nav-item{
 			</li>	
 		  </ul>
 	  </div>
+	</div>
 </nav>
 
 	 <div class="content">
