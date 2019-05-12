@@ -27,7 +27,7 @@ body{
 
 .hero-image {
   background-image:url("../images/hotel.jpg");
-  height: 84vh;
+  height: 74vh;
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
