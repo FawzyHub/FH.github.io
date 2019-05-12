@@ -1,0 +1,189 @@
+body{
+	padding-top:6vh;
+	position: relative;
+	font-family: 'Karla', sans-serif;
+	font-size: 17px;
+	font-weight: 300;
+}
+
+.navbar-brand{
+}
+
+.navbar-toggler{
+    background-color: transparent;
+    border:none;
+}
+.navbar-toggler-icon{
+	background-color:transparent;
+}
+
+.nav-item a{
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.nav-item a:hover{
+	font-size: 20px; 
+}
+
+.hero-image {
+  background-image:url("../images/hotel.jpg");
+  height: 84vh;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  position: relative;
+}
+
+.key-message{
+	margin-top:60px;
+	margin-bottom: 60px;
+	text-align: justify;
+}
+
+.parent {
+  position: relative;
+}
+
+.image-room{
+	background: url(/images/room_pic_001.jpg); 
+	width: 100%;
+	height: 450px;
+	background-repeat: no-repeat;
+	background-position: center; 
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	margin-bottom: 10px;
+}
+
+.image-dine{
+	background: url(/images/thumbnail_res.jpg);
+	height: 450px;
+	background-repeat: no-repeat;
+	background-position: center; 
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	margin-bottom: 10px;
+
+}
+
+.image-hall{
+	background: url(/images/IMG-20190218-WA0018.jpg); 
+	height: 450px;
+	background-repeat: no-repeat;
+	background-position: center; 
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	margin-bottom: 10px;
+}
+
+
+.image-shop{
+	background: url(/images/shopping.jpg); 
+	height: 450px;
+	background-repeat: no-repeat;
+	background-position: center; 
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	margin-bottom: 10px;
+}
+
+.ser{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.service-text{
+	padding: 10px;
+}
+
+.add-services{
+	margin-bottom: 40px;
+}
+
+.review{
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
+	margin-bottom: 10px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+/* Gallery Start */
+
+.gallery-main img{
+	max-width:100%;
+	max-height:100%;
+}
+
+/* FILTER */
+
+.gallery{
+	margin: 10px 10px 20px 10px;
+}
+.gallery-title
+{
+    font-size: 36px;
+    color: #000;
+    text-align: center;
+    font-weight: 500;
+}
+
+.gallery_product{margin-bottom: 20px;}
+
+/* Gallery End */
+
+.child {
+	  position: absolute;
+	  top: 50%;
+	  /*transform: translate(-50%);*/
+  }
+
+ .child-banner {
+	  position: absolute;
+	  top: 100%;
+	  left: 0%;
+	  transform: translate(-0%, -100%);
+  }
+	
+
+@media screen and (max-width: 1000px){
+	.nopadding{
+		padding: 0px !important;
+	}
+	.ser{
+		padding-left:10px;
+		padding-right:10px;
+	}
+
+	.image-shop, .image-room, .image-dine, .image-hall{
+		height: 300px;
+	}
+
+	.hero-image {
+	  height: 54vh;
+	}
+}
+
+
+@media screen and (min-width: 1000px) {
+		.about-us{
+			padding: 0 2% 0 2%;
+			text-align: justify;
+		}
+	}
