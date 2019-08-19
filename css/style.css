@@ -37,7 +37,8 @@ h1,h2,h3,h4,h5,h6{
 
 
 .navbar-toggler{
-    background-color: #d22668;
+/*    background-color: #d22668;*/
+	background-color: transparent;
     border:none;
 }
 .navbar-toggler-icon{
