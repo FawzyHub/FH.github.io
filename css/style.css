@@ -28,9 +28,6 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .navbar{
-	-webkit-box-shadow: 0px 0px 42px -22px rgba(125,125,125,1);
-	-moz-box-shadow: 0px 0px 42px -22px rgba(125,125,125,1);
-	box-shadow: 0px 0px 42px -22px rgba(125,125,125,1);
 	-webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
