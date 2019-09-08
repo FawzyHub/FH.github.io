@@ -1,5 +1,7 @@
 body{
 /*	padding-top: 9vh;*/
+font-family: 'Alegreya Sans', sans-serif;
+font-size: 18px;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -176,6 +178,9 @@ h1,h2,h3,h4,h5,h6{
   margin-bottom: 40px;
 }
 
+.col-sm-4{
+	margin-bottom: 10px;
+}
 /* Gallery Start */
 
 .gallery-main img{
