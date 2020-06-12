@@ -1,31 +1,18 @@
 body{
 /*	padding-top: 9vh;*/
-font-family: 'Alegreya Sans', sans-serif;
-font-size: 18px;
+	font-family: 'Roboto', sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6{
-	 font-family: 'BebasNeue', sans-serif;
+	font-family: 'Cairo', sans-serif;
+	font-weight: bold;
 }
 
-@font-face {
-	font-family: 'BebasNeue';
-	src: 
-		local('Bebas Neue'),
-		local('Bebas-Neue'),
-		url('../fonts/BebasNeue/BebasNeue-Bold.ttf')
-		format('opentype');  
-	src: 
-		local('Bebas Neue'),
-		local('Bebas-Neue'),
-		url('../fonts/BebasNeue/BebasNeue-Bold.otf')
-		format('truetype');  
-}
 
 .cust-container{
 /*	margin-left: 20px;
 	margin-right: 20px;*/
-	margin-bottom: 25px;
+	margin-bottom: 40px;
 	line-height: 30px;
 }
 
@@ -34,11 +21,16 @@ h1,h2,h3,h4,h5,h6{
     transition-duration: 0.4s;
 }
 
+.navbar-brand{
+	font-family: 'Dancing Script', cursive !important;
+	font-size: 30px;
+}
 
 .navbar-toggler{
 /*    background-color: #d22668;*/
 	background-color: transparent;
     border:none;
+    color: #fff;
 }
 .navbar-toggler-icon{
 	background-color:transparent;
@@ -48,8 +40,9 @@ h1,h2,h3,h4,h5,h6{
 .nav-item a{
 	-webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-    font-size: 30px;
-    font-family: 'BebasNeue', sans-serif;
+    font-size: 18px;
+    font-family: 'Cairo', sans-serif;
+
 }
 .nav-item a:hover{
 	font-size: 35px;

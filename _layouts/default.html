@@ -1,16 +1,14 @@
 <html lang="en">
   <head>	
 	{% include bootstrap.html %}
-
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Dancing+Script&family=Roboto:wght@300&display=swap" rel="stylesheet">
 
 </head>
 <body>
 
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: transparent; font-weight: bold;">
 	<div class="container">
-	<a class="navbar-brand" href="/"><h1>FH</h1></a>		
+	<a class="navbar-brand" href="/">Fawzy Hotel</a>		
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		  </button>
@@ -26,9 +24,12 @@
 				<li class="nav-item active">
 				  <a class="nav-link" href="/pages/gallery.html">Gallery<span class="sr-only">(current)</span></a>
 				</li>
+				<li class="nav-item active">
+				  <a class="nav-link" href="/pages/covid_measures.html">Covid-19<span class="sr-only">(current)</span></a>
+				</li>
 				<div class="dropdown-divider"></div>
 				<li class="nav-item active">
-				  <a class="nav-link" href='http://www.booking.com/Share-8m6KYK' target='_blank'><span><strong>Book Now
+				  <a class="nav-link" href='http://www.booking.com/Share-8m6KYK' target='_blank'><span><strong>Book
 				  </strong></span><span class="sr-only">(current)</span></a>
 				</li>	
 			  </ul>
@@ -67,12 +68,21 @@
 		$(document).scroll(function() {
 		if($(window).scrollTop() > 50){
 
-		$(".navbar").css("background","#d22668");
+		//$(".navbar").css("background","#d22668");
+		$(".navbar").css("background","#fff");
+		$(".navbar-brand").css("color","#000");
+		$(".nav-item a").css("color","#000");
+		$("nav").removeClass("navbar-dark");
+		$("nav").addClass("navbar-light");
 
 		}
 		else if($(window).scrollTop() < 50){
 
 		$(".navbar").css("background","transparent");
+		$(".navbar-brand").css("color","#fff");
+		$(".nav-item a").css("color","#fff");
+		$("nav").removeClass("navbar-light");
+		$("nav").addClass("navbar-dark");
 		}
 		});
 	</script>
