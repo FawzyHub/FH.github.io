@@ -15,7 +15,6 @@ h1,h2,h3,h4,h5,h6{
 .cust-container{
 /*	margin-left: 20px;
 	margin-right: 20px;*/
-	margin-bottom: 40px;
 	line-height: 30px;
 }
 
@@ -53,8 +52,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .hero-image { 
-	background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0,0, 0.25)),url("../images/IMG-20190219-WA0031.jpg"); 
-	min-height: 65vh; 
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0,0, 0.6)),url("../images/IMG-20190219-WA0031.jpg"); 
+	min-height: 90vh; 
 	background-attachment:fixed; 
 	background-position: center right; 
 	background-repeat: no-repeat;
@@ -65,41 +64,40 @@ h1,h2,h3,h4,h5,h6{
 /*	margin-bottom: 40px; */
 }
 
+#discover{
+	height:10vh; 
+	text-align: center;
+}
+
+#discover a{
+	color: #d22668;
+}
+
 .hero-text {
 	position: absolute;
-	top: 50%;
+	top: 90%;
 	left:	25%;
-	transform: translate(-25%, -50%);
-	background-color: rgba(255,255,255, 1);
-	padding: 30px;
-	-webkit-box-shadow: 0px 13px 36px 3px rgba(214,203,203,0.94);
-	-moz-box-shadow: 0px 13px 36px 3px rgba(214,203,203,0.94);
-	box-shadow: 0px 13px 36px 3px rgba(214,203,203,0.94);
-	border-radius: 25px
+	transform: translate(-25%, -90%);
 }
 
-.hero-text button {
-	text-align: left;
-}
-
-.hero-text button:hover{
+.hero-text .card{
+	width: 200px;
+	margin-bottom: 10px;
+	border-radius:25px;
+	background-color: rgba(255,255,255,1);
 }
 
 .card{
 	margin-bottom: 20px;
-	border: 0;
 }
 
 .card-body{
-	-webkit-box-shadow: 0px 13px 36px 3px rgba(214,203,203,0.94);
-	-moz-box-shadow: 0px 13px 36px 3px rgba(214,203,203,0.94);
-	box-shadow: 0px 13px 36px 3px rgba(214,203,203,0.94);
 }
 
 .image-room{
 	background: url(/images/room_pic_001.jpg); 
 	width: 100%;
-	height: 250px;
+	height: 300px;
 	background-repeat: no-repeat;
 	background-position: center center; 
 	-webkit-background-size: cover;
@@ -107,11 +105,12 @@ h1,h2,h3,h4,h5,h6{
   	-o-background-size: cover;
   	background-size: cover;
   	margin-bottom: 10px;
+  	border-radius: 0px;
 }
 
 .image-dine{
 	background: url(/images/thumbnail_res.jpg);
-	height: 250px;
+	height: 300px;
 	background-repeat: no-repeat;
 	background-position: center; 
 	-webkit-background-size: cover;
@@ -119,12 +118,13 @@ h1,h2,h3,h4,h5,h6{
   	-o-background-size: cover;
   	background-size: cover;
   	margin-bottom: 10px;
+  	border-radius: 0px;
 
 }
 
 .image-hall{
 	background: url(/images/IMG-20190218-WA0018.jpg); 
-	height: 250px;
+	height: 300px;
 	background-repeat: no-repeat;
 	background-position: center; 
 	-webkit-background-size: cover;
@@ -132,12 +132,13 @@ h1,h2,h3,h4,h5,h6{
   	-o-background-size: cover;
   	background-size: cover;
   	margin-bottom: 10px;
+  	border-radius: 0px;
 }
 
 
 .image-shop{
 	background: url(/images/shopping.jpg); 
-	height: 250px;
+	height: 300px;
 	background-repeat: no-repeat;
 	background-position: center; 
 	-webkit-background-size: cover;
@@ -145,10 +146,11 @@ h1,h2,h3,h4,h5,h6{
   	-o-background-size: cover;
   	background-size: cover;
   	margin-bottom: 10px;
+  	border-radius: 0px;
 }
 
 .about{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0,0, 0.25)),url("../images/hotel.jpg");
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0,0, 0.6)),url("../images/hotel.jpg");
   min-height: 65vh;
   background-attachment: fixed;
   background-position: center bottom;
@@ -161,7 +163,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .gallery-thumb{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0,0, 0.25)),url("../images/IMG-20190219-WA0030.jpg");
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0,0, 0.6)),url("../images/IMG-20190219-WA0030.jpg");
   min-height: 64vh;
   background-attachment: fixed;
   background-position: center top;
@@ -213,7 +215,27 @@ h1,h2,h3,h4,h5,h6{
 	  left: 0%;
 	  transform: translate(-0%, -100%);
   }
-	
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.gallery {
+  background: #fff;
+}
+
+.gallery-cell {
+  width: 30%;
+  height: 500px;
+  margin-right: 10px;
+  background: transparent;
+  counter-increment: gallery-cell;
+}
+
+
+.services .card{
+}
 
 @media screen and (max-width: 1000px){
 
@@ -227,8 +249,13 @@ h1,h2,h3,h4,h5,h6{
 		}
 
 		.hero-image { 
-		background-attachment:scroll; 
-		background-position: top right; 
+			min-height: 87vh;
+			background-attachment:scroll; 
+			background-position: top right; 
+		}
+		
+		#discover{
+			height:13vh;
 		}
 
 		.gallery-thumb { 
@@ -238,6 +265,15 @@ h1,h2,h3,h4,h5,h6{
 		.cust-container{
 		line-height: 25px;
 		}
+
+		.gallery-cell {
+		  width: 90%;
+		  height: 500px;
+		  margin-right: 10px;
+		  background: transparent;
+		  counter-increment: gallery-cell;
+		}
+
 }
 
 

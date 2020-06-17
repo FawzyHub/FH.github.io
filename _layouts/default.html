@@ -5,6 +5,7 @@
 
 </head>
 <body>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: transparent; font-weight: bold;">
 	<div class="container">
@@ -70,8 +71,8 @@
 
 		//$(".navbar").css("background","#d22668");
 		$(".navbar").css("background","#fff");
-		$(".navbar-brand").css("color","#000");
-		$(".nav-item a").css("color","#000");
+		$(".navbar-brand").css("color","#d22668");
+		$(".nav-item a").css("color","#d22668");
 		$("nav").removeClass("navbar-dark");
 		$("nav").addClass("navbar-light");
 
@@ -85,6 +86,13 @@
 		$("nav").addClass("navbar-dark");
 		}
 		});
+
+		$('#discover-link').click(
+			function(e){
+				e.preventDefault();
+				$('html, body').animate({ scrollTop: 500}, 'slow');
+			}
+			)
 	</script>
 
 </body>
