@@ -52,8 +52,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .hero-image { 
-	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0,0, 0.6)),url("../images/IMG-20190219-WA0031.jpg"); 
-	min-height: 90vh; 
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0,0, 0.3)),url("../images/building/external/compound/compound_005.jpg"); 
+	min-height: 100vh; 
 	background-attachment:fixed; 
 	background-position: center right; 
 	background-repeat: no-repeat;
@@ -62,15 +62,6 @@ h1,h2,h3,h4,h5,h6{
 	-moz-background-size:cover; 
 	-o-background-size:cover; position: relative;
 /*	margin-bottom: 40px; */
-}
-
-#discover{
-	height:10vh; 
-	text-align: center;
-}
-
-#discover a{
-	color: #d22668;
 }
 
 .hero-text {
