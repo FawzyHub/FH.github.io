@@ -1,10 +1,10 @@
 body{
-/*	padding-top: 9vh;*/
+	padding-top: 70px;
 	font-family: 'Roboto', sans-serif;
 }
 
 p {
-	font-family: 'Roboto', sans-serif !important;	
+	font-family: 'Roboto', sans-serif !important;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -16,11 +16,13 @@ h1,h2,h3,h4,h5,h6{
 /*	margin-left: 20px;
 	margin-right: 20px;*/
 	line-height: 30px;
+	margin-bottom: 110px;
 }
 
 .navbar{
 	-webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
+
 }
 
 .navbar-brand{
@@ -32,7 +34,7 @@ h1,h2,h3,h4,h5,h6{
 /*    background-color: #d22668;*/
 	background-color: transparent;
     border:none;
-    color: #fff;
+    color: #000;
 }
 .navbar-toggler-icon{
 	background-color:transparent;
@@ -51,31 +53,31 @@ h1,h2,h3,h4,h5,h6{
 	font-weight: bold;
 }
 
+
 .hero-image { 
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0,0, 0.3)),url("../images/building/external/compound/compound_005.jpg"); 
-	min-height: 100vh; 
-	background-attachment:fixed; 
+	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0,0, 0)),url("../images/building/external/compound/compound_005.jpg"); 
+	min-height: 65vh; 
 	background-position: center right; 
 	background-repeat: no-repeat;
 	background-size: cover; 
 	-webkit-background-size:cover;
 	-moz-background-size:cover; 
-	-o-background-size:cover; position: relative;
+	-o-background-size:cover; 
+	position: relative;
 /*	margin-bottom: 40px; */
 }
 
 .hero-text {
 	position: absolute;
-	top: 90%;
-	left:	25%;
+	top:  110%;
+	left: 25%;
+	width: 80%;
 	transform: translate(-25%, -90%);
 }
 
-.hero-text .card{
-	width: 200px;
+.hero-text{
 	margin-bottom: 10px;
-	border-radius:25px;
-	background-color: rgba(255,255,255,1);
+	background-color: rgba(0,0,0,0);
 }
 
 .card{
@@ -85,6 +87,71 @@ h1,h2,h3,h4,h5,h6{
 .card-body{
 }
 
+/* LANDING PAGE BOX START*/
+    .landing-box{
+        border-radius: 15px;
+        background-color: transparent;
+		box-shadow: 1px 12px 5px 0px rgba(243,243,243,0.75);
+		-webkit-box-shadow: 1px 12px 5px 0px rgba(243,243,243,0.75);
+		-moz-box-shadow: 1px 12px 5px 0px rgba(243,243,243,0.75);
+    }
+    /* Style the tab */
+    .tab {
+    	border-radius: 15px 15px 0px 0px;
+      	overflow: hidden;
+      	border: 0px solid red;
+     	background-color: transparent;
+    }
+
+    /* Style the buttons inside the tab */
+    .tab button {
+      background-color: #fff;
+      color:#000;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+      /*border: 1px solid #ccc;*/
+    }
+
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+      background-color: #ddd;
+    }
+
+    /* Create an active/current tablink class */
+    .tab button.active {
+      background-color: #000;
+      color: #fff;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      background-color:#fff; 
+      border: none;
+      width: 100%;
+      padding: 50px;
+    }
+
+    .first-content{
+        display: block;
+    }
+
+    .first-element{
+        border-radius: 15px 0px 0px 0px;
+    }
+
+    .last-element{
+        border-radius: 0px 15px 0px 0px;
+    }
+
+
+/* LANDING PAGE BOX END*/
 .image-room{
 	background: url(/images/room_pic_001.jpg); 
 	width: 100%;
@@ -141,8 +208,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .about{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0,0, 0.6)),url("../images/hotel.jpg");
-  min-height: 65vh;
+  background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0,0, 0)),url("../images/hotel.jpg");
+  min-height: 45vh;
   background-attachment: fixed;
   background-position: center bottom;
   background-repeat: no-repeat;
@@ -154,8 +221,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .gallery-thumb{
-  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0,0, 0.6)),url("../images/IMG-20190219-WA0030.jpg");
-  min-height: 64vh;
+  background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0,0, 0)),url("../images/IMG-20190219-WA0030.jpg");
+  min-height: 45vh;
   background-attachment: fixed;
   background-position: center top;
   background-repeat: no-repeat;
@@ -182,6 +249,7 @@ h1,h2,h3,h4,h5,h6{
 .gallery{
 	margin: 10px 10px 20px 10px;
 }
+
 .gallery-title
 {
     font-size: 36px;
@@ -226,11 +294,24 @@ h1,h2,h3,h4,h5,h6{
 
 
 .services .card{
+	border:none;
+}
+
+.card-title{
+	font-weight: bold;
+}
+
+.card-img{
+	border-radius: 15px;
 }
 
 @media screen and (max-width: 1000px){
 
 		body{
+			font-size: 14px;
+		}
+
+		p{
 			font-size: 14px;
 		}
 
