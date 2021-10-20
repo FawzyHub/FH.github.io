@@ -97,7 +97,6 @@ h1,h2,h3,h4,h5,h6{
     }
     /* Style the tab */
     .tab {
-    	border-radius: 15px 15px 0px 0px;
       	overflow: hidden;
       	border: 0px solid red;
      	background-color: transparent;
@@ -124,7 +123,7 @@ h1,h2,h3,h4,h5,h6{
 
     /* Create an active/current tablink class */
     .tab button.active {
-      background-color: #000;
+      background-color: #CD24BA;
       color: #fff;
     }
 
@@ -136,20 +135,12 @@ h1,h2,h3,h4,h5,h6{
       border: none;
       width: 100%;
       padding: 50px;
+	  height: 270px;
     }
 
     .first-content{
         display: block;
     }
-
-    .first-element{
-        border-radius: 15px 0px 0px 0px;
-    }
-
-    .last-element{
-        border-radius: 0px 15px 0px 0px;
-    }
-
 
 /* LANDING PAGE BOX END*/
 .image-room{
@@ -344,6 +335,10 @@ h1,h2,h3,h4,h5,h6{
 		  margin-right: 10px;
 		  background: transparent;
 		  counter-increment: gallery-cell;
+		}
+
+		.tabcontent{
+			height: 350px;
 		}
 
 }
