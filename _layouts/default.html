@@ -2,10 +2,10 @@
   <head>	
 	{% include bootstrap.html %}
 	<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Dancing+Script&family=Roboto:wght@300&display=swap" rel="stylesheet">
-
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+	<script src="js/lib.js"></script>
 </head>
 <body>
-<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
 	<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #fff; font-weight: bold;">
 	<div class="container">
@@ -54,49 +54,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	
-
-	<script>
-		function openNav() {
-		  document.getElementById("mySidenav").style.width = "100%";
-		}
-
-		function closeNav() {
-		  document.getElementById("mySidenav").style.width = "0";
-		}
-	</script>
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-<!-- 	<script type="text/javascript">
-		$(document).scroll(function() {
-		if($(window).scrollTop() > 50){
-
-		//$(".navbar").css("background","#d22668");
-		$(".navbar").css("background","#fff");
-		$(".navbar-brand").css("color","#d22668");
-		$(".nav-item a").css("color","#d22668");
-		$("nav").removeClass("navbar-dark");
-		$("nav").addClass("navbar-light");
-
-		}
-		else if($(window).scrollTop() < 50){
-
-		$(".navbar").css("background","transparent");
-		$(".navbar-brand").css("color","#000");
-		$(".nav-item a").css("color","#000");
-		$("nav").removeClass("navbar-light");
-		$("nav").addClass("navbar-dark");
-		}
-		});
-
-		$('#discover-link').click(
-			function(e){
-				e.preventDefault();
-				$('html, body').animate({ scrollTop: 500}, 'slow');
-			}
-			)
-	</script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>	
 
 </body>
   

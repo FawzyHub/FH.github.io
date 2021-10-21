@@ -296,6 +296,40 @@ h1,h2,h3,h4,h5,h6{
 	border-radius: 15px;
 }
 
+button{
+	outline: none !important;
+}
+.accordion {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 16px;
+	font-weight: bold;
+	transition: 0.4s;
+	border-color: transparent;
+  }
+  
+  .accordion >.active, .accordion:hover {
+	background-color: #CD24BA;
+	color: #fff;
+	border: 0px;
+	border-color: transparent;
+  }
+  
+  .panel {
+	height: 0;
+	opacity: 0;
+	padding: 0 10px;
+	background-color: white;
+	overflow: hidden;
+	transition: height 1s ease-out, opacity 2s ease-out;
+  }
+
 @media screen and (max-width: 1000px){
 
 		body{
