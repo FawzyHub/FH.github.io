@@ -506,31 +506,31 @@ const menuItems = [
   {
     item: "Ice Cream (Vanilla)",
     category: "Food",
-    subCategory: "Desert",
+    subCategory: "Dessert",
     price: "1500.00"
   },
   {
     item: "Ice Cream (Strawberry)",
     category: "Food",
-    subCategory: "Desert",
+    subCategory: "Dessert",
     price: "1500.00"
   },
   {
     item: "Ice Cream (Peanut)",
     category: "Food",
-    subCategory: "Desert",
+    subCategory: "Dessert",
     price: "1500.00"
   },
   {
     item: "Friut Platter",
     category: "Food",
-    subCategory: "Desert",
+    subCategory: "Dessert",
     price: "4000.00"
   },
   {
     item: "Fruit Salad ",
     category: "Food",
-    subCategory: "Desert",
+    subCategory: "Dessert",
     price: "3000.00"
   },
   {
@@ -879,7 +879,7 @@ window.onload = function() {
   populateMenuItem(menuItems, "Snack’s Menu", "food")
   populateMenuItem(menuItems, "Bbq", "food")
   populateMenuItem(menuItems, "Others", "food")
-  populateMenuItem(menuItems, "Desert", "food")
+  populateMenuItem(menuItems, "Dessert", "food")
 
   populateMenuItem(menuItems, "Beer", "drink")
   populateMenuItem(menuItems, "Spirit/Liquor/Champagne Drinks", "drink")
