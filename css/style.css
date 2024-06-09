@@ -1,14 +1,14 @@
 body{
 	padding-top: 70px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Inter', sans-serif;
 }
 
 p {
-	font-family: 'Roboto', sans-serif !important;
+	font-family: 'Inter', sans-serif !important;
 }
 
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Cairo', sans-serif !important;
+	font-family: 'Inter', sans-serif !important;
 }
 
 
@@ -22,7 +22,6 @@ h1,h2,h3,h4,h5,h6{
 .navbar{
 	-webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-
 }
 
 .navbar-brand{
@@ -49,7 +48,7 @@ h1,h2,h3,h4,h5,h6{
 
 }
 .nav-item a:hover{
-	font-size: 35px;
+	font-size: 20px;
 	font-weight: bold;
 }
 
@@ -241,8 +240,7 @@ h1,h2,h3,h4,h5,h6{
 	margin: 10px 10px 20px 10px;
 }
 
-.gallery-title
-{
+.gallery-title{
     font-size: 36px;
     color: #000;
     text-align: center;
@@ -329,6 +327,14 @@ button{
 	overflow: hidden;
 	transition: height 1s ease-out, opacity 2s ease-out;
   }
+
+.food-category{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	color: #fff;
+	background-color: #D22668;
+}
 
 @media screen and (max-width: 1000px){
 

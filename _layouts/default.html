@@ -1,9 +1,9 @@
 <html lang="en">
   <head>	
 	{% include bootstrap.html %}
-	<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Dancing+Script&family=Roboto:wght@300&display=swap" rel="stylesheet">
-	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-	<script src="js/lib.js"></script>
+	<script src="../js/lib.js" type="module"></script>
+	<script src="../js/menu.js" type="module"></script>
+	<link rel="stylesheet" href='/css/style.css'>
 </head>
 <body>
 
@@ -25,21 +25,24 @@
 				<li class="nav-item active">
 				  <a class="nav-link" href="/pages/gallery.html">Gallery<span class="sr-only">(current)</span></a>
 				</li>
-				<li class="nav-item active">
-				  <a class="nav-link" href="/pages/covid_measures.html" target='_blank'>Covid-19<span class="sr-only">(current)</span></a>
-				</li>
+				<!-- <li class="nav-item active">
+					<a class="nav-link" href="/pages/covid_measures.html" target='_blank'>Covid-19<span class="sr-only">(current)</span></a>
+				</li> -->
 				<div class="dropdown-divider"></div>
 				<li class="nav-item active">
-				  <a class="nav-link" href="https://www.booking.com/hotel/ng/fawzy.html?" target='_blank'><span><strong>Book
-				  </strong></span><span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="https://www.booking.com/hotel/ng/fawzy.html?" target='_blank'><span><strong>Book
+					</strong></span><span class="sr-only">(current)</span></a>
 				</li>	
+				<li class="nav-item active">
+				  <a class="nav-link" href="/pages/menu.html">Food & Drinks Menu<span class="sr-only">(current)</span></a>
+				</li>
 			  </ul>
 		  </div>
 	</div>
 	</nav>
-	<div class="container" style="text-align:center; color: red; size: 12px; font-weight: bold;">
+	<!-- <div class="container" style="text-align:center; color: red; size: 12px; font-weight: bold;">
 		<p> DISCLAIMER - please be aware of scam numbers posing as Fawzy Hotel. Our contact numbers are +234 8105 4799 34 and +234 9098 8467 50 only</p>
-	</div>	
+	</div>	 -->
 
 	 <div class="content">
       {{ content }}
