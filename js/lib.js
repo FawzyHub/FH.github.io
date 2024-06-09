@@ -426,7 +426,7 @@ const menuItems = [
     price: "15000.00"
   },
   {
-    item: "Fawzy King’S Pie",
+    item: "Fawzy King's Pie",
     category: "Food",
     subCategory: "Quick Bites",
     price: "2000.00"
