@@ -18,7 +18,7 @@ const menuItems = [
     price: "4500.00"
   },
   {
-    item: "Croacker Fish",
+    item: "Croaker Fish",
     category: "Food",
     subCategory: "Protein",
     price: "5500.00"
@@ -234,7 +234,7 @@ const menuItems = [
     price: "2000.00"
   },
   {
-    item: "Boiled  Or Fried Plantain",
+    item: "Boiled Or Fried Plantain",
     category: "Food",
     subCategory: "Others ",
     price: "2000.00"
@@ -282,7 +282,7 @@ const menuItems = [
     price: "1500.00"
   },
   {
-    item: "Spaghetti Bolognaise",
+    item: "Spaghetti Bolognese",
     category: "Food",
     subCategory: "Pastas",
     price: "4000.00"
@@ -306,7 +306,7 @@ const menuItems = [
     price: "3000.00"
   },
   {
-    item: "Spicy Sphaghetti Alfredo",
+    item: "Spicy Spaghetti Alfredo",
     category: "Food",
     subCategory: "Pastas",
     price: "7500.00"
@@ -318,7 +318,7 @@ const menuItems = [
     price: "5000.00"
   },
   {
-    item: "Croacker Fish Pepper Soup",
+    item: "Croaker Fish Pepper Soup",
     category: "Food",
     subCategory: "Starter",
     price: "6000.00"
@@ -374,43 +374,43 @@ const menuItems = [
   {
     item: "Shrimps Sweet Chilli Sauce Serve With Chinese Egg Rice",
     category: "Food",
-    subCategory: "Chinese Corner",
+    subCategory: "Chinese Cuisine",
     price: "15000.00"
   },
   {
     item: "Shredded Beef Sauce With Chinese Fried Rice",
     category: "Food",
-    subCategory: "Chinese Corner",
+    subCategory: "Chinese Cuisine",
     price: "15000.00"
   },
   {
     item: "Chicken Chilli Sauce With Chinese Fried Rice",
     category: "Food",
-    subCategory: "Chinese Corner",
+    subCategory: "Chinese Cuisine",
     price: "15000.00"
   },
   {
-    item: "Singapore Noodles ",
+    item: "Singapore Noodles",
     category: "Food",
-    subCategory: "Chinese Corner",
+    subCategory: "Chinese Cuisine",
     price: "10000.00"
   },
   {
-    item: "Creamy Sweet And Sour Tiger Prawns With Chinese Fried  Rice",
+    item: "Creamy Sweet And Sour Tiger Prawns With Chinese Fried Rice",
     category: "Food",
-    subCategory: "Chinese Corner",
+    subCategory: "Chinese Cuisine",
     price: "15000.00"
   },
   {
     item: "Chinese Chicken Curry With Chinese Fried Rice",
     category: "Food",
-    subCategory: "Chinese Corner",
+    subCategory: "Chinese Cuisine",
     price: "15000.00"
   },
   {
     item: "Vegetable Curry With Chinese Fried Rice",
     category: "Food",
-    subCategory: "Chinese Corner",
+    subCategory: "Chinese Cuisine",
     price: "15000.00"
   },
   {
@@ -428,55 +428,55 @@ const menuItems = [
   {
     item: "Fawzy King’S Pie",
     category: "Food",
-    subCategory: "Snack’s Menu",
+    subCategory: "Quick Bites",
     price: "2000.00"
   },
   {
     item: "Fawzy Jumbo Pie",
     category: "Food",
-    subCategory: "Snack’s Menu",
+    subCategory: "Quick Bites",
     price: "1500.00"
   },
   {
-    item: "Chicken/Beef Big Boy Harm Burger With Fries",
+    item: "Chicken/Beef Big Boy Ham Burger With Fries",
     category: "Food",
-    subCategory: "Snack’s Menu",
+    subCategory: "Quick Bites",
     price: "8000.00"
   },
   {
-    item: "Spring Roll And Somosa Serve With Spicy Chicken Wings Or Peppered Gizzard",
+    item: "Spring Roll And Samosa Serve With Spicy Chicken Wings Or Peppered Gizzard",
     category: "Food",
-    subCategory: "Snack’s Menu",
+    subCategory: "Quick Bites",
     price: "10000.00"
   },
   {
     item: "Beef/Chicken Shawarma With Hot Dogs",
     category: "Food",
-    subCategory: "Snack’s Menu",
+    subCategory: "Quick Bites",
     price: "5000.00"
   },
   {
-    item: "Cat Fish/ Croacker Fish With Fries",
+    item: "Cat Fish/ Croaker Fish With Fries",
     category: "Food",
-    subCategory: "Bbq",
+    subCategory: "Barbecue",
     price: "15000.00"
   },
   {
     item: "Chicken With Fries (Whole)",
     category: "Food",
-    subCategory: "Bbq",
+    subCategory: "Barbecue",
     price: "20000.00"
   },
   {
-    item: "Friut Platter",
+    item: "Fruit Platter",
     category: "Food",
-    subCategory: "Bbq",
+    subCategory: "Barbecue",
     price: "4000.00"
   },
   {
-    item: "Fruit Salad ",
+    item: "Fruit Salad",
     category: "Food",
-    subCategory: "Bbq",
+    subCategory: "Barbecue",
     price: "3000.00"
   },
   {
@@ -492,7 +492,7 @@ const menuItems = [
     price: "3000.00"
   },
   {
-    item: "Green  Garden Sandwich",
+    item: "Green Garden Sandwich",
     category: "Food",
     subCategory: "Side Dishes",
     price: "3500.00"
@@ -522,13 +522,13 @@ const menuItems = [
     price: "1500.00"
   },
   {
-    item: "Friut Platter",
+    item: "Fruit Platter",
     category: "Food",
     subCategory: "Dessert",
     price: "4000.00"
   },
   {
-    item: "Fruit Salad ",
+    item: "Fruit Salad",
     category: "Food",
     subCategory: "Dessert",
     price: "3000.00"
@@ -874,10 +874,10 @@ window.onload = function() {
   populateMenuItem(menuItems, "Salad", "food")
   populateMenuItem(menuItems, "Sauce/Egg", "food")
   populateMenuItem(menuItems, "Pastas", "food")
-  populateMenuItem(menuItems, "Chinese Corner", "food")
+  populateMenuItem(menuItems, "Chinese Cuisine", "food")
   populateMenuItem(menuItems, "Sea Foods", "food")
-  populateMenuItem(menuItems, "Snack’s Menu", "food")
-  populateMenuItem(menuItems, "Bbq", "food")
+  populateMenuItem(menuItems, "Quick Bites", "food")
+  populateMenuItem(menuItems, "Barbecue", "food")
   populateMenuItem(menuItems, "Others", "food")
   populateMenuItem(menuItems, "Dessert", "food")
 
