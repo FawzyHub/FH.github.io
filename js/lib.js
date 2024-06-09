@@ -878,7 +878,6 @@ window.onload = function() {
   populateMenuItem(menuItems, "Sea Foods", "food")
   populateMenuItem(menuItems, "Quick Bites", "food")
   populateMenuItem(menuItems, "Barbecue", "food")
-  populateMenuItem(menuItems, "Others", "food")
   populateMenuItem(menuItems, "Dessert", "food")
 
   populateMenuItem(menuItems, "Beer", "drink")
