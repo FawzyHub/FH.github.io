@@ -602,7 +602,7 @@ export const menuItems = [
   {
     "item": "Fruit Salad",
     "category": "Food",
-    "subCategory": "Salad",
+    "subCategory": "Dessert",
     "price": "3000"
   },
   {
