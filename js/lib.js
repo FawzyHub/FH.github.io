@@ -31,11 +31,12 @@ window.onload = function() {
     populateMenuItem(menuItems, "Soup", "mains")
     populateMenuItem(menuItems, "Salad", "mains")
     populateMenuItem(menuItems, "Sauce/Egg", "mains")
-    populateMenuItem(menuItems, "Pastas", "mains")
-    populateMenuItem(menuItems, "Chinese Cuisine", "mains")
     populateMenuItem(menuItems, "Sea Foods", "mains")
     populateMenuItem(menuItems, "Barbecue", "mains")
     
+    populateMenuItem(menuItems, "Chinese Cuisine", "continental")
+    populateMenuItem(menuItems, "Pastas", "continental")
+
     populateMenuItem(menuItems, "Beer", "drink")
     populateMenuItem(menuItems, "Spirit/Liquor/Champagne Drinks", "drink")
     populateMenuItem(menuItems, "Red Wine", "drink")

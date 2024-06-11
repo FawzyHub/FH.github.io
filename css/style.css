@@ -4,6 +4,10 @@ body{
 	font-family: 'Inter', sans-serif;
 }
 
+.nav-item > .active{
+	background-color: #D22668 !important;
+}
+
 p {
 	font-family: 'Inter', sans-serif !important;
 }
