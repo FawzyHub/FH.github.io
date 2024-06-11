@@ -50,7 +50,7 @@ window.onload = function() {
 };
 
 const populateMenuItem = (menuItems, category, subCategory, parentId) =>{
-  const categorySelection = menuItems.filter((element) => element.subCategory === subCategory && category === category)
+  const categorySelection = menuItems.filter((element) => element.subCategory === subCategory && element.category === category)
   const categoryElement = document.createElement("div")
   categoryElement.setAttribute("class", "food-category");
   
