@@ -32,6 +32,7 @@ window.onload = function() {
     populateMenuItem(menuItems, "Food", "Sauce/Egg", "mains")
     populateMenuItem(menuItems, "Food", "Sea Foods", "mains")
     populateMenuItem(menuItems, "Food", "Barbecue", "mains")
+    populateMenuItem(menuItems, "Food", "Others", "mains")
     populateMenuItem(menuItems, "Food", "Chinese Cuisine", "continental")
     populateMenuItem(menuItems, "Food", "Pastas", "continental")
     populateMenuItem(menuItems, "Food", "Dessert", "dessert")
