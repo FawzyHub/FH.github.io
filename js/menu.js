@@ -549,7 +549,7 @@ export const menuItems = [
     "item": "Sea Food Okro With Swallow Of Your Choice",
     "category": "Food",
     "subCategory": "Sea Foods",
-    "price": "2000"
+    "price": "20000"
   },
   {
     "item": "Fawzy King's Pie",
