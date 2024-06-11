@@ -1,978 +1,966 @@
 export const menuItems = [
   {
-    "item": "Goat Meat",
+    "Energy Drinkitem": "Goat Meat",
     "category": "Food",
     "subCategory": "Protein",
     "price": "4500"
   },
   {
-    "item": "Beef",
+    "Energy Drinkitem": "Beef",
     "category": "Food",
     "subCategory": "Protein",
     "price": "4500"
   },
   {
-    "item": "Chicken",
+    "Energy Drinkitem": "Chicken",
     "category": "Food",
     "subCategory": "Protein",
     "price": "4500"
   },
   {
-    "item": "Croaker Fish",
+    "Energy Drinkitem": "Croaker Fish",
     "category": "Food",
     "subCategory": "Protein",
     "price": "5500"
   },
   {
-    "item": "Catfish",
+    "Energy Drinkitem": "Catfish",
     "category": "Food",
     "subCategory": "Protein",
     "price": "5500"
   },
   {
-    "item": "Snail",
+    "Energy Drinkitem": "Snail",
     "category": "Food",
     "subCategory": "Protein",
     "price": "10000"
   },
   {
-    "item": "Assorted",
+    "Energy Drinkitem": "Assorted",
     "category": "Food",
     "subCategory": "Protein",
     "price": "4500"
   },
   {
-    "item": "Gizzard",
+    "Energy Drinkitem": "Gizzard",
     "category": "Food",
     "subCategory": "Protein",
     "price": "4000"
   },
   {
-    "item": "Egusi",
+    "Energy Drinkitem": "Egusi",
     "category": "Food",
     "subCategory": "Soup",
     "price": "2500"
   },
   {
-    "item": "Ogbono",
+    "Energy Drinkitem": "Ogbono",
     "category": "Food",
     "subCategory": "Soup",
     "price": "2500"
   },
   {
-    "item": "Okro (Plain)",
+    "Energy Drinkitem": "Okro (Plain)",
     "category": "Food",
     "subCategory": "Soup",
     "price": "2500"
   },
   {
-    "item": "Ewedu",
+    "Energy Drinkitem": "Ewedu",
     "category": "Food",
     "subCategory": "Soup",
     "price": "2500"
   },
   {
-    "item": "Edikang-Ikong",
+    "Energy Drinkitem": "Edikang-Ikong",
     "category": "Food",
     "subCategory": "Soup",
     "price": "2500"
   },
   {
-    "item": "Efo-Riro",
+    "Energy Drinkitem": "Efo-Riro",
     "category": "Food",
     "subCategory": "Soup",
     "price": "2500"
   },
   {
-    "item": "Okro (Mixed)",
+    "Energy Drinkitem": "Okro (Mixed)",
     "category": "Food",
     "subCategory": "Soup",
     "price": "2500"
   },
   {
-    "item": "Eba",
+    "Energy Drinkitem": "Eba",
     "category": "Food",
     "subCategory": "Swallow",
     "price": "1500"
   },
   {
-    "item": "Semo",
+    "Energy Drinkitem": "Semo",
     "category": "Food",
     "subCategory": "Swallow",
     "price": "1500"
   },
   {
-    "item": "Poundo Yam",
+    "Energy Drinkitem": "Poundo Yam",
     "category": "Food",
     "subCategory": "Swallow",
     "price": "2000"
   },
   {
-    "item": "Wheat",
+    "Energy Drinkitem": "Wheat",
     "category": "Food",
     "subCategory": "Swallow",
     "price": "1500"
   },
   {
-    "item": "Amala",
+    "Energy Drinkitem": "Amala",
     "category": "Food",
     "subCategory": "Swallow",
     "price": "1500"
   },
   {
-    "item": "Jollof Rice",
+    "Energy Drinkitem": "Jollof Rice",
     "category": "Food",
     "subCategory": "Rice",
     "price": "3000"
   },
   {
-    "item": "Fried Rice",
+    "Energy Drinkitem": "Fried Rice",
     "category": "Food",
     "subCategory": "Rice",
     "price": "3500"
   },
   {
-    "item": "White Rice",
+    "Energy Drinkitem": "White Rice",
     "category": "Food",
     "subCategory": "Rice",
     "price": "2500"
   },
   {
-    "item": "Basmatti Rice",
+    "Energy Drinkitem": "Basmatti Rice",
     "category": "Food",
     "subCategory": "Rice",
     "price": "4000"
   },
   {
-    "item": "Ofada Rice",
+    "Energy Drinkitem": "Ofada Rice",
     "category": "Food",
     "subCategory": "Rice",
     "price": "3000"
   },
   {
-    "item": "Coconut Rice",
+    "Energy Drinkitem": "Coconut Rice",
     "category": "Food",
     "subCategory": "Rice",
     "price": "3500"
   },
   {
-    "item": "Coleslaw",
+    "Energy Drinkitem": "Coleslaw",
     "category": "Food",
     "subCategory": "Salad",
     "price": "1500"
   },
   {
-    "item": "Fresh Garden Salad",
+    "Energy Drinkitem": "Fresh Garden Salad",
     "category": "Food",
     "subCategory": "Salad",
     "price": "2500"
   },
   {
-    "item": "Fawzy Special Salad",
+    "Energy Drinkitem": "Fawzy Special Salad",
     "category": "Food",
     "subCategory": "Salad",
     "price": "5000"
   },
   {
-    "item": "Greek Salad",
+    "Energy Drinkitem": "Greek Salad",
     "category": "Food",
     "subCategory": "Salad",
     "price": "2500"
   },
   {
-    "item": "Chef Salad",
+    "Energy Drinkitem": "Chef Salad",
     "category": "Food",
     "subCategory": "Salad",
     "price": "4000"
   },
   {
-    "item": "Sea Food Salad",
+    "Energy Drinkitem": "Sea Food Salad",
     "category": "Food",
     "subCategory": "Salad",
     "price": "10000"
   },
   {
-    "item": "Egg Sauce",
+    "Energy Drinkitem": "Egg Sauce",
     "category": "Food",
     "subCategory": "Sauce/Egg",
     "price": "1500"
   },
   {
-    "item": "Omelette",
+    "Energy Drinkitem": "Omelette",
     "category": "Food",
     "subCategory": "Sauce/Egg",
     "price": "1500"
   },
   {
-    "item": "Boiled Egg",
+    "Energy Drinkitem": "Boiled Egg",
     "category": "Food",
     "subCategory": "Sauce/Egg",
     "price": "1200"
   },
   {
-    "item": "Ofada Sauce",
+    "Energy Drinkitem": "Ofada Sauce",
     "category": "Food",
     "subCategory": "Sauce/Egg",
     "price": "3000"
   },
   {
-    "item": "Pepper Sauce/Stew",
+    "Energy Drinkitem": "Pepper Sauce/Stew",
     "category": "Food",
     "subCategory": "Sauce/Egg",
     "price": "1500"
   },
   {
-    "item": "Scramble Egg",
+    "Energy Drinkitem": "Scramble Egg",
     "category": "Food",
     "subCategory": "Sauce/Egg",
     "price": "1500"
   },
   {
-    "item": "Fried Yam Or Boiled Yam",
+    "Energy Drinkitem": "Fried Yam Or Boiled Yam",
     "category": "Food",
     "subCategory": "Others",
     "price": "2000"
   },
   {
-    "item": "Boiled Or Fried Plantain",
+    "Energy Drinkitem": "Boiled Or Fried Plantain",
     "category": "Food",
     "subCategory": "Others",
     "price": "2000"
   },
   {
-    "item": "Boiled Or Fried Sweet Potato",
+    "Energy Drinkitem": "Boiled Or Fried Sweet Potato",
     "category": "Food",
     "subCategory": "Others",
     "price": "1500"
   },
   {
-    "item": "French Fries",
+    "Energy Drinkitem": "French Fries",
     "category": "Food",
     "subCategory": "Others",
     "price": "4000"
   },
   {
-    "item": "Fresh Or Toasted Bread",
+    "Energy Drinkitem": "Fresh Or Toasted Bread",
     "category": "Food",
     "subCategory": "Others",
     "price": "1200"
   },
   {
-    "item": "Paprika Irish Potato",
+    "Energy Drinkitem": "Paprika Irish Potato",
     "category": "Food",
     "subCategory": "Others",
     "price": "1500"
   },
   {
-    "item": "Yam Porrage",
+    "Energy Drinkitem": "Yam Porrage",
     "category": "Food",
     "subCategory": "Others",
     "price": "3000"
   },
   {
-    "item": "Ikokore",
+    "Energy Drinkitem": "Ikokore",
     "category": "Food",
     "subCategory": "Others",
     "price": "3000"
   },
   {
-    "item": "Spaghetti (Plain)",
+    "Energy Drinkitem": "Spaghetti (Plain)",
     "category": "Food",
     "subCategory": "Pastas",
     "price": "1500"
   },
   {
-    "item": "Spaghetti Bolognese",
+    "Energy Drinkitem": "Spaghetti Bolognese",
     "category": "Food",
     "subCategory": "Pastas",
     "price": "4000"
   },
   {
-    "item": "Spaghetti Arrabbiata",
+    "Energy Drinkitem": "Spaghetti Arrabbiata",
     "category": "Food",
     "subCategory": "Pastas",
     "price": "4000"
   },
   {
-    "item": "Noodles And Egg",
+    "Energy Drinkitem": "Noodles And Egg",
     "category": "Food",
     "subCategory": "Pastas",
     "price": "3500"
   },
   {
-    "item": "Spaghetti Jollof",
+    "Energy Drinkitem": "Spaghetti Jollof",
     "category": "Food",
     "subCategory": "Pastas",
     "price": "3000"
   },
   {
-    "item": "Spicy Spaghetti Alfredo",
+    "Energy Drinkitem": "Spicy Spaghetti Alfredo",
     "category": "Food",
     "subCategory": "Pastas",
     "price": "7500"
   },
   {
-    "item": "Goat Meat Pepper Soup",
+    "Energy Drinkitem": "Goat Meat Pepper Soup",
     "category": "Food",
     "subCategory": "Starter",
     "price": "5000"
   },
   {
-    "item": "Croaker Fish Pepper Soup",
+    "Energy Drinkitem": "Croaker Fish Pepper Soup",
     "category": "Food",
     "subCategory": "Starter",
     "price": "6000"
   },
   {
-    "item": "Chicken Pepper Soup",
+    "Energy Drinkitem": "Chicken Pepper Soup",
     "category": "Food",
     "subCategory": "Starter",
     "price": "5000"
   },
   {
-    "item": "Assorted Pepper Soup",
+    "Energy Drinkitem": "Assorted Pepper Soup",
     "category": "Food",
     "subCategory": "Starter",
     "price": "5000"
   },
   {
-    "item": "Catfish Pepper Soup",
+    "Energy Drinkitem": "Catfish Pepper Soup",
     "category": "Food",
     "subCategory": "Starter",
     "price": "6000"
   },
   {
-    "item": "Cream Of Chicken Soup",
+    "Energy Drinkitem": "Cream Of Chicken Soup",
     "category": "Food",
     "subCategory": "Starter",
     "price": "4000"
   },
   {
-    "item": "Cream Of Mushroom Soup",
+    "Energy Drinkitem": "Cream Of Mushroom Soup",
     "category": "Food",
     "subCategory": "Starter",
     "price": "5000"
   },
   {
-    "item": "Cream of chicken soup with sweet corn",
+    "Energy Drinkitem": "Cream of chicken soup with sweet corn",
     "category": "Food",
     "subCategory": "Starter",
     "price": "4000"
   },
   {
-    "item": "Tomato Soup",
+    "Energy Drinkitem": "Tomato Soup",
     "category": "Food",
     "subCategory": "Starter",
     "price": "3500"
   },
   {
-    "item": "French Onion Soup",
+    "Energy Drinkitem": "French Onion Soup",
     "category": "Food",
     "subCategory": "Starter",
     "price": "4000"
   },
   {
-    "item": "Shrimps in Sweet Chilli Sauce Serve With Chinese Egg Rice",
+    "Energy Drinkitem": "Shrimps in Sweet Chilli Sauce Serve With Chinese Egg Rice",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "15000"
   },
   {
-    "item": "Shredded Beef Sauce With Chinese Fried Rice",
+    "Energy Drinkitem": "Shredded Beef Sauce With Chinese Fried Rice",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "15000"
   },
   {
-    "item": "Chicken Chilli Sauce With Chinese Fried Rice",
+    "Energy Drinkitem": "Chicken Chilli Sauce With Chinese Fried Rice",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "15000"
   },
   {
-    "item": "Singapore Noodles",
+    "Energy Drinkitem": "Singapore Noodles",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "10000"
   },
   {
-    "item": "Creamy Sweet And Sour Tiger Prawns With Chinese Fried Rice",
+    "Energy Drinkitem": "Creamy Sweet And Sour Tiger Prawns With Chinese Fried Rice",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "15000"
   },
   {
-    "item": "Snow white rice",
+    "Energy Drinkitem": "Snow white rice",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "3000"
   },
   {
-    "item": "Chicken fried rice",
+    "Energy Drinkitem": "Chicken fried rice",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "10000"
   },
   {
-    "item": "Shrimps fried rice",
+    "Energy Drinkitem": "Shrimps fried rice",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "15000"
   },
   {
-    "item": "Chinese fried rice",
+    "Energy Drinkitem": "Chinese fried rice",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "4500"
   },
   {
-    "item": "Soy sauce rice and vegetables",
+    "Energy Drinkitem": "Soy sauce rice and vegetables",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "10000"
   },
   {
-    "item": "Shredded chicken in green peas/green pepper sauce",
+    "Energy Drinkitem": "Shredded chicken in green peas/green pepper sauce",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "8000"
   },
   {
-    "item": "Diced chicken in carrot sauce",
+    "Energy Drinkitem": "Diced chicken in carrot sauce",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "8000"
   },
   {
-    "item": "Chicken curry",
+    "Energy Drinkitem": "Chicken curry",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "8000"
   },
   {
-    "item": "Shredded beef/Diced beef in green pepper sauce",
+    "Energy Drinkitem": "Shredded beef/Diced beef in green pepper sauce",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "10000"
   },
   {
-    "item": "Beef steak in mushroom sauce",
+    "Energy Drinkitem": "Beef steak in mushroom sauce",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "12000"
   },
   {
-    "item": "Lamb chop in barbecue sauce",
+    "Energy Drinkitem": "Lamb chop in barbecue sauce",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "10000"
   },
   {
-    "item": "Butterfly prawns in batter",
+    "Energy Drinkitem": "Butterfly prawns in batter",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "15000"
   },
   {
-    "item": "Prawns in white sauce",
+    "Energy Drinkitem": "Prawns in white sauce",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "10000"
   },
   {
-    "item": "Prawns in sweet and sour sauce",
+    "Energy Drinkitem": "Prawns in sweet and sour sauce",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "12000"
   },
   {
-    "item": "Fried shrimps and vegetables",
+    "Energy Drinkitem": "Fried shrimps and vegetables",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "10000"
   },
   {
-    "item": "Whole fish in hot plate",
+    "Energy Drinkitem": "Whole fish in hot plate",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "20000"
   },
   {
-    "item": "Fish fillet",
+    "Energy Drinkitem": "Fish fillet",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "8000"
   },
   {
-    "item": "Diced fish in vegetable sauce",
+    "Energy Drinkitem": "Diced fish in vegetable sauce",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "8000"
   },
   {
-    "item": "Fawzy special fish in stock sauce",
+    "Energy Drinkitem": "Fawzy special fish in stock sauce",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "7000"
   },
   {
-    "item": "4 pieces of chicken,fries, plantain, coleslaw",
+    "Energy Drinkitem": "4 pieces of chicken,fries, plantain, coleslaw",
     "category": "Food",
     "subCategory": "Special Fiesta",
     "price": "22000"
   },
   {
-    "item": "3 Roasted plantain, fried yam, snail in sauce",
+    "Energy Drinkitem": "3 Roasted plantain, fried yam, snail in sauce",
     "category": "Food",
     "subCategory": "Special Fiesta",
     "price": "17950"
   },
   {
-    "item": "Chicken Curry With Chinese Fried Rice",
+    "Energy Drinkitem": "Chicken Curry With Chinese Fried Rice",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "15000"
   },
   {
-    "item": "Vegetable Curry With Chinese Fried Rice",
+    "Energy Drinkitem": "Vegetable Curry With Chinese Fried Rice",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "15000"
   },
   {
-    "item": "Sea Food Fried Rice",
+    "Energy Drinkitem": "Sea Food Fried Rice",
     "category": "Food",
     "subCategory": "Sea Foods",
     "price": "15000"
   },
   {
-    "item": "Sea Food Okro With Swallow Of Your Choice",
+    "Energy Drinkitem": "Sea Food Okro With Swallow Of Your Choice",
     "category": "Food",
     "subCategory": "Sea Foods",
     "price": "20000"
   },
   {
-    "item": "Fawzy King's Pie",
+    "Energy Drinkitem": "Fawzy King's Pie",
     "category": "Food",
     "subCategory": "Quick Bites",
     "price": "1500"
   },
   {
-    "item": "Fawzy Jumbo Pie",
+    "Energy Drinkitem": "Fawzy Jumbo Pie",
     "category": "Food",
     "subCategory": "Quick Bites",
     "price": "8000"
   },
   {
-    "item": "Chicken/Beef Big Boy Ham Burger With Fries",
+    "Energy Drinkitem": "Chicken/Beef Big Boy Ham Burger With Fries",
     "category": "Food",
     "subCategory": "Quick Bites",
     "price": "10000"
   },
   {
-    "item": "Spring Roll And Samosa Serve With Spicy Chicken Wings Or Peppered Gizzard",
+    "Energy Drinkitem": "Spring Roll And Samosa Serve With Spicy Chicken Wings Or Peppered Gizzard",
     "category": "Food",
     "subCategory": "Quick Bites",
     "price": "8000"
   },
   {
-    "item": "Beef/Chicken Shawarma With Hot Dogs",
+    "Energy Drinkitem": "Beef/Chicken Shawarma With Hot Dogs",
     "category": "Food",
     "subCategory": "Barbecue",
     "price": "5000"
   },
   {
-    "item": "Cat Fish/ Croaker Fish With Fries",
+    "Energy Drinkitem": "Cat Fish/ Croaker Fish With Fries",
     "category": "Food",
     "subCategory": "Barbecue",
     "price": "20000"
   },
   {
-    "item": "Chicken With Fries (Whole)",
+    "Energy Drinkitem": "Chicken With Fries (Whole)",
     "category": "Food",
     "subCategory": "Barbecue",
     "price": "20000"
   },
   {
-    "item": "Fruit platter",
+    "Energy Drinkitem": "Fruit platter",
     "category": "Food",
     "subCategory": "Dessert",
     "price": "4000"
   },
   {
-    "item": "Fruit Salad",
+    "Energy Drinkitem": "Fruit Salad",
     "category": "Food",
     "subCategory": "Dessert",
     "price": "3000"
   },
   {
-    "item": "Club Sandwich",
+    "Energy Drinkitem": "Club Sandwich",
     "category": "Food",
     "subCategory": "Side Dishes",
     "price": "4500"
   },
   {
-    "item": "Small Chops",
+    "Energy Drinkitem": "Small Chops",
     "category": "Food",
     "subCategory": "Side Dishes",
     "price": "3000"
   },
   {
-    "item": "Green Garden Sandwich",
+    "Energy Drinkitem": "Green Garden Sandwich",
     "category": "Food",
     "subCategory": "Side Dishes",
     "price": "3500"
   },
   {
-    "item": "Chicken Sandwich",
+    "Energy Drinkitem": "Chicken Sandwich",
     "category": "Food",
     "subCategory": "Side Dishes",
     "price": "4500"
   },
   {
-    "item": "Ice Cream (Vanilla)",
+    "Energy Drinkitem": "Ice Cream (Vanilla)",
     "category": "Food",
     "subCategory": "Dessert",
     "price": "1500"
   },
   {
-    "item": "Ice Cream (Strawberry)",
+    "Energy Drinkitem": "Ice Cream (Strawberry)",
     "category": "Food",
     "subCategory": "Dessert",
     "price": "1500"
   },
   {
-    "item": "Ice Cream (Peanut)",
+    "Energy Drinkitem": "Ice Cream (Peanut)",
     "category": "Food",
     "subCategory": "Dessert",
     "price": "1500"
   },
   {
-    "item": "Fruit Platter",
-    "category": "Food",
-    "subCategory": "Dessert",
-    "price": "4000"
-  },
-  {
-    "item": "Fruit Salad",
-    "category": "Food",
-    "subCategory": "Dessert",
-    "price": "3000"
-  },
-  {
-    "item": "Pet Mineral",
+    "Energy Drinkitem": "Pet Mineral",
     "category": "Drinks",
     "subCategory": "Soft Drinks",
     "price": "800"
   },
   {
-    "item": "Pet Maltina",
+    "Energy Drinkitem": "Pet Maltina",
     "category": "Drinks",
     "subCategory": "Soft Drinks",
     "price": "1000"
   },
   {
-    "item": "Malta Guinness",
+    "Energy Drinkitem": "Malta Guinness",
     "category": "Drinks",
     "subCategory": "Soft Drinks",
     "price": "1000"
   },
   {
-    "item": "Heineken",
+    "Energy Drinkitem": "Heineken",
     "category": "Drinks",
     "subCategory": "Beer",
     "price": "2500"
   },
   {
-    "item": "“33” Export",
+    "Energy Drinkitem": "“33” Export",
     "category": "Drinks",
     "subCategory": "Beer",
     "price": "1500"
   },
   {
-    "item": "Gulder",
+    "Energy Drinkitem": "Gulder",
     "category": "Drinks",
     "subCategory": "Beer",
     "price": "1500"
   },
   {
-    "item": "Trophy",
+    "Energy Drinkitem": "Trophy",
     "category": "Drinks",
     "subCategory": "Beer",
     "price": "1500"
   },
   {
-    "item": "Goldberg",
+    "Energy Drinkitem": "Goldberg",
     "category": "Drinks",
     "subCategory": "Beer",
     "price": "1500"
   },
   {
-    "item": "Orijin Beer",
+    "Energy Drinkitem": "Orijin Beer",
     "category": "Drinks",
     "subCategory": "Beer",
     "price": "2000"
   },
   {
-    "item": "Smirnoff Ice",
+    "Energy Drinkitem": "Smirnoff Ice",
     "category": "Drinks",
     "subCategory": "Beer",
     "price": "2500"
   },
   {
-    "item": "Budweiser",
+    "Energy Drinkitem": "Budweiser",
     "category": "Drinks",
     "subCategory": "Beer",
     "price": "2000"
   },
   {
-    "item": "Desperados",
+    "Energy Drinkitem": "Desperados",
     "category": "Drinks",
     "subCategory": "Beer",
     "price": "1500"
   },
   {
-    "item": "Tiger",
+    "Energy Drinkitem": "Tiger",
     "category": "Drinks",
     "subCategory": "Beer",
     "price": "1200"
   },
   {
-    "item": "Star Radler",
+    "Energy Drinkitem": "Star Radler",
     "category": "Drinks",
     "subCategory": "Beer",
     "price": "1500"
   },
   {
-    "item": "Can Stout",
+    "Energy Drinkitem": "Can Stout",
     "category": "Drinks",
     "subCategory": "Beer",
     "price": "1500"
   },
   {
-    "item": "Medium Stout",
+    "Energy Drinkitem": "Medium Stout",
     "category": "Drinks",
     "subCategory": "Beer",
     "price": "2000"
   },
   {
-    "item": "Black Smirnoff Ice",
+    "Energy Drinkitem": "Black Smirnoff Ice",
     "category": "Drinks",
     "subCategory": "beer",
     "price": "1500"
   },
   {
-    "item": "Monster",
+    "Energy Drinkitem": "Monster",
     "category": "Drinks",
     "subCategory": "Energy Drink",
     "price": "2000"
   },
   {
-    "item": "Redbull",
+    "Energy Drinkitem": "Redbull",
     "category": "Drinks",
-    "subCategory": "Energy Drinks",
+    "subCategory": "Energy Drink",
     "price": "3000"
   },
   {
-    "item": "Power Horse",
+    "Energy Drinkitem": "Power Horse",
     "category": "Drinks",
-    "subCategory": "Energy Drinks",
+    "subCategory": "Energy Drink",
     "price": "3000"
   },
   {
-    "item": "Juice",
+    "Energy Drinkitem": "Juice",
     "category": "Drinks",
     "subCategory": "Others",
     "price": "2500"
   },
   {
-    "item": "Yoghurt",
+    "Energy Drinkitem": "Yoghurt",
     "category": "Drinks",
     "subCategory": "Others",
     "price": "3000"
   },
   {
-    "item": "Bottle Water",
+    "Energy Drinkitem": "Bottle Water",
     "category": "Drinks",
     "subCategory": "Others",
     "price": "700"
   },
   {
-    "item": "Kolaq",
+    "Energy Drinkitem": "Kolaq",
     "category": "Drinks",
     "subCategory": "Others",
     "price": "1500"
   },
   {
-    "item": "Plastic Orijin",
+    "Energy Drinkitem": "Plastic Orijin",
     "category": "Drinks",
     "subCategory": "Others",
     "price": "1500"
   },
   {
-    "item": "Chapman",
+    "Energy Drinkitem": "Chapman",
     "category": "Drinks",
     "subCategory": "Others",
     "price": "2000"
   },
   {
-    "item": "Chamdor",
+    "Energy Drinkitem": "Chamdor",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
     "price": "10000"
   },
   {
-    "item": "Jack Daniel",
+    "Energy Drinkitem": "Jack Daniel",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
     "price": "38000"
   },
   {
-    "item": "Hennessy Vs",
+    "Energy Drinkitem": "Hennessy Vs",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
     "price": "80000"
   },
   {
-    "item": "Red Label",
+    "Energy Drinkitem": "Red Label",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
     "price": "35000"
   },
   {
-    "item": "Jameson",
+    "Energy Drinkitem": "Jameson",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
     "price": "38000"
   },
   {
-    "item": "Amarular",
+    "Energy Drinkitem": "Amarular",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
     "price": "15000"
   },
   {
-    "item": "Orijin Bitters",
+    "Energy Drinkitem": "Orijin Bitters",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
     "price": "9000"
   },
   {
-    "item": "Baileys",
+    "Energy Drinkitem": "Baileys",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
     "price": "36000"
   },
   {
-    "item": "Veuve Clicquot",
+    "Energy Drinkitem": "Veuve Clicquot",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
     "price": "130000"
   },
   {
-    "item": "Jameson (Black Barel)",
+    "Energy Drinkitem": "Jameson (Black Barel)",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
     "price": "50000"
   },
   {
-    "item": "Black Label",
+    "Energy Drinkitem": "Black Label",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
     "price": "38000"
   },
   {
-    "item": "Kuemmering",
+    "Energy Drinkitem": "Kuemmering",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
     "price": "15000"
   },
   {
-    "item": "Barcardi (Tot)",
+    "Energy Drinkitem": "Barcardi (Tot)",
+    "category": "Drinks",
+    "subCategory": "Spirit/Liquor/Champagne Drinks",
+    "price": "2000"
+  },
+  {
+    "Energy Drinkitem": "Andre",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
     "price": "20000"
   },
   {
-    "item": "Andre",
-    "category": "Drinks",
-    "subCategory": "Spirit/Liquor/Champagne Drinks",
-    "price": "20000"
-  },
-  {
-    "item": "Moet & Chandon (Imperial)",
+    "Energy Drinkitem": "Moet & Chandon (Imperial)",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
     "price": "120000"
   },
   {
-    "item": "Blue Cocktail",
+    "Energy Drinkitem": "Blue Cocktail",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
     "price": "10000"
   },
   {
-    "item": "Dundalgun",
+    "Energy Drinkitem": "Dundalgun",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
     "price": "15000"
   },
   {
-    "item": "Four Cousin",
+    "Energy Drinkitem": "Four Cousin",
     "category": "Drinks",
     "subCategory": "Red Wine",
     "price": "15000"
   },
   {
-    "item": "Massimo",
+    "Energy Drinkitem": "Massimo",
     "category": "Drinks",
     "subCategory": "Red Wine",
     "price": "26000"
   },
   {
-    "item": "Roxiela",
+    "Energy Drinkitem": "Roxiela",
     "category": "Drinks",
     "subCategory": "Red Wine",
     "price": "10000"
   },
   {
-    "item": "4Th Street",
+    "Energy Drinkitem": "4Th Street",
     "category": "Drinks",
     "subCategory": "Red Wine",
     "price": "10000"
   },
   {
-    "item": "Carlo Rossi",
-    "category": "Drinks",
-    "subCategory": "Red Wine",
-    "price": "18000"
-  },
-  {
-    "item": "Agor",
+    "Energy Drinkitem": "Carlo Rossi",
     "category": "Drinks",
     "subCategory": "Red Wine",
     "price": "17000"
   },
   {
-    "item": "Baron De Valls",
+    "Energy Drinkitem": "Agor",
+    "category": "Drinks",
+    "subCategory": "Red Wine",
+    "price": "18000"
+  },
+  {
+    "Energy Drinkitem": "Baron De Valls",
     "category": "Drinks",
     "subCategory": "Red Wine",
     "price": "10000"
   },
   {
-    "item": "Vodka (Tot)",
+    "Energy Drinkitem": "Vodka (Tot)",
     "category": "Drinks",
     "subCategory": "Vodka",
     "price": "1500"
   },
   {
-    "item": "Sky Vodka",
+    "Energy Drinkitem": "Sky Vodka",
     "category": "Drinks",
     "subCategory": "Vodka",
     "price": "27000"
   },
   {
-    "item": "Absolute Vodka",
+    "Energy Drinkitem": "Absolute Vodka",
     "category": "Drinks",
     "subCategory": "Vodka",
     "price": "27000"
