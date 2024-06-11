@@ -138,7 +138,7 @@ export const menuItems = [
     "price": "2500"
   },
   {
-    "item": "Basmati Rice",
+    "item": "Basmatti Rice",
     "category": "Food",
     "subCategory": "Rice",
     "price": "4000"
@@ -156,7 +156,7 @@ export const menuItems = [
     "price": "3500"
   },
   {
-    "item": "Coleslaw ",
+    "item": "Coleslaw",
     "category": "Food",
     "subCategory": "Salad",
     "price": "1500"
@@ -180,7 +180,7 @@ export const menuItems = [
     "price": "2500"
   },
   {
-    "item": "Chef Salad ",
+    "item": "Chef Salad",
     "category": "Food",
     "subCategory": "Salad",
     "price": "4000"
@@ -230,49 +230,49 @@ export const menuItems = [
   {
     "item": "Fried Yam Or Boiled Yam",
     "category": "Food",
-    "subCategory": "Others ",
+    "subCategory": "Others",
     "price": "2000"
   },
   {
     "item": "Boiled Or Fried Plantain",
     "category": "Food",
-    "subCategory": "Others ",
+    "subCategory": "Others",
     "price": "2000"
   },
   {
     "item": "Boiled Or Fried Sweet Potato",
     "category": "Food",
-    "subCategory": "Others ",
+    "subCategory": "Others",
     "price": "1500"
   },
   {
     "item": "French Fries",
     "category": "Food",
-    "subCategory": "Others ",
+    "subCategory": "Others",
     "price": "4000"
   },
   {
     "item": "Fresh Or Toasted Bread",
     "category": "Food",
-    "subCategory": "Others ",
+    "subCategory": "Others",
     "price": "1200"
   },
   {
     "item": "Paprika Irish Potato",
     "category": "Food",
-    "subCategory": "Others ",
+    "subCategory": "Others",
     "price": "1500"
   },
   {
-    "item": "Yam Porridge",
+    "item": "Yam Porrage",
     "category": "Food",
-    "subCategory": "Others ",
+    "subCategory": "Others",
     "price": "3000"
   },
   {
     "item": "Ikokore",
     "category": "Food",
-    "subCategory": "Others ",
+    "subCategory": "Others",
     "price": "3000"
   },
   {
@@ -330,7 +330,7 @@ export const menuItems = [
     "price": "5000"
   },
   {
-    "item": "Assorted  Pepper Soup",
+    "item": "Assorted Pepper Soup",
     "category": "Food",
     "subCategory": "Starter",
     "price": "5000"
@@ -342,7 +342,7 @@ export const menuItems = [
     "price": "6000"
   },
   {
-    "item": "Cream  Of Chicken Soup ",
+    "item": "Cream Of Chicken Soup",
     "category": "Food",
     "subCategory": "Starter",
     "price": "4000"
@@ -354,7 +354,7 @@ export const menuItems = [
     "price": "5000"
   },
   {
-    "item": "Cream of chicken soup with sweet corn ",
+    "item": "Cream of chicken soup with sweet corn",
     "category": "Food",
     "subCategory": "Starter",
     "price": "4000"
@@ -426,7 +426,7 @@ export const menuItems = [
     "price": "4500"
   },
   {
-    "item": "Soy sauce rice and vegetables ",
+    "item": "Soy sauce rice and vegetables",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "10000"
@@ -444,13 +444,13 @@ export const menuItems = [
     "price": "8000"
   },
   {
-    "item": "Chicken curry ",
-    "category": "Food ",
+    "item": "Chicken curry",
+    "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "8000"
   },
   {
-    "item": "Shredded beef/Diced beef in green pepper sauce ",
+    "item": "Shredded beef/Diced beef in green pepper sauce",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "10000"
@@ -462,7 +462,7 @@ export const menuItems = [
     "price": "12000"
   },
   {
-    "item": "Lamb chop in barbecue sauce ",
+    "item": "Lamb chop in barbecue sauce",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "10000"
@@ -486,7 +486,7 @@ export const menuItems = [
     "price": "12000"
   },
   {
-    "item": "Fried shrimps and vegetables ",
+    "item": "Fried shrimps and vegetables",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "10000"
@@ -504,7 +504,7 @@ export const menuItems = [
     "price": "8000"
   },
   {
-    "item": "Diced fish in vegetable sauce ",
+    "item": "Diced fish in vegetable sauce",
     "category": "Food",
     "subCategory": "Chinese Cuisine",
     "price": "8000"
@@ -516,15 +516,15 @@ export const menuItems = [
     "price": "7000"
   },
   {
-    "item": "4 pieces of chicken, fries, plantain, coleslaw ",
+    "item": "4 pieces of chicken, fries, plantain, coleslaw",
     "category": "Food",
-    "subCategory": "Special fiesta ",
+    "subCategory": "Special fiesta",
     "price": "22000"
   },
   {
     "item": "3 Roasted plantain, fried yam, snail in sauce",
     "category": "Food",
-    "subCategory": "Special fiesta ",
+    "subCategory": "Special fiesta",
     "price": "17950"
   },
   {
@@ -536,7 +536,7 @@ export const menuItems = [
   {
     "item": "Vegetable Curry With Chinese Fried Rice",
     "category": "Food",
-    "subCategory": "Sea Foods",
+    "subCategory": "Chinese Cuisine",
     "price": "15000"
   },
   {
@@ -548,7 +548,7 @@ export const menuItems = [
   {
     "item": "Sea Food Okro With Swallow Of Your Choice",
     "category": "Food",
-    "subCategory": "Quick Bites",
+    "subCategory": "Sea Foods",
     "price": "2000"
   },
   {
@@ -573,13 +573,13 @@ export const menuItems = [
     "item": "Spring Roll And Samosa Serve With Spicy Chicken Wings Or Peppered Gizzard",
     "category": "Food",
     "subCategory": "Quick Bites",
-    "price": "5000"
+    "price": "8000"
   },
   {
     "item": "Beef/Chicken Shawarma With Hot Dogs",
     "category": "Food",
     "subCategory": "Barbecue",
-    "price": "15000"
+    "price": "5000"
   },
   {
     "item": "Cat Fish/ Croaker Fish With Fries",
@@ -591,43 +591,43 @@ export const menuItems = [
     "item": "Chicken With Fries (Whole)",
     "category": "Food",
     "subCategory": "Barbecue",
-    "price": "4000"
+    "price": "20000"
   },
   {
-    "item": "Fruit Platter",
+    "item": "Fruit platter",
     "category": "Food",
-    "subCategory": "Barbecue",
-    "price": "3000"
+    "subCategory": "Dessert",
+    "price": "4000"
   },
   {
     "item": "Fruit Salad",
     "category": "Food",
-    "subCategory": "Side Dishes",
-    "price": "4500"
+    "subCategory": "Dessert salad",
+    "price": "3000"
   },
   {
     "item": "Club Sandwich",
     "category": "Food",
     "subCategory": "Side Dishes",
-    "price": "3000"
+    "price": "4500"
   },
   {
     "item": "Small Chops",
     "category": "Food",
     "subCategory": "Side Dishes",
-    "price": "3500"
+    "price": "3000"
   },
   {
     "item": "Green Garden Sandwich",
     "category": "Food",
     "subCategory": "Side Dishes",
-    "price": "7000"
+    "price": "3500"
   },
   {
-    "item": "Chicken Sandwich ",
+    "item": "Chicken Sandwich",
     "category": "Food",
-    "subCategory": "Dessert",
-    "price": "1500"
+    "subCategory": "Side Dishes",
+    "price": "4500"
   },
   {
     "item": "Ice Cream (Vanilla)",
@@ -645,19 +645,19 @@ export const menuItems = [
     "item": "Ice Cream (Peanut)",
     "category": "Food",
     "subCategory": "Dessert",
-    "price": "4000"
+    "price": "1500"
   },
   {
     "item": "Fruit Platter",
     "category": "Food",
     "subCategory": "Dessert",
-    "price": "3000"
+    "price": "4000"
   },
   {
     "item": "Fruit Salad",
-    "category": "Drinks",
-    "subCategory": "Soft Drinks",
-    "price": "800"
+    "category": "Food",
+    "subCategory": "Dessert",
+    "price": "3000"
   },
   {
     "item": "Pet Mineral",
@@ -674,14 +674,14 @@ export const menuItems = [
   {
     "item": "Malta Guinness",
     "category": "Drinks",
-    "subCategory": "Beer",
-    "price": "2500"
+    "subCategory": "Soft Drinks",
+    "price": "1000"
   },
   {
     "item": "Heineken",
     "category": "Drinks",
     "subCategory": "Beer",
-    "price": "1500"
+    "price": "2500"
   },
   {
     "item": "“33” Export",
@@ -711,85 +711,91 @@ export const menuItems = [
     "item": "Orijin Beer",
     "category": "Drinks",
     "subCategory": "Beer",
-    "price": "2500"
+    "price": "2000"
   },
   {
     "item": "Smirnoff Ice",
     "category": "Drinks",
     "subCategory": "Beer",
-    "price": "2000"
+    "price": "2500"
   },
   {
     "item": "Budweiser",
     "category": "Drinks",
     "subCategory": "Beer",
-    "price": "1500"
+    "price": "2000"
   },
   {
-    "item": "Desperados ",
+    "item": "Desperados",
     "category": "Drinks",
     "subCategory": "Beer",
-    "price": "1200"
+    "price": "1500"
   },
   {
     "item": "Tiger",
     "category": "Drinks",
     "subCategory": "Beer",
-    "price": "1500"
+    "price": "1200"
   },
   {
     "item": "Star Radler",
     "category": "Drinks",
     "subCategory": "Beer",
-    "price": "1000"
+    "price": "1500"
   },
   {
-    "item": "Can Stout ",
+    "item": "Can Stout",
     "category": "Drinks",
     "subCategory": "Beer",
-    "price": "2000"
+    "price": "1500"
   },
   {
     "item": "Medium Stout",
     "category": "Drinks",
     "subCategory": "Beer",
-    "price": "1500"
+    "price": "2000"
   },
   {
     "item": "Black Smirnoff Ice",
     "category": "Drinks",
-    "subCategory": "Energy Drink",
-    "price": "2000"
+    "subCategory": "beer",
+    "price": "1500"
   },
   {
     "item": "Monster",
     "category": "Drinks",
     "subCategory": "Energy Drink",
+    "price": "2000"
+  },
+  {
+    "item": "Redbull",
+    "category": "Drinks",
+    "subCategory": "Energy Drinks",
     "price": "3000"
   },
   {
     "item": "Power Horse",
     "category": "Drinks",
-    "subCategory": "Others",
-    "price": "2500"
+    "subCategory": "Energy Drinks",
+    "price": "3000"
   },
   {
     "item": "Juice",
     "category": "Drinks",
     "subCategory": "Others",
-    "price": "3000"
+    "price": "2500"
   },
   {
     "item": "Yoghurt",
     "category": "Drinks",
     "subCategory": "Others",
-    "price": "700"
+    "price": "3000"
   },
   {
     "item": "Bottle Water",
     "category": "Drinks",
     "subCategory": "Others",
-    "price": "1500"
+    "price": "700"
   },
   {
     "item": "Kolaq",
@@ -801,31 +807,31 @@ export const menuItems = [
     "item": "Plastic Orijin",
     "category": "Drinks",
     "subCategory": "Others",
-    "price": "2000"
+    "price": "1500"
   },
   {
     "item": "Chapman",
     "category": "Drinks",
     "subCategory": "Others",
-    "price": "10000"
+    "price": "2000"
   },
   {
     "item": "Chamdor",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
-    "price": "45000"
+    "price": "10000"
   },
   {
     "item": "Jack Daniel",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
-    "price": "80000"
+    "price": "38000"
   },
   {
     "item": "Hennessy Vs",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
-    "price": "28000"
+    "price": "80000"
   },
   {
     "item": "Red Label",
@@ -836,50 +842,50 @@ export const menuItems = [
   {
     "item": "Jameson",
     "category": "Drinks",
-    "subCategory": "Spirit/Liquor/Champagne Drinks",
-    "price": "10000"
+    "subCategory": "Spirit/Liquo",
+    "price": "38000"
   },
   {
     "item": "Amarular",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
-    "price": "9000"
+    "price": "15000"
   },
   {
     "item": "Orijin Bitters",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
-    "price": "26000"
+    "price": "9000"
   },
   {
     "item": "Baileys",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
-    "price": "130000"
+    "price": "36000"
   },
   {
     "item": "Veuve Clicquot",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
-    "price": "50000"
+    "price": "130000"
   },
   {
     "item": "Jameson (Black Barel)",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
-    "price": "35000"
+    "price": "50000"
   },
   {
     "item": "Black Label",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
-    "price": "12000"
+    "price": "38000"
   },
   {
     "item": "Kuemmering",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
-    "price": "1000"
+    "price": "15000"
   },
   {
     "item": "Barcardi (Tot)",
@@ -890,38 +896,38 @@ export const menuItems = [
   {
     "item": "Andre",
     "category": "Drinks",
-    "subCategory": "Spirit/Liquor/Champagne Drinks",
-    "price": "150000"
+    "subCategory": "Champagne",
+    "price": "20000"
   },
   {
     "item": "Moet & Chandon (Imperial)",
     "category": "Drinks",
-    "subCategory": "Spirit/Liquor/Champagne Drinks",
-    "price": "10000"
+    "subCategory": "Champagne",
+    "price": "120000"
   },
   {
     "item": "Blue Cocktail",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
-    "price": "15000"
+    "price": "10000"
   },
   {
     "item": "Dundalgun",
     "category": "Drinks",
-    "subCategory": "Red Wine",
+    "subCategory": "spirit/Liquor",
     "price": "15000"
   },
   {
     "item": "Four Cousin",
     "category": "Drinks",
     "subCategory": "Red Wine",
-    "price": "26000"
+    "price": "15000"
   },
   {
     "item": "Massimo",
     "category": "Drinks",
     "subCategory": "Red Wine",
-    "price": "6000"
+    "price": "26000"
   },
   {
     "item": "Roxiela",
@@ -933,7 +939,7 @@ export const menuItems = [
     "item": "4Th Street",
     "category": "Drinks",
     "subCategory": "Red Wine",
-    "price": "16000"
+    "price": "10000"
   },
   {
     "item": "Carlo Rossi",
@@ -945,19 +951,19 @@ export const menuItems = [
     "item": "Agor",
     "category": "Drinks",
     "subCategory": "Red Wine",
-    "price": "8000"
+    "price": "17000"
   },
   {
     "item": "Baron De Valls",
     "category": "Drinks",
-    "subCategory": "Vodka",
-    "price": "1000"
+    "subCategory": "Red Wine",
+    "price": "10000"
   },
   {
     "item": "Vodka (Tot)",
     "category": "Drinks",
     "subCategory": "Vodka",
-    "price": "25000"
+    "price": "1500"
   },
   {
     "item": "Sky Vodka",
@@ -967,8 +973,8 @@ export const menuItems = [
   },
   {
     "item": "Absolute Vodka",
-    "category": "Drinks ",
-    "subCategory": "Vodka ",
+    "category": "Drinks",
+    "subCategory": "Vodka",
     "price": "27000"
   }
 ]
