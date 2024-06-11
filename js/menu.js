@@ -602,7 +602,7 @@ export const menuItems = [
   {
     "item": "Fruit Salad",
     "category": "Food",
-    "subCategory": "Dessert salad",
+    "subCategory": "Salad",
     "price": "3000"
   },
   {
@@ -652,12 +652,6 @@ export const menuItems = [
     "category": "Food",
     "subCategory": "Dessert",
     "price": "4000"
-  },
-  {
-    "item": "Fruit Salad",
-    "category": "Food",
-    "subCategory": "Dessert",
-    "price": "3000"
   },
   {
     "item": "Pet Mineral",
