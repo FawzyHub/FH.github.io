@@ -516,15 +516,15 @@ export const menuItems = [
     "price": "7000"
   },
   {
-    "item": "4 pieces of chicken, fries, plantain, coleslaw",
+    "item": "4 pieces of chicken,fries, plantain, coleslaw",
     "category": "Food",
-    "subCategory": "Special fiesta",
+    "subCategory": "Special Fiesta",
     "price": "22000"
   },
   {
     "item": "3 Roasted plantain, fried yam, snail in sauce",
     "category": "Food",
-    "subCategory": "Special fiesta",
+    "subCategory": "Special Fiesta",
     "price": "17950"
   },
   {
@@ -646,6 +646,18 @@ export const menuItems = [
     "category": "Food",
     "subCategory": "Dessert",
     "price": "1500"
+  },
+  {
+    "item": "Fruit Platter",
+    "category": "Food",
+    "subCategory": "Dessert",
+    "price": "4000"
+  },
+  {
+    "item": "Fruit Salad",
+    "category": "Food",
+    "subCategory": "Dessert",
+    "price": "3000"
   },
   {
     "item": "Pet Mineral",
@@ -830,7 +842,7 @@ export const menuItems = [
   {
     "item": "Jameson",
     "category": "Drinks",
-    "subCategory": "Spirit/Liquo",
+    "subCategory": "Spirit/Liquor/Champagne Drinks",
     "price": "38000"
   },
   {
@@ -884,13 +896,13 @@ export const menuItems = [
   {
     "item": "Andre",
     "category": "Drinks",
-    "subCategory": "Champagne",
+    "subCategory": "Spirit/Liquor/Champagne Drinks",
     "price": "20000"
   },
   {
     "item": "Moet & Chandon (Imperial)",
     "category": "Drinks",
-    "subCategory": "Champagne",
+    "subCategory": "Spirit/Liquor/Champagne Drinks",
     "price": "120000"
   },
   {
@@ -902,7 +914,7 @@ export const menuItems = [
   {
     "item": "Dundalgun",
     "category": "Drinks",
-    "subCategory": "spirit/Liquor",
+    "subCategory": "Spirit/Liquor/Champagne Drinks",
     "price": "15000"
   },
   {
