@@ -21,37 +21,35 @@ window.onload = function() {
 
   const foodContainer = document.getElementById("food-menu-container")
   if (foodContainer) {
-    populateMenuItem(menuItems, "Starter", "starters")
-    populateMenuItem(menuItems, "Side Dishes", "starters")
-    populateMenuItem(menuItems, "Quick Bites", "starters")
-  
-    populateMenuItem(menuItems, "Rice", "mains")
-    populateMenuItem(menuItems, "Swallow", "mains")
-    populateMenuItem(menuItems, "Protein", "mains")
-    populateMenuItem(menuItems, "Soup", "mains")
-    populateMenuItem(menuItems, "Salad", "mains")
-    populateMenuItem(menuItems, "Sauce/Egg", "mains")
-    populateMenuItem(menuItems, "Sea Foods", "mains")
-    populateMenuItem(menuItems, "Barbecue", "mains")
-    
-    populateMenuItem(menuItems, "Chinese Cuisine", "continental")
-    populateMenuItem(menuItems, "Pastas", "continental")
+    populateMenuItem(menuItems, "Food", "Starter", "starters")
+    populateMenuItem(menuItems, "Food", "Side Dishes", "starters")
+    populateMenuItem(menuItems, "Food", "Quick Bites", "starters")
+    populateMenuItem(menuItems, "Food", "Rice", "mains")
+    populateMenuItem(menuItems, "Food", "Swallow", "mains")
+    populateMenuItem(menuItems, "Food", "Protein", "mains")
+    populateMenuItem(menuItems, "Food", "Soup", "mains")
+    populateMenuItem(menuItems, "Food", "Salad", "mains")
+    populateMenuItem(menuItems, "Food", "Sauce/Egg", "mains")
+    populateMenuItem(menuItems, "Food", "Sea Foods", "mains")
+    populateMenuItem(menuItems, "Food", "Barbecue", "mains")
+    populateMenuItem(menuItems, "Food", "Chinese Cuisine", "continental")
+    populateMenuItem(menuItems, "Food", "Pastas", "continental")
+    populateMenuItem(menuItems, "Food", "Dessert", "dessert")
 
-    populateMenuItem(menuItems, "Beer", "drink")
-    populateMenuItem(menuItems, "Spirit/Liquor/Champagne Drinks", "drink")
-    populateMenuItem(menuItems, "Red Wine", "drink")
-    populateMenuItem(menuItems, "Vodka", "drink")
-    populateMenuItem(menuItems, "Energy Drink", "drink")
-    populateMenuItem(menuItems, "Soft Drinks", "drink")
-    populateMenuItem(menuItems, "Others", "drink")
+    populateMenuItem(menuItems, "Drinks", "Beer", "drink")
+    populateMenuItem(menuItems, "Drinks", "Spirit/Liquor/Champagne Drinks", "drink")
+    populateMenuItem(menuItems, "Drinks", "Red Wine", "drink")
+    populateMenuItem(menuItems, "Drinks", "Vodka", "drink")
+    populateMenuItem(menuItems, "Drinks", "Energy Drink", "drink")
+    populateMenuItem(menuItems, "Drinks", "Soft Drinks", "drink")
+    populateMenuItem(menuItems, "Drinks", "Others", "drink")
     
-    populateMenuItem(menuItems, "Dessert", "dessert")
   }
   
 };
 
-const populateMenuItem = (menuItems, subCategory, parentId) =>{
-  const categorySelection = menuItems.filter((element) => element.subCategory === subCategory)
+const populateMenuItem = (menuItems, category, subCategory, parentId) =>{
+  const categorySelection = menuItems.filter((element) => element.subCategory === subCategory && category === category)
   const categoryElement = document.createElement("div")
   categoryElement.setAttribute("class", "food-category");
   
