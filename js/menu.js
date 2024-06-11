@@ -117,7 +117,7 @@ export const menuItems = [
     item: "Amala",
     category: "Food",
     subCategory: "Swallow",
-    price: "1000.00"
+    price: "1500.00"
   },
   {
     item: "Jollof Rice",
@@ -288,7 +288,7 @@ export const menuItems = [
     price: "4000.00"
   },
   {
-    item: "Spaghetti Arabica",
+    item: "Spaghetti Arrabbiata",
     category: "Food",
     subCategory: "Pastas",
     price: "4000.00"
