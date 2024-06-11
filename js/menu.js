@@ -648,12 +648,6 @@ export const menuItems = [
     "price": "1500"
   },
   {
-    "item": "Fruit Platter",
-    "category": "Food",
-    "subCategory": "Dessert",
-    "price": "4000"
-  },
-  {
     "item": "Pet Mineral",
     "category": "Drinks",
     "subCategory": "Soft Drinks",
