@@ -2,10 +2,15 @@ body{
 	padding-top: 70px;
 	min-height: 100vh;
 	font-family: 'Inter', sans-serif;
+	font-size: 18px;
 }
 
 .nav-item > .active{
 	background-color: #D22668 !important;
+}
+
+.nav-link{
+	color: #000;
 }
 
 p {
@@ -16,6 +21,9 @@ h1,h2,h3,h4,h5,h6{
 	font-family: 'Inter', sans-serif !important;
 }
 
+.proper-case{
+	text-transform: capitalize;
+}
 
 .cust-container{
 /*	margin-left: 20px;
@@ -94,9 +102,6 @@ h1,h2,h3,h4,h5,h6{
 
 .card{
 	margin-bottom: 20px;
-}
-
-.card-body{
 }
 
 /* LANDING PAGE BOX START*/
@@ -345,12 +350,6 @@ button{
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding: 10px;
-	color: #fff;
-	background-color: #D22668;
-}
-	
-.food-header-category > hr{
-	border-color: #fff;
 }
 
 .food-item-category{
@@ -360,11 +359,11 @@ button{
 @media screen and (max-width: 1000px){
 
 		body{
-			font-size: 14px;
+			font-size: 16px;
 		}
 
 		p{
-			font-size: 14px;
+			font-size: 16px;
 		}
 
 		.about{

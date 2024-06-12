@@ -63,7 +63,10 @@ const populateMenuItem = (menuItems, category, subCategory, parentId) =>{
     const { item, price } = element
     const elementDiv = document.createElement("div")
     elementDiv.setAttribute("class", "food-item-category");
-    elementDiv.innerHTML = `${item} => <span>&#8358;</span>${Number(price).toLocaleString()}`
+    elementDiv.innerHTML = `
+      <span class="proper-case">${item}</span> <br> 
+      <span>&#8358;</span>
+      <span class="text-muted h6">${Number(price).toLocaleString()}<span>`
     categoryElement.appendChild(elementDiv)
   })
   document.getElementById(parentId).appendChild(categoryElement);
