@@ -813,7 +813,7 @@ export const menuItems = [
     "item": "Jack Daniel",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
-    "price": "38000"
+    "price": "50000"
   },
   {
     "item": "Hennessy Vs",
@@ -831,7 +831,7 @@ export const menuItems = [
     "item": "Jameson",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
-    "price": "38000"
+    "price": "40000"
   },
   {
     "item": "Amarular",
@@ -849,7 +849,7 @@ export const menuItems = [
     "item": "Baileys",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
-    "price": "36000"
+    "price": "30000"
   },
   {
     "item": "Veuve Clicquot",
@@ -867,7 +867,7 @@ export const menuItems = [
     "item": "Black Label",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
-    "price": "38000"
+    "price": "50000"
   },
   {
     "item": "Kuemmering",
@@ -939,7 +939,7 @@ export const menuItems = [
     "item": "Agor",
     "category": "Drinks",
     "subCategory": "Red Wine",
-    "price": "18000"
+    "price": "20000"
   },
   {
     "item": "Baron De Valls",
