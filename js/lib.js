@@ -59,7 +59,7 @@ const populateMenuItem = (menuItems, category, subCategory, parentId) =>{
   categoryHeader.innerHTML = `<h5>${subCategory} </h5></b> <hr></hr>`
   categoryElement.appendChild(categoryHeader)
 
-  categorySelection.sort((a,b)=> b.item.localeCompare(a.item)).map((element) => {
+  categorySelection.sort((a,b)=> a.item.localeCompare(b.item)).map((element) => {
     const { item, price } = element
     const elementDiv = document.createElement("div")
     elementDiv.setAttribute("class", "food-item-category");
