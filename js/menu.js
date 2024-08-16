@@ -651,7 +651,7 @@ export const menuItems = [
     "item": "Pet Mineral",
     "category": "Drinks",
     "subCategory": "Soft Drinks",
-    "price": "800"
+    "price": "1000"
   },
   {
     "item": "Pet Maltina",
@@ -663,7 +663,7 @@ export const menuItems = [
     "item": "Malta Guinness",
     "category": "Drinks",
     "subCategory": "Soft Drinks",
-    "price": "1000"
+    "price": "1200"
   },
   {
     "item": "Heineken",
@@ -783,7 +783,7 @@ export const menuItems = [
     "item": "Bottle Water",
     "category": "Drinks",
     "subCategory": "Others",
-    "price": "700"
+    "price": "800"
   },
   {
     "item": "Kolaq",
@@ -795,13 +795,13 @@ export const menuItems = [
     "item": "Plastic Orijin",
     "category": "Drinks",
     "subCategory": "Others",
-    "price": "1500"
+    "price": "2000"
   },
   {
     "item": "Chapman",
     "category": "Drinks",
     "subCategory": "Others",
-    "price": "2000"
+    "price": "3500"
   },
   {
     "item": "Chamdor",
