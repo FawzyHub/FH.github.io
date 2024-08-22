@@ -627,12 +627,6 @@ export const menuItems = [
     "item": "Chicken Sandwich",
     "category": "Food",
     "subCategory": "Side Dishes",
-    "price": "4500"
-  },
-  {
-    "item": "Chicken Sandwich",
-    "category": "Food",
-    "subCategory": "Side Dishes",
     "price": "6000"
   },
   {
