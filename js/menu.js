@@ -33,7 +33,7 @@ export const menuItems = [
     "item": "Snail",
     "category": "Food",
     "subCategory": "Protein",
-    "price": "10000"
+    "price": "15000"
   },
   {
     "item": "Assorted",
@@ -628,6 +628,18 @@ export const menuItems = [
     "category": "Food",
     "subCategory": "Side Dishes",
     "price": "4500"
+  },
+  {
+    "item": "Chicken Sandwich",
+    "category": "Food",
+    "subCategory": "Side Dishes",
+    "price": "6000"
+  },
+  {
+    "item": "Chips",
+    "category": "Food",
+    "subCategory": "Side Dishes",
+    "price": "4000"
   },
   {
     "item": "Ice Cream (Vanilla)",
