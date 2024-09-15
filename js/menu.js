@@ -1,5 +1,29 @@
 export const menuItems = [
   {
+    "item": "Pap, Akara, Milk & Sugar",
+    "category": "Food",
+    "subCategory": "Others",
+    "price": "4500"
+  },
+  {
+    "item": "Pap",
+    "category": "Food",
+    "subCategory": "Others",
+    "price": "2000"
+  },
+  {
+    "item": "Akara",
+    "category": "Food",
+    "subCategory": "Others",
+    "price": "2500"
+  }, 
+  {
+    "item": "Yam",
+    "category": "Food",
+    "subCategory": "Others",
+    "price": "2500"
+  },      
+  {
     "item": "Goat Meat",
     "category": "Food",
     "subCategory": "Protein",
@@ -195,13 +219,13 @@ export const menuItems = [
     "item": "Egg Sauce",
     "category": "Food",
     "subCategory": "Sauce/Egg",
-    "price": "1500"
+    "price": "2000"
   },
   {
     "item": "Omelette",
     "category": "Food",
     "subCategory": "Sauce/Egg",
-    "price": "1500"
+    "price": "2000"
   },
   {
     "item": "Boiled Egg",
@@ -255,7 +279,7 @@ export const menuItems = [
     "item": "Fresh Or Toasted Bread",
     "category": "Food",
     "subCategory": "Others",
-    "price": "1200"
+    "price": "2000"
   },
   {
     "item": "Paprika Irish Potato",
