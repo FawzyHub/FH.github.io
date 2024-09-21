@@ -578,25 +578,25 @@ export const menuItems = [
   {
     "item": "Fawzy King's Pie",
     "category": "Food",
-    "subCategory": "Quick Bites",
+    "subCategory": "Side Dishes",
     "price": "1500"
   },
   {
     "item": "Fawzy Jumbo Pie",
     "category": "Food",
-    "subCategory": "Quick Bites",
+    "subCategory": "Side Dishes",
     "price": "8000"
   },
   {
     "item": "Chicken/Beef Big Boy Ham Burger With Fries",
     "category": "Food",
-    "subCategory": "Quick Bites",
+    "subCategory": "Side Dishes",
     "price": "10000"
   },
   {
     "item": "Spring Roll And Samosa Serve With Spicy Chicken Wings Or Peppered Gizzard",
     "category": "Food",
-    "subCategory": "Quick Bites",
+    "subCategory": "Side Dishes",
     "price": "8000"
   },
   {
@@ -994,6 +994,54 @@ export const menuItems = [
     "category": "Drinks",
     "subCategory": "Vodka",
     "price": "27000"
-  }
+  },
+  {
+    "item": "American Breakfast",
+    "category": "Food",
+    "subCategory": "Breakfast",
+    "description": "fresh or toasted bread, choice of eggs. Bake beans, sausages,glass of juice.choice of cereal , tea or coffee, milk and sugar",
+    "price": "7500"
+  },
+  {
+    "item": "Nigerian Breakfast Option 1",
+    "category": "Food",
+    "subCategory": "Breakfast",
+    "description": "Boiled yam or fried yam, eggs of your choice, tea or coffee with milk",
+    "price": "4500"
+  },
+  {
+    "item": "Nigerian Breakfast Option 2",
+    "category": "Food",
+    "subCategory": "Breakfast",
+    "description": "Boiled or fried plantain with eggs of your choice",
+    "price": "4000"
+  },
+  {
+    "item": "Nigerian Breakfast Option 3",
+    "category": "Food",
+    "subCategory": "Breakfast",
+    "description": "Pap or custard or oats with moimoi or Akara",
+    "price": "4500"
+  },
+  {
+    "item": "Nigerian Breakfast Option 4",
+    "category": "Food",
+    "subCategory": "Breakfast",
+    "description": "Fresh or toasted bread with eggs of your choice with tea or coffee",
+    "price": "4000"
+  },
+  {
+    "item": "Continental Breakfast",
+    "category": "Food",
+    "subCategory": "Breakfast",
+    "description": "Fresh or toasted bread with eggs of your choice with tea or coffee",
+    "price": "4000"
+  },
+  {
+    "item": "Full English Breakfast",
+    "category": "Food",
+    "subCategory": "Breakfast",
+    "description": "Oats Or custard Fresh or toast bread with omelet,sausage s, baked beans fruit platter and a glass of orange juice",
+    "price": "8950"
+  },  
 ]
-

@@ -1,7 +1,7 @@
 import { menuItems } from "./menu.js";
 
-menuItems
 window.onload = function() {
+
   var acc = document.getElementsByClassName("accordion");
   var i;
   
@@ -21,55 +21,59 @@ window.onload = function() {
 
   const foodContainer = document.getElementById("food-menu-container")
   if (foodContainer) {
-    populateMenuItem(menuItems, "Food", "Starter", "starters")
-    populateMenuItem(menuItems, "Food", "Side Dishes", "starters")
-    populateMenuItem(menuItems, "Food", "Quick Bites", "starters")
-    populateMenuItem(menuItems, "Food", "Rice", "mains")
-    populateMenuItem(menuItems, "Food", "Swallow", "mains")
-    populateMenuItem(menuItems, "Food", "Protein", "mains")
-    populateMenuItem(menuItems, "Food", "Soup", "mains")
-    populateMenuItem(menuItems, "Food", "Salad", "mains")
-    populateMenuItem(menuItems, "Food", "Sauce/Egg", "mains")
-    populateMenuItem(menuItems, "Food", "Sea Foods", "mains")
-    populateMenuItem(menuItems, "Food", "Barbecue", "mains")
-    populateMenuItem(menuItems, "Food", "Others", "mains")
-    populateMenuItem(menuItems, "Food", "Chinese Cuisine", "continental")
-    populateMenuItem(menuItems, "Food", "Pastas", "continental")
-    populateMenuItem(menuItems, "Food", "Dessert", "dessert")
 
-    populateMenuItem(menuItems, "Drinks", "Beer", "drink")
-    populateMenuItem(menuItems, "Drinks", "Spirit/Liquor/Champagne Drinks", "drink")
-    populateMenuItem(menuItems, "Drinks", "Red Wine", "drink")
-    populateMenuItem(menuItems, "Drinks", "Vodka", "drink")
-    populateMenuItem(menuItems, "Drinks", "Energy Drink", "drink")
-    populateMenuItem(menuItems, "Drinks", "Soft Drinks", "drink")
-    populateMenuItem(menuItems, "Drinks", "Others", "drink")
+    populateMenuItem('Food', 'Starter')
+    populateMenuItem("Food", "Salad")
+    populateMenuItem('Food', 'Breakfast')
+    populateMenuItem("Food", "Side Dishes")
+    populateMenuItem("Food", "Rice")
+    populateMenuItem("Food", "Pastas")
+    populateMenuItem("Food", "Swallow")
+    populateMenuItem("Food", "Soup")
+    populateMenuItem("Food", "Protein")
+    populateMenuItem("Food", "Sauce/Egg")
+    populateMenuItem("Food", "Sea Foods")
+    populateMenuItem("Food", "Barbecue")
+    populateMenuItem("Food", "Chinese Cuisine")
+    populateMenuItem("Food", "Others")
+    populateMenuItem("Food", "Dessert")
+
+    populateMenuItem("Drinks", "Beer")
+    populateMenuItem("Drinks", "Spirit/Liquor/Champagne Drinks")
+    populateMenuItem("Drinks", "Red Wine")
+    populateMenuItem("Drinks", "Vodka")
+    populateMenuItem("Drinks", "Energy Drink")
+    populateMenuItem("Drinks", "Soft Drinks")
+    populateMenuItem("Drinks", "Others")
     
   }
   
 };
 
-const populateMenuItem = (menuItems, category, subCategory, parentId) =>{
-  const categorySelection = menuItems.filter((element) => element.subCategory === subCategory && element.category === category)
-  const categoryElement = document.createElement("div")
-  categoryElement.setAttribute("class", "food-category");
-  
-  const categoryHeader = document.createElement("div")
-  categoryHeader.setAttribute("class", "food-header-category");
-  categoryHeader.innerHTML = `<h5>${subCategory} </h5></b> <hr></hr>`
-  categoryElement.appendChild(categoryHeader)
+const populateMenuItem = (category, subCategory) =>{
 
-  categorySelection.sort((a,b)=> a.item.localeCompare(b.item)).map((element) => {
-    const { item, price } = element
-    const elementDiv = document.createElement("div")
-    elementDiv.setAttribute("class", "food-item-category");
-    elementDiv.innerHTML = `
-      <span class="proper-case">${item}</span> <br> 
-      <span>&#8358;</span>
-      <span class="text-muted h6">${Number(price).toLocaleString()}<span>`
-    categoryElement.appendChild(elementDiv)
-  })
-  document.getElementById(parentId).appendChild(categoryElement);
+    const categoryList = menuItems.filter(item => item.category === category)
+    const categoryItems = categoryList.filter(item => item.subCategory === subCategory)
+
+    const categoryItemDiv = document.createElement("div")
+    categoryItemDiv.setAttribute("class", "food-category");
+    categoryItemDiv.setAttribute("id", subCategory);
+
+    const categoryItemHeader = document.createElement("div")
+    categoryItemHeader.setAttribute("class", "food-header-category");
+    categoryItemHeader.innerHTML = `<h5 style=color:#CD24BA>${subCategory}</h5></b> <hr></hr>`
+    categoryItemDiv.appendChild(categoryItemHeader)
+
+    categoryItems.sort((a,b)=> a.item.localeCompare(b.item)).map((element) => {
+      const { item, price } = element
+      const elementDiv = document.createElement("div")
+      elementDiv.setAttribute("class", "food-item-category");
+      elementDiv.innerHTML = `
+        <span class="proper-case">${item}</span> - <span class="h6">&#8358;${Number(price).toLocaleString()}<span> <br> 
+        <span class="text-muted h6">${element.description ?? ''}<span>`
+      categoryItemDiv.appendChild(elementDiv)
+    })
+    document.getElementById('food-menu-container').appendChild(categoryItemDiv);
 } 
 
 function openCity(evt, cityName) {
