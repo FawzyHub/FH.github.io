@@ -783,10 +783,10 @@ export const menuItems = [
     "item": "Monster",
     "category": "Drinks",
     "subCategory": "Energy Drink",
-    "price": "2000"
+    "price": "2500"
   },
   {
-    "item": "Redbull",
+    "item": "Red Bull",
     "category": "Drinks",
     "subCategory": "Energy Drink",
     "price": "3000"
@@ -934,6 +934,12 @@ export const menuItems = [
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
     "price": "15000"
+  },
+  {
+    "item": "Campari",
+    "category": "Drinks",
+    "subCategory": "Spirit/Liquor/Champagne Drinks",
+    "price": "30000"
   },
   {
     "item": "Four Cousin",
