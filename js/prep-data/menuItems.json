@@ -1,4 +1,4 @@
-export const menuItems = [
+[
   {
     "item": "Pap, Akara, Milk & Sugar",
     "category": "Food",
@@ -819,7 +819,7 @@ export const menuItems = [
     "description": ""
   },
   {
-    "item": "33 Export",
+    "item": "\u201c33\u201d Export",
     "category": "Drinks",
     "subCategory": "Beer",
     "price": "1500",
