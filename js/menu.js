@@ -290,7 +290,7 @@ export const menuItems = [
     "item": "Scramble Egg",
     "category": "Food",
     "subCategory": "Sauce/Egg",
-    "price": "1500",
+    "price": "3000",
     "description": ""
   },
   {

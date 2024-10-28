@@ -290,7 +290,7 @@
     "item": "Scramble Egg",
     "category": "Food",
     "subCategory": "Sauce/Egg",
-    "price": "1500",
+    "price": "3000",
     "description": ""
   },
   {
@@ -819,7 +819,7 @@
     "description": ""
   },
   {
-    "item": "\u201c33\u201d Export",
+    "item": "33 Export",
     "category": "Drinks",
     "subCategory": "Beer",
     "price": "1500",
