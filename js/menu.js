@@ -31,35 +31,35 @@ export const menuItems = [
     "item": "Goat Meat",
     "category": "Food",
     "subCategory": "Protein",
-    "price": "4500",
+    "price": "5000",
     "description": ""
   },
   {
     "item": "Beef",
     "category": "Food",
     "subCategory": "Protein",
-    "price": "4500",
+    "price": "5000",
     "description": ""
   },
   {
     "item": "Chicken",
     "category": "Food",
     "subCategory": "Protein",
-    "price": "4500",
+    "price": "5000",
     "description": ""
   },
   {
     "item": "Croaker Fish",
     "category": "Food",
     "subCategory": "Protein",
-    "price": "5500",
+    "price": "6000",
     "description": ""
   },
   {
     "item": "Catfish",
     "category": "Food",
     "subCategory": "Protein",
-    "price": "5500",
+    "price": "6000",
     "description": ""
   },
   {
@@ -73,14 +73,14 @@ export const menuItems = [
     "item": "Assorted",
     "category": "Food",
     "subCategory": "Protein",
-    "price": "4500",
+    "price": "5000",
     "description": ""
   },
   {
     "item": "Gizzard",
     "category": "Food",
     "subCategory": "Protein",
-    "price": "4000",
+    "price": "4500",
     "description": ""
   },
   {
@@ -175,6 +175,13 @@ export const menuItems = [
     "description": ""
   },
   {
+    "item": "Jollof Rice, Plantain or Coleslaw",
+    "category": "Food",
+    "subCategory": "Rice",
+    "price": "3500",
+    "description": ""
+  },
+  {
     "item": "Fried Rice",
     "category": "Food",
     "subCategory": "Rice",
@@ -182,10 +189,24 @@ export const menuItems = [
     "description": ""
   },
   {
+    "item": "Fried Rice, Plantain or Coleslaw",
+    "category": "Food",
+    "subCategory": "Rice",
+    "price": "4000",
+    "description": ""
+  },
+  {
     "item": "White Rice",
     "category": "Food",
     "subCategory": "Rice",
     "price": "2500",
+    "description": ""
+  },
+  {
+    "item": "White Rice, Plantain or Coleslaw",
+    "category": "Food",
+    "subCategory": "Rice",
+    "price": "3000",
     "description": ""
   },
   {
@@ -360,7 +381,7 @@ export const menuItems = [
     "item": "Spaghetti Bolognese",
     "category": "Food",
     "subCategory": "Pastas",
-    "price": "4000",
+    "price": "7500",
     "description": ""
   },
   {
@@ -381,7 +402,7 @@ export const menuItems = [
     "item": "Spaghetti Jollof",
     "category": "Food",
     "subCategory": "Pastas",
-    "price": "3000",
+    "price": "3500",
     "description": ""
   },
   {
@@ -392,38 +413,45 @@ export const menuItems = [
     "description": ""
   },
   {
-    "item": "Goat Meat Pepper Soup",
-    "category": "Food",
-    "subCategory": "Starter",
-    "price": "5000",
-    "description": ""
-  },
-  {
-    "item": "Croaker Fish Pepper Soup",
+    "item": "Goat Meat Pepper Soup (with Bread)",
     "category": "Food",
     "subCategory": "Starter",
     "price": "6000",
     "description": ""
   },
   {
-    "item": "Chicken Pepper Soup",
+    "item": "Croaker Fish Pepper Soup (with Bread)",
     "category": "Food",
     "subCategory": "Starter",
-    "price": "5000",
+    "price": "7000",
     "description": ""
   },
   {
-    "item": "Assorted Pepper Soup",
-    "category": "Food",
-    "subCategory": "Starter",
-    "price": "5000",
-    "description": ""
-  },
-  {
-    "item": "Catfish Pepper Soup",
+    "item": "Chicken Pepper Soup (with Bread)",
     "category": "Food",
     "subCategory": "Starter",
     "price": "6000",
+    "description": ""
+  },
+  {
+    "item": "Assorted Pepper Soup (with Bread)",
+    "category": "Food",
+    "subCategory": "Starter",
+    "price": "6000",
+    "description": ""
+  },
+  {
+    "item": "Catfish Pepper Soup (with Bread)",
+    "category": "Food",
+    "subCategory": "Starter",
+    "price": "7000",
+    "description": ""
+  },
+  {
+    "item": "Gizzard Pepper Soup (with Bread)",
+    "category": "Food",
+    "subCategory": "Starter",
+    "price": "5500",
     "description": ""
   },
   {
@@ -770,21 +798,7 @@ export const menuItems = [
     "description": ""
   },
   {
-    "item": "Ice Cream (Vanilla)",
-    "category": "Food",
-    "subCategory": "Dessert",
-    "price": "1500",
-    "description": ""
-  },
-  {
-    "item": "Ice Cream (Strawberry)",
-    "category": "Food",
-    "subCategory": "Dessert",
-    "price": "1500",
-    "description": ""
-  },
-  {
-    "item": "Ice Cream (Peanut)",
+    "item": "Ice Cream (Vanilla, Strawberry, Peanut)",
     "category": "Food",
     "subCategory": "Dessert",
     "price": "1500",
@@ -812,10 +826,17 @@ export const menuItems = [
     "description": ""
   },
   {
+    "item": "Schweppes",
+    "category": "Drinks",
+    "subCategory": "Soft Drinks",
+    "price": "1000",
+    "description": ""
+  },
+  {
     "item": "Heineken",
     "category": "Drinks",
     "subCategory": "Beer",
-    "price": "2500",
+    "price": "3000",
     "description": ""
   },
   {
@@ -829,21 +850,21 @@ export const menuItems = [
     "item": "Gulder",
     "category": "Drinks",
     "subCategory": "Beer",
-    "price": "1500",
+    "price": "2000",
     "description": ""
   },
   {
     "item": "Trophy",
     "category": "Drinks",
     "subCategory": "Beer",
-    "price": "1500",
+    "price": "2000",
     "description": ""
   },
   {
     "item": "Goldberg",
     "category": "Drinks",
     "subCategory": "Beer",
-    "price": "1500",
+    "price": "2000",
     "description": ""
   },
   {
@@ -857,7 +878,7 @@ export const menuItems = [
     "item": "Smirnoff Ice",
     "category": "Drinks",
     "subCategory": "Beer",
-    "price": "2500",
+    "price": "3000",
     "description": ""
   },
   {
@@ -896,17 +917,24 @@ export const menuItems = [
     "description": ""
   },
   {
+    "item": "Can Malt",
+    "category": "Drinks",
+    "subCategory": "Beer",
+    "price": "1500",
+    "description": ""
+  },
+  {
     "item": "Medium Stout",
     "category": "Drinks",
     "subCategory": "Beer",
-    "price": "2000",
+    "price": "2500",
     "description": ""
   },
   {
     "item": "Black Smirnoff Ice",
     "category": "Drinks",
-    "subCategory": "beer",
-    "price": "1500",
+    "subCategory": "Beer",
+    "price": "2000",
     "description": ""
   },
   {
@@ -934,14 +962,14 @@ export const menuItems = [
     "item": "Juice",
     "category": "Drinks",
     "subCategory": "Others",
-    "price": "2500",
+    "price": "3000",
     "description": ""
   },
   {
     "item": "Yoghurt",
     "category": "Drinks",
     "subCategory": "Others",
-    "price": "3000",
+    "price": "3500",
     "description": ""
   },
   {
@@ -1216,5 +1244,19 @@ export const menuItems = [
     "subCategory": "Breakfast",
     "price": "8950",
     "description": "Oats Or custard Fresh or toast bread with omelet,sausage s, baked beans fruit platter and a glass of orange juice"
+  },
+  {
+    "item": "Tea With Milk",
+    "category": "Food",
+    "subCategory": "Breakfast",
+    "price": "1500",
+    "description": ""
+  },
+  {
+    "item": "Chocolate With Milk",
+    "category": "Food",
+    "subCategory": "Breakfast",
+    "price": "2000",
+    "description": ""
   }
 ]
