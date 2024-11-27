@@ -171,13 +171,6 @@ export const menuItems = [
     "item": "Jollof Rice",
     "category": "Food",
     "subCategory": "Rice",
-    "price": "3000",
-    "description": ""
-  },
-  {
-    "item": "Jollof Rice, Plantain or Coleslaw",
-    "category": "Food",
-    "subCategory": "Rice",
     "price": "3500",
     "description": ""
   },
@@ -185,7 +178,7 @@ export const menuItems = [
     "item": "Fried Rice",
     "category": "Food",
     "subCategory": "Rice",
-    "price": "3500",
+    "price": "4000",
     "description": ""
   },
   {
@@ -197,13 +190,6 @@ export const menuItems = [
   },
   {
     "item": "White Rice",
-    "category": "Food",
-    "subCategory": "Rice",
-    "price": "2500",
-    "description": ""
-  },
-  {
-    "item": "White Rice, Plantain or Coleslaw",
     "category": "Food",
     "subCategory": "Rice",
     "price": "3000",
@@ -822,7 +808,7 @@ export const menuItems = [
     "item": "Malta Guinness",
     "category": "Drinks",
     "subCategory": "Soft Drinks",
-    "price": "1200",
+    "price": "1500",
     "description": ""
   },
   {
@@ -871,7 +857,7 @@ export const menuItems = [
     "item": "Orijin Beer",
     "category": "Drinks",
     "subCategory": "Beer",
-    "price": "2000",
+    "price": "2500",
     "description": ""
   },
   {
@@ -885,7 +871,7 @@ export const menuItems = [
     "item": "Budweiser",
     "category": "Drinks",
     "subCategory": "Beer",
-    "price": "2000",
+    "price": "2500",
     "description": ""
   },
   {
