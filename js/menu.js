@@ -182,13 +182,6 @@ export const menuItems = [
     "description": ""
   },
   {
-    "item": "Fried Rice, Plantain or Coleslaw",
-    "category": "Food",
-    "subCategory": "Rice",
-    "price": "4000",
-    "description": ""
-  },
-  {
     "item": "White Rice",
     "category": "Food",
     "subCategory": "Rice",
