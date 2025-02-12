@@ -31,35 +31,35 @@ export const menuItems = [
     "item": "Goat Meat",
     "category": "Food",
     "subCategory": "Protein",
-    "price": "5000",
+    "price": "6000",
     "description": ""
   },
   {
     "item": "Beef",
     "category": "Food",
     "subCategory": "Protein",
-    "price": "5000",
+    "price": "6000",
     "description": ""
   },
   {
     "item": "Chicken",
     "category": "Food",
     "subCategory": "Protein",
-    "price": "5000",
+    "price": "6000",
     "description": ""
   },
   {
     "item": "Croaker Fish",
     "category": "Food",
     "subCategory": "Protein",
-    "price": "6000",
+    "price": "8000",
     "description": ""
   },
   {
     "item": "Catfish",
     "category": "Food",
     "subCategory": "Protein",
-    "price": "6000",
+    "price": "8000",
     "description": ""
   },
   {
@@ -73,14 +73,14 @@ export const menuItems = [
     "item": "Assorted",
     "category": "Food",
     "subCategory": "Protein",
-    "price": "5000",
+    "price": "6000",
     "description": ""
   },
   {
     "item": "Gizzard",
     "category": "Food",
     "subCategory": "Protein",
-    "price": "4500",
+    "price": "5500",
     "description": ""
   },
   {
@@ -115,7 +115,7 @@ export const menuItems = [
     "item": "Edikang-Ikong",
     "category": "Food",
     "subCategory": "Soup",
-    "price": "2500",
+    "price": "3500",
     "description": ""
   },
   {
