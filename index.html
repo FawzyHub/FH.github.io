@@ -5,31 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Slick & Classy Hotel</title>
   <!-- Link to CSS file -->
-  <link rel="stylesheet" href="assets/css/style.css" />
   <!-- Google Fonts (optional) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link 
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" 
-    rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" 
+  rel="stylesheet"
   >
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
   <!-- HEADER / NAVBAR -->
   <header class="header">
     <nav class="nav container">
-      <a href="#" class="logo">LuxeStay</a>
+      <a href="/" class="logo">
+        <img src="./assets/FAWZYHOTEL/LOGOFILES/SUBMARK/SVG/SUBMARK LOGO - CREAM ON GREEN.svg" height="50" width="30"/>
+      </a>
       <button class="nav-toggle" id="nav-toggle">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
       </button>
       <ul class="nav-menu" id="nav-menu">
-        <li><a href="#" class="nav-link">Home</a></li>
+        <li><a href="/" class="nav-link">Home</a></li>
         <li><a href="#rooms" class="nav-link">Rooms</a></li>
         <li><a href="#services" class="nav-link">Services</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
-        <li><a href="#book-now" class="nav-link">Book Now</a></li>
+        <li><a href="https://www.booking.com/hotel/ng/fawzy.html?" target="_blank" class="nav-link">Book Now</a></li>
       </ul>
     </nav>
   </header>
@@ -37,10 +39,14 @@
   <!-- HERO SECTION -->
   <section class="hero">
     <div class="hero-content container">
-      <h1 class="hero-title">Welcome to <span>LuxeStay Hotel</span></h1>
-      <p class="hero-subtitle">Experience the perfect blend of comfort and luxury.</p>
-      <a href="#" class="btn-primary hero-btn">Book Your Stay</a>
+      <h1 class="hero-title">Welcome to Fawzy Hotel</h1>
+      <strong><p class="hero-subtitle">Your Comfort Matters</p></strong>
+      <a href="https://www.booking.com/hotel/ng/fawzy.html?" target="_blank" class="btn-primary hero-btn">Book Your Stay</a>
     </div>
+  </section>
+
+  <section class="secondary-icon">
+    <img src="./assets/FAWZYHOTEL/LOGOFILES/BRAND_ICON/SVG/BRAND ICON - GREEN.svg" height="200" width="200"/>
   </section>
 
   <!-- ROOMS SECTION -->
@@ -93,27 +99,27 @@
       <div class="services-grid">
         <div class="service-card">
           <img 
-            src="https://via.placeholder.com/80?text=Spa" 
+            src="./assets/images/thumbnail_res.jpg" 
             alt="Spa icon" 
-            class="service-icon"/>
-          <h3>Spa & Wellness</h3>
-          <p>Unwind and rejuvenate at our premium spa with a variety of therapies.</p>
+            class="service-icon" width="150" height="150"/>
+          <h3>Dining</h3>
+          <p>Fawzy hotel offers a mouth-watering menu with an exquisite selection of Nigerian & international dishes.</p>
         </div>
         <div class="service-card">
           <img 
-            src="https://via.placeholder.com/80?text=Pool" 
-            alt="Pool icon" 
-            class="service-icon"/>
-          <h3>Infinity Pool</h3>
-          <p>Soak up the sun at our beautiful rooftop infinity pool with panoramic city views.</p>
+            src="./assets//images/shopping.jpg" 
+            alt="Store Front Image" 
+            class="service-icon" width="150" height="150"/>
+          <h3>Store</h3>
+          <p>We offer a selection of high-end costume jewelery & souvenirs for the people who stand out.</p>
         </div>
         <div class="service-card">
           <img 
-            src="https://via.placeholder.com/80?text=Dining" 
+            src="./assets/images/IMG-20190218-WA0018.jpg" 
             alt="Dining icon" 
-            class="service-icon"/>
-          <h3>Gourmet Dining</h3>
-          <p>Enjoy exquisite culinary experiences at our award-winning restaurants.</p>
+            class="service-icon" width="150" height="150"/>
+          <h3>Hall Hire</h3>
+          <p>Perfect for conference meetings, seminars and social events, our fully air-conditioned hall is available for hire.</p>
         </div>
       </div>
     </div>
