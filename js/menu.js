@@ -990,7 +990,7 @@ export const menuItems = [
     "item": "Jack Daniel",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
-    "price": "50000",
+    "price": "55000",
     "description": ""
   },
   {
@@ -1004,7 +1004,7 @@ export const menuItems = [
     "item": "Red Label",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
-    "price": "35000",
+    "price": "40000",
     "description": ""
   },
   {
@@ -1053,7 +1053,7 @@ export const menuItems = [
     "item": "Black Label",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
-    "price": "50000",
+    "price": "60000",
     "description": ""
   },
   {
