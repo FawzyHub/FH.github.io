@@ -192,7 +192,7 @@ export const menuItems = [
     "item": "Basmatti Rice",
     "category": "Food",
     "subCategory": "Rice",
-    "price": "4000",
+    "price": "5500",
     "description": ""
   },
   {
