@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Slick & Classy Hotel</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Fawzy Hotel</title>
+  <meta itemprop="description" name="description" content="description: The Nigerian hospitality industry welcomes a new classy hotel that strives to provide you with an awesome and refreshing experience. We have very clean and spacious rooms coupled with excellent services, courteous staffs and a cozy ambiance. Fawzy is located on Ring Road, the most popular high street and commercial nerve center of Ibadan in Nigeria. It is only 300 meters from the main road and strategically tucked in a safe and serene environment."/>
+
   <!-- Link to CSS file -->
   <!-- Google Fonts (optional) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,6 +16,8 @@
   rel="stylesheet"
   >
   <link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="stylesheet" href='assets//css/rooms.css'>
+	<link rel="stylesheet" href='assets//css/reviews.css'>  
 </head>
 <body>
   <!-- HEADER / NAVBAR -->
@@ -32,6 +37,7 @@
         <li><a href="#services" class="nav-link">Services</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
         <li><a href="https://www.booking.com/hotel/ng/fawzy.html?" target="_blank" class="nav-link">Book Now</a></li>
+        <li><a href="./menu.html" class="nav-link">Food & Drinks</a></li>
       </ul>
     </nav>
   </header>
@@ -45,57 +51,80 @@
     </div>
   </section>
 
-  <section class="secondary-icon">
-    <img src="./assets/FAWZYHOTEL/LOGOFILES/BRAND_ICON/SVG/BRAND ICON - GREEN.svg" height="200" width="200"/>
-  </section>
+  <div>
+      <section class="secondary-icon">
+        <img src="./assets/FAWZYHOTEL/LOGOFILES/BRAND_ICON/SVG/BRAND ICON - GREEN.svg" height="70" width="70"/>
+      </section>
+  </div>
+
+  <br>
+  <section class="container" style="height: 400px; background-image: url('./assets/images/rooms/outdoor_bar/outdoor_001-min.jpg'); background-position: center center;
+  background-size: cover; background-attachment:fixed;">
+  </section>  
+  <br>
 
   <!-- ROOMS SECTION -->
   <section class="rooms container" id="rooms">
     <h2 class="section-title">Our Rooms</h2>
-    <div class="rooms-grid">
-      <!-- Room 1 -->
-      <div class="room-card">
-        <img 
-          src="https://via.placeholder.com/400x250?text=Deluxe+Room" 
-          alt="Deluxe Room" 
-          class="room-image"/>
-        <h3 class="room-title">Deluxe Room</h3>
-        <p class="room-description">
-          A spacious room with elegant décor and premium amenities. Perfect for relaxation.
-        </p>
-        <a href="#" class="btn-secondary">View Details</a>
-      </div>
-      <!-- Room 2 -->
-      <div class="room-card">
-        <img 
-          src="https://via.placeholder.com/400x250?text=Suite" 
-          alt="Suite" 
-          class="room-image"/>
-        <h3 class="room-title">Executive Suite</h3>
-        <p class="room-description">
-          Enjoy a separate living area, modern facilities, and a touch of luxury.
-        </p>
-        <a href="#" class="btn-secondary">View Details</a>
-      </div>
-      <!-- Room 3 -->
-      <div class="room-card">
-        <img 
-          src="https://via.placeholder.com/400x250?text=Presidential+Suite" 
-          alt="Presidential Suite" 
-          class="room-image"/>
-        <h3 class="room-title">Presidential Suite</h3>
-        <p class="room-description">
-          Experience the pinnacle of opulence with breathtaking views and top-notch services.
-        </p>
-        <a href="#" class="btn-secondary">View Details</a>
-      </div>
-    </div>
+    <div class="pricing-section">
+      <table>
+        <thead>
+          <tr>
+            <th>Room Name</th>
+            <th>Number of Rooms</th>
+            <th>Price (₦)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Classic</td>
+            <td>1</td>
+            <td class="price">42,750</td>
+          </tr>
+          <tr>
+            <td>Deluxe Classic</td>
+            <td>7</td>
+            <td class="price">49,750</td>
+          </tr>
+          <tr>
+            <td>Royal Deluxe</td>
+            <td>5</td>
+            <td class="price">55,875</td>
+          </tr>
+          <tr>
+            <td>Mario Double Luxury</td>
+            <td>1</td>
+            <td class="price">58,750</td>
+          </tr>
+          <tr>
+            <td>Mak Exclusive</td>
+            <td>3</td>
+            <td class="price">68,950</td>
+          </tr>
+          <tr>
+            <td>Cindy Suite</td>
+            <td>1</td>
+            <td class="price">120,000</td>
+          </tr>
+          <tr>
+            <td>Event Hall Charge</td>
+            <td>1</td>
+            <td class="price">250,575</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>   
   </section>
+
+  <section class="container" style="height: 400px; background-image: url('./assets/images/Stairwell_Pic_1.jpg'); background-position: center center;
+  background-size: cover; background-attachment:fixed;">
+  </section>
+  <br>  
 
   <!-- SERVICES SECTION -->
   <section class="services" id="services">
     <div class="container">
-      <h2 class="section-title">Services & Amenities</h2>
+      <h2 class="section-title">Other Services & Amenities</h2>
       <div class="services-grid">
         <div class="service-card">
           <img 
@@ -111,7 +140,7 @@
             alt="Store Front Image" 
             class="service-icon" width="150" height="150"/>
           <h3>Store</h3>
-          <p>We offer a selection of high-end costume jewelery & souvenirs for the people who stand out.</p>
+          <p>We offer a selection of high-end costume jewelry & souvenirs for the people who stand out.</p>
         </div>
         <div class="service-card">
           <img 
@@ -131,18 +160,21 @@
       <div class="contact-info">
         <h2>Contact Us</h2>
         <p>
-          For inquiries and reservations, feel free to reach us through our hotline or
-          fill out the form below.
+          For inquiries and reservations, feel free to reach us through <a class="" href="https://wa.me/2348105479934" target="_blank"> WhatsApp </a> <br>
+          or the contact info provided below.
         </p>
         <ul>
-          <li><strong>Phone:</strong> +1 234 567 890</li>
-          <li><strong>Email:</strong> info@luxestayhotel.com</li>
-          <li><strong>Address:</strong> 123 Luxury Blvd, Paradise City</li>
+          <li><strong>Phone:</strong> +234 9122 8535 73 </li>
+          <li><strong>Phone:</strong> +234 9164 7450 00 </li>
+          <li> <a target="_blank" href="mailto:bookings@fawzyhotels.com?subject=Email%20Enquiry">Email us at bookings@fawzyhotels.com</a> </li>
+          <li><p>FAWZY HOTELS LTD. Block VII, plots 1,2,3. Adewumi layout, off akinyemi way (almost opposite Becan Breast Cancer Center) Ring Road Ibadan.</p></li>
         </ul>
+
+        <div id="map" style="width:100%;height:400px;background:yellow"></div>        
       </div>
       <div class="contact-form">
         <h2>Send a Message</h2>
-        <form>
+        <form action="mailto:bookings@fawzyhotels.com" method="post" enctype="text/plain">
           <label for="name">Name</label>
           <input type="text" id="name" placeholder="Your name" required/>
           
@@ -153,6 +185,7 @@
           <textarea id="message" placeholder="Write your message..." rows="5" required></textarea>
 
           <button type="submit" class="btn-primary">Submit</button>
+          <button type="reset" class="btn-primary">Reset</button>
         </form>
       </div>
     </div>
@@ -161,16 +194,41 @@
   <!-- FOOTER -->
   <footer class="footer">
     <div class="container footer-content">
-      <p>&copy; 2025 LuxeStay Hotel. All rights reserved.</p>
+      <p>&copy; 2017 Fawzy Hotel. All rights reserved.</p>
       <p>Follow us on 
-        <a href="#" target="_blank">Facebook</a>, 
-        <a href="#" target="_blank">Instagram</a>, 
-        <a href="#" target="_blank">Twitter</a>
+        <a href="https://www.facebook.com/Fawzyhotel/" target="_blank">Facebook</a>, 
+        <a href="https://www.instagram.com/fawzyhotel/?hl=en" target="_blank">Instagram</a>
       </p>
     </div>
   </footer>
 
   <!-- Include JS File -->
   <script src="assets/js/script.js"></script>
+
+  <script>
+
+    function myMap() {
+    
+    var myLatLng = {lat: 7.369637, lng: 3.854311};
+    
+    var mapOptions = {
+        center: new google.maps.LatLng(7.369637, 3.854311),
+        zoom: 16,
+        mapTypeId: 'roadmap'
+    }
+    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+    
+      var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        title: 'FAWZY HOTEL'
+      });
+      
+      // To add the marker to the map, call setMap();
+    marker.setMap(map);
+    }
+    </script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGuYjRrXuED-IVNLXVTGc4NkURoORPcIQ&callback=myMap"></script>  
 </body>
 </html>

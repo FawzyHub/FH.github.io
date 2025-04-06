@@ -3,69 +3,83 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-  }
-  
-  /* FONTS */
-  body {
+}
+
+/* FONTS */
+body {
 	font-family: 'Montserrat', sans-serif;
 	color: #333;
 	background-color: #fff;
+}
+
+.grid-container {
+	display: grid;
+	margin-top: 30px;
+	grid-template-columns: auto auto auto;
+}
+
+.grid-container > div {
+	margin-top: 10px;
+	padding: 10px;
   }
-  
-  /* CONTAINERS */
-  .container {
+
+/* CONTAINERS */
+.container {
 	width: 90%;
 	max-width: 1200px;
 	margin: 0 auto;
-  }
-  
-  /* HEADER / NAVBAR */
-  .header {
-	position: sticky; /* This is the key */
-	top: 0;           /* How far from the top to stick */
-	z-index: 999;     /* Ensure it stays above other elements */
-	background-color: #fff; 
+}
+
+/* HEADER / NAVBAR */
+.header {
+	position: sticky;
+	/* This is the key */
+	top: 0;
+	/* How far from the top to stick */
+	z-index: 999;
+	/* Ensure it stays above other elements */
+	background-color: #fff;
 	/* Additional styling (padding, box-shadow, etc.) */
 	padding: 1rem;
-	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 	background-color: #12332d;
-  }
-  
-  .nav {
+}
+
+.nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-  }
-  
-  .logo {
+}
+
+.logo {
 	font-family: 'Playfair Display', serif;
 	font-size: 1.5rem;
 	font-weight: 700;
 	color: #000;
 	text-decoration: none;
-  }
-  
-  .nav-menu {
+}
+
+.nav-menu {
 	list-style: none;
 	display: flex;
 	gap: 1.5rem;
-  }
-  
-  .nav-menu li {
+}
+
+.nav-menu li {
 	position: relative;
-  }
-  
-  .nav-link {
+}
+
+.nav-link {
 	color: #eee;
 	text-decoration: none;
 	font-weight: 400;
-  }
-  
-  .nav-link:hover {
+}
+
+.nav-link:hover {
 	color: #ccc;
-  }
-  
-  .btn-primary {
+}
+
+.btn-primary {
 	background-color: #000;
 	color: #fff;
 	padding: 0.7rem 1.4rem;
@@ -73,28 +87,28 @@
 	cursor: pointer;
 	font-weight: 600;
 	transition: background-color 0.3s ease;
-  }
-  
-  .btn-primary:hover {
+}
+
+.btn-primary:hover {
 	background-color: #444;
-  }
-  
-  .btn-secondary {
+}
+
+.btn-secondary {
 	background-color: transparent;
 	color: #000;
 	border: 2px solid #000;
 	padding: 0.5rem 1rem;
 	cursor: pointer;
 	transition: all 0.3s ease;
-  }
-  
-  .btn-secondary:hover {
+}
+
+.btn-secondary:hover {
 	background-color: #000;
 	color: #fff;
-  }
-  
-  /* NAV TOGGLE (MOBILE) */
-  .nav-toggle {
+}
+
+/* NAV TOGGLE (MOBILE) */
+.nav-toggle {
 	display: none;
 	background: none;
 	border: none;
@@ -102,17 +116,17 @@
 	flex-direction: column;
 	gap: 5px;
 	color: #ccc;
-  }
-  
-  .bar {
+}
+
+.bar {
 	display: block;
 	width: 25px;
 	height: 3px;
 	background-color: #ccc;
-  }
-  
-  /* HERO SECTION */
-  .hero {
+}
+
+/* HERO SECTION */
+.hero {
 	background: url('../images/thumbnail\ \(2\).jpg') center center/cover no-repeat;
 	/* background: url('https://via.placeholder.com/1920x1080?text=Luxury+Hotel+Background') center center/cover no-repeat; */
 	height: 80vh;
@@ -126,9 +140,11 @@
 .hero::before {
 	content: "";
 	position: absolute;
-	top: 0; left: 0;
-	width: 100%; height: 100%;
-	background-color: rgba(0,0,0,0.3);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
 .hero-content {
@@ -155,193 +171,199 @@
 	font-size: 1rem;
 	text-decoration: none;
 	background-color: #12332d;
-	
+
 }
 
 /* SECONDARY ICON */
 
-.secondary-icon{
+.secondary-icon {
+	/* display: flex;
+	justify-content: center; */
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 20px;
+}	
+
+.secondary-icon > img{
+	/* width: 60%; */
 }
 
-  /* ROOMS SECTION */
-  .rooms {
-	padding: 4rem 0;
-  }
-  
-  .section-title {
+/* ROOMS SECTION */
+.rooms {
+}
+
+.section-title {
 	text-align: center;
 	font-family: 'Playfair Display', serif;
 	font-size: 2rem;
 	margin-bottom: 2rem;
-  }
-  
-  .rooms-grid {
+	text-transform: uppercase;
+}
+
+.rooms-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 	gap: 2rem;
-  }
-  
-  .room-card {
+}
+
+.room-card {
 	background-color: #fff;
 	border: 1px solid #eee;
 	overflow: hidden;
 	text-align: center;
 	padding-bottom: 1.5rem;
 	transition: box-shadow 0.3s ease;
-  }
-  
-  .room-card:hover {
-	box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-  }
-  
-  .room-image {
+}
+
+.room-card:hover {
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.room-image {
 	width: 100%;
 	height: auto;
 	display: block;
-  }
-  
-  .room-title {
+}
+
+.room-title {
 	font-size: 1.2rem;
 	margin: 1rem 0;
 	font-weight: 600;
-  }
-  
-  .room-description {
+}
+
+.room-description {
 	color: #666;
 	font-size: 0.9rem;
 	margin: 0 1rem 1rem;
-  }
-  
-  /* SERVICES SECTION */
-  .services {
+}
+
+/* SERVICES SECTION */
+.services {
 	background-color: #f7f7f7;
 	padding: 4rem 0;
-  }
-  
-  .services-grid {
+}
+
+.services-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 	gap: 2rem;
 	margin-top: 2rem;
-  }
-  
-  .service-card {
+}
+
+.service-card {
 	text-align: center;
-  }
-  
-  .service-icon {
+}
+
+.service-icon {
 	width: 200px;
 	height: 200px;
 	margin-bottom: 1rem;
 	border-radius: 25px;
-  }
-  
-  .service-card h3 {
+}
+
+.service-card h3 {
 	margin-bottom: 0.5rem;
 	font-size: 1.2rem;
 	font-weight: 600;
-  }
-  
-  .service-card p {
+}
+
+.service-card p {
 	font-size: 0.9rem;
 	color: #555;
-  }
-  
-  /* CONTACT SECTION */
-  .contact {
+}
+
+/* CONTACT SECTION */
+.contact {
 	padding: 4rem 0;
-  }
-  
-  .contact-grid {
+}
+
+.contact-grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 2rem;
-  }
-  
-  .contact-info h2,
-  .contact-form h2 {
+}
+
+.contact-info h2,
+.contact-form h2 {
 	margin-bottom: 1rem;
 	font-size: 1.6rem;
 	font-family: 'Playfair Display', serif;
-  }
-  
-  .contact-info p {
+}
+
+.contact-info p {
 	margin-bottom: 1rem;
 	line-height: 1.6;
-  }
-  
-  .contact-info ul {
+}
+
+.contact-info ul {
 	list-style: none;
-  }
-  
-  .contact-info li {
+}
+
+.contact-info li {
 	margin-bottom: 0.5rem;
-  }
-  
-  .contact-form form {
+}
+
+.contact-form form {
 	display: flex;
 	flex-direction: column;
-  }
-  
-  .contact-form label {
+}
+
+.contact-form label {
 	margin-top: 1rem;
 	margin-bottom: 0.3rem;
 	font-size: 0.9rem;
-  }
-  
-  .contact-form input,
-  .contact-form textarea {
+}
+
+.contact-form input,
+.contact-form textarea {
 	padding: 0.8rem;
 	border: 1px solid #ccc;
 	font-size: 0.9rem;
 	outline: none;
-  }
-  
-  .contact-form button {
+}
+
+.contact-form button {
 	margin-top: 1rem;
-  }
-  
-  /* FOOTER */
-  .footer {
-	background-color: #000;
+}
+
+/* FOOTER */
+.footer {
+	background-color: #12332d;
 	color: #fff;
 	padding: 1.5rem 0;
 	text-align: center;
-  }
-  
-  .footer-content p {
+}
+
+.footer-content p {
 	margin-bottom: 0.5rem;
-  }
-  
-  .footer-content a {
+}
+
+.footer-content a {
 	color: #f1c40f;
 	text-decoration: none;
-  }
-  
-  .footer-content a:hover {
+}
+
+.footer-content a:hover {
 	text-decoration: underline;
-  }
-  
-  /* MEDIA QUERIES */
-  @media screen and (max-width: 768px) {
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
 	.nav-menu {
-	  position: absolute;
-	  top: 85px;
-	  right: 0;
-	  flex-direction: column;
-	  width: 200px;
-	  display: none;
-	  pointer-events: none;
-	  transform: translateY(-10px);
-	  transition: all 0.3s ease;
-	  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-	  background-color: #12332d;
-	  color: #f7f7f7;
-	  z-index: 1000;
+		position: absolute;
+		top: 85px;
+		right: 0;
+		flex-direction: column;
+		width: 200px;
+		display: none;
+		pointer-events: none;
+		transform: translateY(-10px);
+		transition: all 0.3s ease;
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+		background-color: #12332d;
+		color: #f7f7f7;
+		z-index: 1000;
 	}
-	
+
 	.nav-menu a {
 		color: #eee;
 	}
@@ -353,16 +375,16 @@
 		pointer-events: auto;
 		transform: translateY(0);
 	}
-  
+
 	.nav-toggle {
-	  display: flex;
-	  color: #ccc;
+		display: flex;
+		color: #ccc;
 	}
-  
+
 	.rooms-grid,
 	.services-grid,
-	.contact-grid {
-	  grid-template-columns: 1fr;
+	.contact-grid,
+	.grid-container {
+		grid-template-columns: 1fr;
 	}
-  }
-  
+}

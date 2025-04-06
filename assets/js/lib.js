@@ -47,6 +47,22 @@ window.onload = function() {
     populateMenuItem("Drinks", "Others")
     
   }
+
+
+  document.getElementById("food-search").addEventListener("input", function() {
+    var searchQuery = this.value.toLowerCase();
+    // Select all food items (adjust the selector if necessary)
+    var foodItems = document.querySelectorAll(".food-item-category");
+    foodItems.forEach(function(item) {
+      // Check if the food item's text includes the search query
+      if (item.textContent.toLowerCase().includes(searchQuery)) {
+        item.style.display = "";
+      } else {
+        item.style.display = "none";
+      }
+    });
+  });
+  
 };
 
 const populateMenuItem = (category, subCategory) =>{
@@ -60,7 +76,7 @@ const populateMenuItem = (category, subCategory) =>{
 
     const categoryItemHeader = document.createElement("div")
     categoryItemHeader.setAttribute("class", "food-header-category");
-    categoryItemHeader.innerHTML = `<h5 style=color:#CD24BA>${subCategory}</h5></b> <hr></hr>`
+    categoryItemHeader.innerHTML = `<h5>${subCategory}</h5>`
     categoryItemDiv.appendChild(categoryItemHeader)
 
     categoryItems.sort((a,b)=> a.item.localeCompare(b.item)).map((element) => {

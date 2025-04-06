@@ -8,7 +8,7 @@
 }
 .pricing-section h1 {
     text-align: center;
-    color: #333;
+    color: #12332d;
     margin-bottom: 20px;
 }
 table {
@@ -22,7 +22,7 @@ table th, table td {
     text-align: center;
 }
 table th {
-    background-color: #CD24BA;
+    background-color: #12332d;
     color: #ffffff;
     font-weight: bold;
 }
@@ -30,10 +30,11 @@ table tr:nth-child(even) {
     background-color: #f9f9f9;
 }
 table tr:hover {
-    background-color: #99E164;
+    background-color: #12332d;
+    color: #ddd;
 }
 table td .price {
-    color: #28a745;
+    color: #12332d;
     font-weight: bold;
 }
 table td .deposit {
