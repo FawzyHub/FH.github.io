@@ -348,17 +348,14 @@ body {
 
 .web-image{
 	background-position: center center;
-	background-size: cover;
-	background-attachment: fixed;
+	background-size:contain;
 }
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
 
 	.web-image{
-		background-position: center center;
-		background-size: cover;		
-		background-attachment: scroll;
+		background-size:cover;
 	}
 
 	.nav-menu {
