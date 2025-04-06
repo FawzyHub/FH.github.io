@@ -346,8 +346,21 @@ body {
 	text-decoration: underline;
 }
 
+.web-image{
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
+
+	.web-image{
+		background-position: center center;
+		background-size: cover;		
+		background-attachment: scroll;
+	}
+
 	.nav-menu {
 		position: absolute;
 		top: 85px;
