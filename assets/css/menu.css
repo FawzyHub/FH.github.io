@@ -1,0 +1,14 @@
+.food-header-category{
+    font-size: 25px;
+    margin-top: 5px;
+	color: #12332d;
+}
+
+.food-item-category{
+    padding: 10px;
+}
+
+.food-item-category:hover{
+    background-color: #12332d;
+    color: #ddd;
+}
