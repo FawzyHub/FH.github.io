@@ -127,7 +127,8 @@ body {
 
 /* HERO SECTION */
 .hero {
-	background: url('../images/thumbnail\ \(2\).jpg') center center/cover no-repeat;
+	background: url('../images/DJI_0124.jpg') center center/cover no-repeat;
+
 	/* background: url('https://via.placeholder.com/1920x1080?text=Luxury+Hotel+Background') center center/cover no-repeat; */
 	height: 80vh;
 	display: flex;
