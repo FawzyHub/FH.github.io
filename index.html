@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Fawzy Hotel</title>
-  <meta itemprop="description" name="description" content="description: The Nigerian hospitality industry welcomes a new classy hotel that strives to provide you with an awesome and refreshing experience. We have very clean and spacious rooms coupled with excellent services, courteous staffs and a cozy ambiance. Fawzy is located on Ring Road, the most popular high street and commercial nerve center of Ibadan in Nigeria. It is only 300 meters from the main road and strategically tucked in a safe and serene environment."/>
+  <meta itemprop="description" name="description"
+    content="description: The Nigerian hospitality industry welcomes a new classy hotel that strives to provide you with an awesome and refreshing experience. We have very clean and spacious rooms coupled with excellent services, courteous staffs and a cozy ambiance. Fawzy is located on Ring Road, the most popular high street and commercial nerve center of Ibadan in Nigeria. It is only 300 meters from the main road and strategically tucked in a safe and serene environment." />
 
   <!-- Link to CSS file -->
   <!-- Google Fonts (optional) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link 
-  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" 
-  rel="stylesheet"
-  >
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:wght@700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css" />
-	<link rel="stylesheet" href='assets//css/rooms.css'>
-	<link rel="stylesheet" href='assets//css/reviews.css'>  
+  <link rel="stylesheet" href='assets//css/rooms.css'>
+  <link rel="stylesheet" href='assets//css/reviews.css'>
 </head>
+
 <body>
   <!-- HEADER / NAVBAR -->
   <header class="header">
     <nav class="nav container">
       <a href="/" class="logo">
-        <img src="./assets/FAWZYHOTEL/LOGOFILES/SUBMARK/SVG/SUBMARK LOGO - CREAM ON GREEN.svg" height="50" width="30"/>
+        <img src="./assets/FAWZYHOTEL/LOGOFILES/SUBMARK/SVG/SUBMARK LOGO - CREAM ON GREEN.svg" height="50" width="30" />
       </a>
       <button class="nav-toggle" id="nav-toggle">
         <span class="bar"></span>
@@ -46,24 +48,28 @@
   <section class="hero">
     <div class="hero-content container">
       <h1 class="hero-title">Welcome to Fawzy Hotel</h1>
-      <strong><p class="hero-subtitle">Your Comfort Matters</p></strong>
-      <a href="https://www.booking.com/hotel/ng/fawzy.html?" target="_blank" class="btn-primary hero-btn">Book Your Stay</a>
+      <strong>
+        <p class="hero-subtitle">Your Comfort Matters</p>
+      </strong>
+      <a href="https://www.booking.com/hotel/ng/fawzy.html?" target="_blank" class="btn-primary hero-btn">Book Your
+        Stay</a>
     </div>
   </section>
 
   <div>
-      <section class="secondary-icon">
-        <img src="./assets/FAWZYHOTEL/LOGOFILES/BRAND_ICON/SVG/BRAND ICON - GREEN.svg" height="70" width="70"/>
-      </section>
+    <section class="secondary-icon">
+      <img src="./assets/FAWZYHOTEL/LOGOFILES/BRAND_ICON/SVG/BRAND ICON - GREEN.svg" height="70" width="70" />
+    </section>
   </div>
 
   <br>
-  <section class="container web-image" style="height: 400px; background-image: url('./assets/images/rooms/outdoor_bar/outdoor_001-min.jpg');">
-  </section>  
+  <section class="container web-image"
+    style="height: 400px; background-image: url('./assets/images/rooms/outdoor_bar/outdoor_001-min.jpg');">
+  </section>
   <br>
 
   <!-- ROOMS SECTION -->
-  <section class="rooms container" id="rooms">
+  <!-- <section class="rooms container" id="rooms">
     <h2 class="section-title">Our Rooms</h2>
     <div class="pricing-section">
       <table>
@@ -112,10 +118,161 @@
           </tr>
         </tbody>
       </table>
-    </div>   
+    </div>
+  </section> -->
+
+  <section class="rooms-container container">
+    <h2 class="section-title">Our Rooms & Pricing</h2>
+
+    <div class="room-card">
+      <img src="./assets/images/rooms/classic/Classic.jpg" alt="Classic Room" class="room-image" />
+      <div class="room-info">
+        <h3>Classic</h3>
+        <p class="room-desc">A cozy room with basic amenities for a comfortable stay.</p>
+        <ul class="room-amenities">
+          <li>Wi-Fi</li>
+          <li>TV</li>
+          <li>Air Conditioning</li>
+          <li>Mini Fridge</li>
+          <li>24/7 Room Service</li>
+          <li>Work Desk</li>                
+        </ul>
+        <p class="room-meta">Rooms Available: 1</p>
+        <p class="room-price">₦50,750</p>
+      </div>
+    </div>
+
+    <div class="room-card">
+      <img src="./assets/images/rooms/lux_classic/deluxe-classic.jpg" alt="Deluxe Classic Room" class="room-image" />
+      <div class="room-info">
+        <h3>Deluxe Classic</h3>
+        <p class="room-desc">A step up with modern comforts and spacious design.</p>
+        <ul class="room-amenities">
+          <li>Wi-Fi</li>
+          <li>TV</li>
+          <li>Air Conditioning</li>
+          <li>Mini Fridge</li>
+          <li>24/7 Room Service</li>
+          <li>Work Desk</li>  
+        </ul>
+        <p class="room-meta">Rooms Available: 7</p>
+        <p class="room-price">₦55,750</p>
+      </div>
+    </div>
+
+    <div class="room-card">
+      <img src="./assets/images/rooms/Royal_deluxe_001/royale-deluxe.jpg" alt="Royal Deluxe Room" class="room-image" />
+      <div class="room-info">
+        <h3>Royal Deluxe</h3>
+        <p class="room-desc">Experience royalty with refined interiors and premium facilities.</p>
+        <ul class="room-amenities">
+          <li>Wi-Fi</li>
+          <li>TV</li>
+          <li>Air Conditioning</li>
+          <li>Mini Fridge</li>
+          <li>24/7 Room Service</li>
+          <li>Work Desk</li>  
+        </ul>
+        <p class="room-meta">Rooms Available: 5</p>
+        <p class="room-price">₦60,875</p>
+      </div>
+    </div>
+
+    <div class="room-card">
+      <img src="./assets/images/rooms/Twin_Room/twin-bed.jpg" alt="Mario Double Luxury" class="room-image" />
+      <div class="room-info">
+        <h3>Mario Double Luxury</h3>
+        <p class="room-desc">Luxury for two – perfect for couples or executive guests.</p>
+        <ul class="room-amenities">
+          <li>Wi-Fi</li>
+          <li>TV</li>
+          <li>Air Conditioning</li>
+          <li>Mini Fridge</li>
+          <li>24/7 Room Service</li>
+          <li>Work Desk</li>  
+        </ul>
+        <p class="room-meta">Rooms Available: 1</p>
+        <p class="room-price">₦65,750</p>
+      </div>
+    </div>
+
+    <div class="room-card">
+      <div class="carousel-container">
+        <div class="carousel mak-carousel">
+          <img src="./assets/images/rooms/MAk/DSC8319.jpg" alt="Mak Exclusive View 1" class="carousel-image active" />
+          <img src="./assets/images/rooms/MAk/DSC8316.jpg" alt="Mak Exclusive View 2" class="carousel-image" />
+          <img src="./assets/images/rooms/MAk/DSC8314.jpg" alt="Mak Exclusive View 3" class="carousel-image" />
+        </div>
+        <button class="carousel-btn prev" onclick="moveSlide('mak-carousel', -1)">&#10094;</button>
+        <button class="carousel-btn next" onclick="moveSlide('mak-carousel', 1)">&#10095;</button>
+      </div>
+
+      <div class="room-info">
+        <h3>Mak Exclusive</h3>
+        <p class="room-desc">Spacious, quiet, and exclusive – designed for total relaxation.</p>
+        <ul class="room-amenities">
+          <li>Wi-Fi</li>
+          <li>TV</li>
+          <li>Air Conditioning</li>
+          <li>Mini Fridge</li>
+          <li>24/7 Room Service</li>
+          <li>Work Desk</li>  
+          <li>Lounge Area</li>
+        </ul>
+        <p class="room-meta">Rooms Available: 3</p>
+        <p class="room-price">₦74,950</p>
+      </div>
+    </div>
+
+
+    <div class="room-card">
+      <div class="carousel-container">
+        <div class="carousel cindy-carousel">
+          <img src="./assets/images/rooms/cindy/cindy-suite.jpg" alt="Cindy Suite View 1"
+            class="carousel-image active" />
+          <img src="./assets/images/rooms/cindy/cindy-suite-2.jpg" alt="Cindy Suite View 2" class="carousel-image" />
+        </div>
+        <button class="carousel-btn prev" onclick="moveSlide('cindy-carousel', -1)">&#10094;</button>
+        <button class="carousel-btn next" onclick="moveSlide('cindy-carousel', 1)">&#10095;</button>
+      </div>
+
+      <div class="room-info">
+        <h3>Cindy Suite</h3>
+        <p class="room-desc">An elegant suite for guests who desire the best in comfort and privacy.</p>
+        <ul class="room-amenities">
+          <li>Wi-Fi</li>
+          <li>TV</li>
+          <li>Air Conditioning</li>
+          <li>Mini Fridge</li>
+          <li>24/7 Room Service</li>
+          <li>Work Desk</li>            
+          <li>Private Living Room</li>
+        </ul>
+        <p class="room-meta">Rooms Available: 1</p>
+        <p class="room-price">₦120,000</p>
+      </div>
+    </div>
+
+    <div class="room-card">
+      <img src="./assets/images/rooms/hall-1.jpg" alt="Event Hall" class="room-image" />
+      <div class="room-info">
+        <h3>Event Hall Charge</h3>
+        <p class="room-desc">A fully equipped hall ideal for weddings, conferences, and grand events.</p>
+        <ul class="room-amenities">
+          <li>Stage & Lighting</li>
+          <li>Projector</li>
+          <li>Sound System</li>
+        </ul>
+        <p class="room-meta">Capacity: Up to 100 Guests</p>
+        <p class="room-price">₦250,575</p>
+      </div>
+    </div>
+
   </section>
 
-  <section class="container web-image" style="height: 400px; background-image: url('./assets/images/Stairwell_Pic_1.jpg');">
+
+  <section class="container web-image"
+    style="height: 400px; background-image: url('./assets/images/Stairwell_Pic_1.jpg');">
   </section>
   <br><br>
 
@@ -125,28 +282,23 @@
       <h2 class="section-title">Other Services & Amenities</h2>
       <div class="services-grid">
         <div class="service-card">
-          <img 
-            src="./assets/images/thumbnail_res.jpg" 
-            alt="Spa icon" 
-            class="service-icon" width="150" height="150"/>
+          <img src="./assets/images/thumbnail_res.jpg" alt="Spa icon" class="service-icon" width="150" height="150" />
           <h3>Dining</h3>
-          <p>Fawzy hotel offers a mouth-watering menu with an exquisite selection of Nigerian & international dishes.</p>
+          <p>Fawzy hotel offers a mouth-watering menu with an exquisite selection of Nigerian & international dishes.
+          </p>
         </div>
         <div class="service-card">
-          <img 
-            src="./assets//images/shopping.jpg" 
-            alt="Store Front Image" 
-            class="service-icon" width="150" height="150"/>
+          <img src="./assets//images/shopping.jpg" alt="Store Front Image" class="service-icon" width="150"
+            height="150" />
           <h3>Store</h3>
           <p>We offer a selection of high-end costume jewelry & souvenirs for the people who stand out.</p>
         </div>
         <div class="service-card">
-          <img 
-            src="./assets/images/IMG-20190218-WA0018.jpg" 
-            alt="Dining icon" 
-            class="service-icon" width="150" height="150"/>
+          <img src="./assets/images/IMG-20190218-WA0018.jpg" alt="Dining icon" class="service-icon" width="150"
+            height="150" />
           <h3>Hall Hire</h3>
-          <p>Perfect for conference meetings, seminars and social events, our fully air-conditioned hall is available for hire.</p>
+          <p>Perfect for conference meetings, seminars and social events, our fully air-conditioned hall is available
+            for hire.</p>
         </div>
       </div>
     </div>
@@ -158,26 +310,31 @@
       <div class="contact-info">
         <h2>Contact Us</h2>
         <p>
-          For inquiries and reservations, feel free to reach us through <a class="" href="https://wa.me/2348105479934" target="_blank"> WhatsApp </a> <br>
+          For inquiries and reservations, feel free to reach us through <a class="" href="https://wa.me/2348105479934"
+            target="_blank"> WhatsApp </a> <br>
           or the contact info provided below.
         </p>
         <ul>
           <li><strong>Phone:</strong> +234 9122 8535 73 </li>
           <li><strong>Phone:</strong> +234 9164 7450 00 </li>
-          <li> <a target="_blank" href="mailto:bookings@fawzyhotels.com?subject=Email%20Enquiry">Email us at bookings@fawzyhotels.com</a> </li>
-          <li><p>FAWZY HOTELS LTD. Block VII, plots 1,2,3. Adewumi layout, off akinyemi way (almost opposite Becan Breast Cancer Center) Ring Road Ibadan.</p></li>
+          <li> <a target="_blank" href="mailto:bookings@fawzyhotels.com?subject=Email%20Enquiry">Email us at
+              bookings@fawzyhotels.com</a> </li>
+          <li>
+            <p>FAWZY HOTELS LTD. Block VII, plots 1,2,3. Adewumi layout, off akinyemi way (almost opposite Becan Breast
+              Cancer Center) Ring Road Ibadan.</p>
+          </li>
         </ul>
 
-        <div id="map" style="width:100%;height:400px;background:yellow"></div>        
+        <div id="map" style="width:100%;height:400px;background:yellow"></div>
       </div>
       <div class="contact-form">
         <h2>Send a Message</h2>
         <form action="mailto:bookings@fawzyhotels.com" method="post" enctype="text/plain">
           <label for="name">Name</label>
-          <input type="text" id="name" placeholder="Your name" required/>
-          
+          <input type="text" id="name" placeholder="Your name" required />
+
           <label for="email">Email</label>
-          <input type="email" id="email" placeholder="Your email" required/>
+          <input type="email" id="email" placeholder="Your email" required />
 
           <label for="message">Message</label>
           <textarea id="message" placeholder="Write your message..." rows="5" required></textarea>
@@ -193,8 +350,8 @@
   <footer class="footer">
     <div class="container footer-content">
       <p>&copy; 2017 Fawzy Hotel. All rights reserved.</p>
-      <p>Follow us on 
-        <a href="https://www.facebook.com/Fawzyhotel/" target="_blank">Facebook</a>, 
+      <p>Follow us on
+        <a href="https://www.facebook.com/Fawzyhotel/" target="_blank">Facebook</a>,
         <a href="https://www.instagram.com/fawzyhotel/?hl=en" target="_blank">Instagram</a>
       </p>
     </div>
@@ -206,27 +363,41 @@
   <script>
 
     function myMap() {
-    
-    var myLatLng = {lat: 7.369637, lng: 3.854311};
-    
-    var mapOptions = {
+
+      var myLatLng = { lat: 7.369637, lng: 3.854311 };
+
+      var mapOptions = {
         center: new google.maps.LatLng(7.369637, 3.854311),
         zoom: 16,
         mapTypeId: 'roadmap'
-    }
-    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-    
+      }
+      var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
       var marker = new google.maps.Marker({
         position: myLatLng,
         map: map,
         title: 'FAWZY HOTEL'
       });
-      
+
       // To add the marker to the map, call setMap();
-    marker.setMap(map);
+      marker.setMap(map);
     }
-    </script>
-    
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGuYjRrXuED-IVNLXVTGc4NkURoORPcIQ&callback=myMap"></script>  
+
+    function moveSlide(carouselClass, direction) {
+      const carousel = document.querySelector(`.${carouselClass}`);
+      const images = carousel.querySelectorAll('.carousel-image');
+      let activeIndex = Array.from(images).findIndex(img => img.classList.contains('active'));
+
+      images[activeIndex].classList.remove('active');
+      activeIndex = (activeIndex + direction + images.length) % images.length;
+      images[activeIndex].classList.add('active');
+    }
+
+  </script>
+
+
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGuYjRrXuED-IVNLXVTGc4NkURoORPcIQ&callback=myMap"></script>
 </body>
+
 </html>

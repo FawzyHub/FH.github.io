@@ -52,3 +52,141 @@ table td .deposit {
 .cta:hover {
     background-color: #0056b3;
 }
+
+.rooms-container {
+    /* max-width: 1200px; */
+    margin: auto;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  
+  .room-card {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  
+  .room-image {
+    width: 100%;
+    width: 350px;
+    height: 230px;
+    object-fit: cover;
+  }
+  
+  .room-info {
+    flex: 1;
+    padding: 20px;
+    background-color: #fafafa;
+    text-align: left;
+  }
+  
+  .room-info h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .room-desc {
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .room-amenities {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .room-amenities li {
+    background-color: #e8f0fe;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+  }
+  
+  .room-meta {
+    font-size: 0.9rem;
+    color: #777;
+    margin: 10px 0;
+  }
+  
+  .room-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007b5e;
+  }
+  
+  .carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    overflow: hidden;
+  }
+  
+  .carousel {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 230px;
+  }
+  
+  .carousel-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+    z-index: 0;
+  }
+  
+  .carousel-image.active {
+    opacity: 1;
+    z-index: 1;
+  }
+  
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255,255,255,0.8);
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 5px 12px;
+    z-index: 2;
+    border-radius: 50%;
+  }
+  
+  .carousel-btn.prev {
+    left: 10px;
+  }
+  
+  .carousel-btn.next {
+    right: 10px;
+  }
+  
+/* MEDIA QUERIES */
+@media screen and (max-width: 999px) {
+
+    .room-image {
+        width: 100%;
+        height: 230px;
+        object-fit: cover;
+      }    
+}
