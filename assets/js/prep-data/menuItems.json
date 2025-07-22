@@ -31,14 +31,14 @@
     "item": "Goat Meat",
     "category": "Food",
     "subCategory": "Protein",
-    "price": "6000",
+    "price": "6500",
     "description": ""
   },
   {
     "item": "Beef",
     "category": "Food",
     "subCategory": "Protein",
-    "price": "6000",
+    "price": "6500",
     "description": ""
   },
   {
@@ -808,7 +808,7 @@
     "item": "Schweppes",
     "category": "Drinks",
     "subCategory": "Soft Drinks",
-    "price": "1000",
+    "price": "1200",
     "description": ""
   },
   {
@@ -829,7 +829,7 @@
     "item": "Gulder",
     "category": "Drinks",
     "subCategory": "Beer",
-    "price": "2000",
+    "price": "2500",
     "description": ""
   },
   {
@@ -1004,7 +1004,7 @@
     "item": "Red Label",
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
-    "price": "40000",
+    "price": "45000",
     "description": ""
   },
   {
@@ -1103,6 +1103,13 @@
     "category": "Drinks",
     "subCategory": "Spirit/Liquor/Champagne Drinks",
     "price": "38000",
+    "description": ""
+  },
+  {
+    "item": "Campari Tot",
+    "category": "Drinks",
+    "subCategory": "Spirit/Liquor/Champagne Drinks",
+    "price": "3000",
     "description": ""
   },
   {
