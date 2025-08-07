@@ -3,7 +3,6 @@ async function getMenuItems() {
   try {
     const response = await fetch('https://xwer1yi8u0.execute-api.eu-west-1.amazonaws.com/v1/list/items');
     const data = await response.json();
-    console.log('Menu items fetched successfully:', data.response);
     return data.response;
   } catch (error) {
     console.error('Error fetching menu items:', error);
