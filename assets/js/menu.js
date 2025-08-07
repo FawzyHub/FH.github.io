@@ -6,8 +6,7 @@ fetch('https://xwer1yi8u0.execute-api.eu-west-1.amazonaws.com/v1/list/items')
   .then(response => response.json())
   .then(data => {
     // Update menuItems by pushing data into it
-    const items = data.response
-    menuItems.push(...items);
+    menuItems = data.response; // Assign the fetched items to menuItems
     console.log('Menu items fetched successfully:', menuItems);
   })
   .catch(error => {
