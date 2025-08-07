@@ -1,6 +1,11 @@
-import { menuItems } from "./menu.js";
+import { getMenuItems } from "./menu.js";
 
-window.onload = function() {
+let menuItems = [];
+
+window.onload = async function() {
+
+  // Fetch menu items from the API
+  menuItems = await getMenuItems();
 
   var acc = document.getElementsByClassName("accordion");
   var i;
