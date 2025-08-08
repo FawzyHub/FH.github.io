@@ -29,11 +29,15 @@ const Menu: React.FC = () => {
           body: JSON.stringify({ token })
         }
       );
-      if (apiCall.status === 400 || apiCall.status === 403) {
+      if (apiCall.status === 403) {
         removeAccessToken();
         navigate('/login', { replace: true });
         return [];
       }
+        if (apiCall.status === 400) {
+            alert("Bad request. Please try again later.");
+        }
+
       if (!apiCall.ok) {
         throw new Error('Network response was not ok');
       }
@@ -55,11 +59,15 @@ const Menu: React.FC = () => {
           body: JSON.stringify({ ...item, token })
         }
       );
-      if (apiCall.status === 400 || apiCall.status === 403) {
+      if (apiCall.status === 403) {
         removeAccessToken();
         navigate('/login', { replace: true });
         return { success: false, error: 'Unauthorized' };
       }
+
+        if (apiCall.status === 400) {
+            alert("Bad request. Please try again later.");
+        }      
       if (!apiCall.ok) {
         throw new Error('Network response was not ok');
       }
@@ -118,7 +126,7 @@ const Menu: React.FC = () => {
   const handleAddItem = () => {
     const newItem = {
       id: null,
-      hashKey: null,
+      hashKey: undefined,
       item: '',
       category: '',
       subCategory: '',

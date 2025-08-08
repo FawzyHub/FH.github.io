@@ -5,6 +5,7 @@ from common._auth import decode_token
 import json
 import boto3
 from common.api import success_response, error_response, default_json
+from uuid import uuid4
 
 dynamo_client = boto3.resource("dynamodb")
 menu_table = dynamo_client.Table("fz-menu-table")
@@ -37,15 +38,25 @@ def main(event):
             error_response["body"] = json.dumps({"response": "Invalid token"})
             return error_response          
         
-        # Save the item to DynamoDB
-        menu_table.put_item(Item={
-            'hashKey': body['hashKey'],
-            'category': body['category'],
-            'item': body['item'],
-            'subCategory': body['subCategory'],
-            'description': body['description'],
-            'price': body['price']
-        })
+        # Save new item if key none to DynamoDB
+        if body["hashKey"] == None:
+            menu_table.put_item(Item={
+                'hashKey': str(uuid4()),
+                'category': body['category'],
+                'item': body['item'],
+                'subCategory': body['subCategory'],
+                'description': body['description'],
+                'price': body['price']
+            })
+        else:
+            menu_table.put_item(Item={
+                'hashKey': body['hashKey'],
+                'category': body['category'],
+                'item': body['item'],
+                'subCategory': body['subCategory'],
+                'description': body['description'],
+                'price': body['price']
+            })
 
         success_response["body"] = json.dumps({"response": "Item saved successfully"}, default=default_json)
         return success_response
