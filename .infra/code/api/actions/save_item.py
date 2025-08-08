@@ -1,5 +1,6 @@
 from common.common_logger import main as logger
 logger = logger()
+from common._auth import decode_token
 
 import json
 import boto3
@@ -17,6 +18,24 @@ def main(event):
             raise ValueError("No body found in event")
             
         body = json.loads(event['body'])
+        
+        token = body.get('token')
+        if not token:
+            error_response["statusCode"] = 400
+            error_response["body"] = json.dumps({"response": "Token is required"})
+            return error_response
+        # Decode the token to verify user
+        try:
+            decoded = decode_token(token, "some-random-secret-36154861tyugfudysgfudsa")
+            if not decoded or 'userId' not in decoded:
+                error_response["statusCode"] = 403
+                error_response["body"] = json.dumps({"response": "Invalid token"})
+                return error_response
+        except Exception as e:
+            print("error decoding token", str(e))
+            error_response["statusCode"] = 403
+            error_response["body"] = json.dumps({"response": "Invalid token"})
+            return error_response          
         
         # Save the item to DynamoDB
         menu_table.put_item(Item={

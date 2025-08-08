@@ -1,10 +1,12 @@
 from common.common_logger import main as logger
 from actions.list_items import main as list_items
 from actions.save_item import main as save_item
+from actions.auth_check import main as auth_check
 
 actions_map = {
     "/v1/list/items" : list_items,
     "/v1/save/item" : save_item,
+    "/v1/auth/check" : auth_check
 }
 
 logger = logger()

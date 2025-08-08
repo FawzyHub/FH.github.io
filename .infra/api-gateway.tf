@@ -32,6 +32,10 @@ variable "routes" {
       description = "save a menu item",
       method      = "POST",
     },
+    "auth/check" = {
+      description = "check user authentication",
+      method      = "POST",
+    },
   }
 }
 

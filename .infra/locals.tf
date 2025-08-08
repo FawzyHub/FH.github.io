@@ -9,6 +9,7 @@ locals {
 
   prod_host = [
     "https://fawzyhotels.com",
-    "https://dzfy060h0r7es.cloudfront.net"
+    "https://dzfy060h0r7es.cloudfront.net",
+    # "http://192.168.1.101:5173"
   ]
 }

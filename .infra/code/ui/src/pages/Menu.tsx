@@ -6,48 +6,8 @@ import { Badge } from "@/components/ui/badge";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Edit3, X, Search, DollarSign, Package, Tag, FileText, Loader2, AlertCircle, Plus } from 'lucide-react';
 import { apiUrl } from "@/lib/utils";
-
-const fetchMenuItems = async () => {
-    try {
-        const apiCall = await fetch(
-            `${apiUrl}/list/items`,
-            {
-                method: 'GET',
-            }
-        );
-        if (!apiCall.ok) {
-            throw new Error('Network response was not ok');
-        }
-
-        const { response } = await apiCall.json();
-
-        return response;
-    } catch (error) {
-        console.error('Error fetching menu items:', error);
-        return []; // Return empty array in case of error
-    }
-};
-
-const saveMenuItem = async (item: any) => {
-    try {
-        const apiCall = await fetch(
-            `${apiUrl}/save/item`,
-            {
-                method: 'POST',
-                body: JSON.stringify(item)
-            }
-        );
-        if (!apiCall.ok) {
-            throw new Error('Network response was not ok');
-        }
-
-        const { response } = await apiCall.json();
-        return { success: true, item: response };
-    } catch (error) {
-        console.error('Error saving menu item:', error);
-        return { success: false, error };
-    }
-};
+import { getAccessToken, removeAccessToken } from "@/components/auth/tokenService";
+import { useNavigate } from "react-router-dom";
 
 const Menu: React.FC = () => {
   const [items, setItems] = useState<any[]>([]);
@@ -57,9 +17,62 @@ const Menu: React.FC = () => {
   const [saving, setSaving] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
   const [isAddMode, setIsAddMode] = useState(false);
+  const navigate = useNavigate();
+
+  const fetchMenuItemsWithAuth = async () => {
+    try {
+      const token = await getAccessToken();
+      const apiCall = await fetch(
+        `${apiUrl}/list/items`,
+        {
+          method: 'POST',
+          body: JSON.stringify({ token })
+        }
+      );
+      if (apiCall.status === 400 || apiCall.status === 403) {
+        removeAccessToken();
+        navigate('/login', { replace: true });
+        return [];
+      }
+      if (!apiCall.ok) {
+        throw new Error('Network response was not ok');
+      }
+      const { response } = await apiCall.json();
+      return response;
+    } catch (error) {
+      console.error('Error fetching menu items:', error);
+      return [];
+    }
+  };
+
+  const saveMenuItemWithAuth = async (item: any) => {
+    try {
+      const token = await getAccessToken();
+      const apiCall = await fetch(
+        `${apiUrl}/save/item`,
+        {
+          method: 'POST',
+          body: JSON.stringify({ ...item, token })
+        }
+      );
+      if (apiCall.status === 400 || apiCall.status === 403) {
+        removeAccessToken();
+        navigate('/login', { replace: true });
+        return { success: false, error: 'Unauthorized' };
+      }
+      if (!apiCall.ok) {
+        throw new Error('Network response was not ok');
+      }
+      const { response } = await apiCall.json();
+      return { success: true, item: response };
+    } catch (error) {
+      console.error('Error saving menu item:', error);
+      return { success: false, error };
+    }
+  };
 
   useEffect(() => {
-    fetchMenuItems().then((data) => {
+    fetchMenuItemsWithAuth().then((data) => {
       setItems(data);
       setLoading(false);
     });
@@ -82,7 +95,7 @@ const Menu: React.FC = () => {
 
   const handleSave = async () => {
     setSaving(true);
-    const res = await saveMenuItem(edit);
+    const res = await saveMenuItemWithAuth(edit);
     if (res.success) {
       if (isAddMode) {
         // Generate a new ID and hashKey for new items
@@ -233,7 +246,7 @@ const Menu: React.FC = () => {
                     <tbody>
                       {filteredItems.map((item) => (
                         <tr
-                          key={item.hashKey}
+                          key={`listed_${item.hashKey}`}
                           className="border-b border-slate-50 hover:bg-blue-50/50 transition-all duration-200 cursor-pointer group"
                           onClick={() => handleRowClick(item)}
                         >

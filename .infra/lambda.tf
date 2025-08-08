@@ -103,6 +103,7 @@ module "task_api_handler" {
     TABLE_NAME = module.menuManager.dynamo_name
     TABLE_ARN = module.menuManager.dynamo_arn
     HOST_URL = "*"
+    BRANCH_NAME = "master"
   }
   layers      = [
     data.aws_ssm_parameter.python_shared_layer.value,
