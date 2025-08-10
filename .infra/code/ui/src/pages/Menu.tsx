@@ -126,7 +126,7 @@ const Menu: React.FC = () => {
   const handleAddItem = () => {
     const newItem = {
       id: null,
-      hashKey: undefined,
+      hashKey: null,
       item: '',
       category: '',
       subCategory: '',

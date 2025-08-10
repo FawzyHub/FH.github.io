@@ -39,7 +39,7 @@ def main(event):
             return error_response          
         
         # Save new item if key none to DynamoDB
-        if body["hashKey"] == None:
+        if body["hashKey"] == None or (type(body["hashKey"]) is str and body["hashKey"].strip() == "null"):
             menu_table.put_item(Item={
                 'hashKey': str(uuid4()),
                 'category': body['category'],
