@@ -124,7 +124,7 @@
   <section class="rooms-container container">
     <h2 class="section-title">Our Rooms & Pricing</h2>
 
-    <div class="room-card">
+    <div class="room-card" data-room-key="Classic">
       <img src="./assets/images/rooms/classic/Classic.jpg" alt="Classic Room" class="room-image" />
       <div class="room-info">
         <h3>Classic</h3>
@@ -138,11 +138,11 @@
           <li>Work Desk</li>                
         </ul>
         <p class="room-meta">Rooms Available: 1</p>
-        <p class="room-price">₦56,750</p>
+        <p class="room-price">Loading…</p>
       </div>
     </div>
 
-    <div class="room-card">
+    <div class="room-card" data-room-key="DeluxeClassic">
       <img src="./assets/images/rooms/lux_classic/deluxe-classic.jpg" alt="Deluxe Classic Room" class="room-image" />
       <div class="room-info">
         <h3>Deluxe Classic</h3>
@@ -156,11 +156,11 @@
           <li>Work Desk</li>  
         </ul>
         <p class="room-meta">Rooms Available: 7</p>
-        <p class="room-price">₦61,750</p>
+        <p class="room-price">Loading…</p>
       </div>
     </div>
 
-    <div class="room-card">
+    <div class="room-card" data-room-key="RoyalDeluxe">
       <img src="./assets/images/rooms/Royal_deluxe_001/royale-deluxe.jpg" alt="Royal Deluxe Room" class="room-image" />
       <div class="room-info">
         <h3>Royal Deluxe</h3>
@@ -174,11 +174,11 @@
           <li>Work Desk</li>  
         </ul>
         <p class="room-meta">Rooms Available: 5</p>
-        <p class="room-price">₦66,875</p>
+        <p class="room-price">Loading…</p>
       </div>
     </div>
 
-    <div class="room-card">
+    <div class="room-card" data-room-key="MarioDoubleLuxury">
       <img src="./assets/images/rooms/Twin_Room/twin-bed.jpg" alt="Mario Double Luxury" class="room-image" />
       <div class="room-info">
         <h3>Mario Double Luxury</h3>
@@ -192,11 +192,11 @@
           <li>Work Desk</li>  
         </ul>
         <p class="room-meta">Rooms Available: 1</p>
-        <p class="room-price">₦71,750</p>
+        <p class="room-price">Loading…</p>
       </div>
     </div>
 
-    <div class="room-card">
+    <div class="room-card" data-room-key="MakExclusive">
       <div class="carousel-container">
         <div class="carousel mak-carousel">
           <img src="./assets/images/rooms/MAk/DSC8319.jpg" alt="Mak Exclusive View 1" class="carousel-image active" />
@@ -220,12 +220,12 @@
           <li>Lounge Area</li>
         </ul>
         <p class="room-meta">Rooms Available: 3</p>
-        <p class="room-price">₦80,950</p>
+        <p class="room-price">Loading…</p>
       </div>
     </div>
 
 
-    <div class="room-card">
+    <div class="room-card" data-room-key="CindySuite">
       <div class="carousel-container">
         <div class="carousel cindy-carousel">
           <img src="./assets/images/rooms/cindy/cindy-suite.jpg" alt="Cindy Suite View 1"
@@ -249,7 +249,7 @@
           <li>Private Living Room</li>
         </ul>
         <p class="room-meta">Rooms Available: 1</p>
-        <p class="room-price">₦130,000</p>
+        <p class="room-price">Loading…</p>
       </div>
     </div>
 
@@ -359,6 +359,24 @@
 
   <!-- Include JS File -->
   <script src="assets/js/script.js"></script>
+
+  <script type="module">
+    import { roomDetails } from './assets/js/roomDetails.js';
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.room-card[data-room-key]').forEach(card => {
+        const key = card.dataset.roomKey;
+        const detail = roomDetails[key];
+        if (detail) {
+          const priceEl = card.querySelector('.room-price');
+          if (priceEl) {
+            priceEl.textContent = `₦${detail.price.toLocaleString()}`;
+          }
+        }
+      });
+    });
+
+  </script>
 
   <script>
 
